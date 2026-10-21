@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/27",
       "type": "text/html",
       "title": "Source ArcGIS layer: NYS DEC Tidal Wetlands"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./nys_dec_tidal_wetlands.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "nys_dec_tidal_wetlands"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 466,
@@ -135,8 +144,28 @@
         "default"
       ],
       "title": "Categorical Style",
-      "file:size": 759,
-      "file:checksum": "1220b29098434e113beb7ec973bca22ba30c964b3e5a615c35d34147200c7a32e1c3"
+      "file:size": 520,
+      "file:checksum": "1220949e4f43827122e452fc263bf77dbbed990dde590d386428507056ff8002ff96"
+    },
+    "nys_dec_tidal_wetlands-tiles": {
+      "href": "./nys_dec_tidal_wetlands.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "nys_dec_tidal_wetlands (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 887776,
+      "file:checksum": "122005eb6b4d4d6c1c62f5f68e82fe7ccfff9982f576b81516edd2658c60b22637fd"
+    },
+    "thumbnail": {
+      "href": "./nys_dec_tidal_wetlands.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "NYS DEC Tidal Wetlands thumbnail",
+      "file:size": 54969,
+      "file:checksum": "1220097bab5610a2d01b3ffa42acd07020f2ecc1a4d280bdc066dbcda4817232816c"
     }
   }
 }

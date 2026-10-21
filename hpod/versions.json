@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "hpod.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:02.548212Z",
+      "breaking": false,
+      "assets": {
+        "hpod.parquet": {
+          "sha256": "c2ed8fd94ae864398187cd90f591f3e783a5aab228f8897ffadd95596d9e51a3",
+          "size_bytes": 176996,
+          "href": "hpod/hpod.parquet",
+          "source_mtime": 1792614829.6359584,
+          "mtime": 1792614829.6359584,
+          "feature_count": 26,
+          "schema_fingerprint": "a0a5b24eceeeb84b"
+        },
+        "hpod.pmtiles": {
+          "sha256": "245437aba8350c9d1fee3531e3ff016f17de70b9bd58a44185470ead8428466d",
+          "size_bytes": 61917,
+          "href": "hpod/hpod.pmtiles",
+          "mtime": 1792616042.497375
+        },
+        "hpod.thumb.jpg": {
+          "sha256": "a90cedcf7eac4d8fe32332a5789cf26a1abdf45f8c3ae252cbe65d267a7584fd",
+          "size_bytes": 6295,
+          "href": "hpod/hpod.thumb.jpg",
+          "mtime": 1792616042.5403757
+        }
+      },
+      "changes": [
+        "hpod.pmtiles",
+        "hpod.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: hpod.pmtiles, hpod.thumb.jpg"
     }
   ]
 }

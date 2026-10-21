@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "EH Boundary (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../eh_boundary.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "eh_boundary",
       "paint": {
-        "fill-color": "#ffebbe",
-        "fill-opacity": 1.0,
-        "fill-outline-color": "#000000"
+        "fill-color": "#e76f51",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#964834"
       }
     }
   ]

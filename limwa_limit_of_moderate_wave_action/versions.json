@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "limwa_limit_of_moderate_wave_action.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:07.320748Z",
+      "breaking": false,
+      "assets": {
+        "limwa_limit_of_moderate_wave_action.parquet": {
+          "sha256": "2da1cfb52d44cbf42419735067646dfe62fee661887186d88bdf58ab4efed883",
+          "size_bytes": 1741469,
+          "href": "limwa_limit_of_moderate_wave_action/limwa_limit_of_moderate_wave_action.parquet",
+          "source_mtime": 1792614862.2360482,
+          "mtime": 1792614862.2360482,
+          "feature_count": 1079,
+          "schema_fingerprint": "d9d55b90fcfcb786"
+        },
+        "limwa_limit_of_moderate_wave_action.pmtiles": {
+          "sha256": "51a9e8284d736fe04a75cfa4251a73b2c91154653d103fd456d697fe628ec5a4",
+          "size_bytes": 789100,
+          "href": "limwa_limit_of_moderate_wave_action/limwa_limit_of_moderate_wave_action.pmtiles",
+          "mtime": 1792616047.149434
+        },
+        "limwa_limit_of_moderate_wave_action.thumb.jpg": {
+          "sha256": "8c2c975bfccc940ef1af27096d67ad052dafd568649b5ee29b5d22a50b8d8868",
+          "size_bytes": 8245,
+          "href": "limwa_limit_of_moderate_wave_action/limwa_limit_of_moderate_wave_action.thumb.jpg",
+          "mtime": 1792616047.282436
+        }
+      },
+      "changes": [
+        "limwa_limit_of_moderate_wave_action.pmtiles",
+        "limwa_limit_of_moderate_wave_action.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: limwa_limit_of_moderate_wave_action.pmtiles, limwa_limit_of_moderate_wave_action.thumb.jpg"
     }
   ]
 }

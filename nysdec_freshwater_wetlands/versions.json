@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "nysdec_freshwater_wetlands.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:32.230777Z",
+      "breaking": false,
+      "assets": {
+        "nysdec_freshwater_wetlands.parquet": {
+          "sha256": "71b0f0803d28c5c4febf8a211d130574df4fcdac801b1ed39cf73de396026f8a",
+          "size_bytes": 243183,
+          "href": "nysdec_freshwater_wetlands/nysdec_freshwater_wetlands.parquet",
+          "source_mtime": 1792614849.613011,
+          "mtime": 1792614849.613011,
+          "feature_count": 592,
+          "schema_fingerprint": "2a063a1a90c6dec7"
+        },
+        "nysdec_freshwater_wetlands.pmtiles": {
+          "sha256": "88fc2945cdc654123c8048fcf576a00dc4a72b2695753fe07ff9c58af4507b3e",
+          "size_bytes": 134233,
+          "href": "nysdec_freshwater_wetlands/nysdec_freshwater_wetlands.pmtiles",
+          "mtime": 1792616132.1105206
+        },
+        "nysdec_freshwater_wetlands.thumb.jpg": {
+          "sha256": "b167371b3fa486739311e66eb30672e8c09154f0416f6fd0c1e29332dd9aac3f",
+          "size_bytes": 7478,
+          "href": "nysdec_freshwater_wetlands/nysdec_freshwater_wetlands.thumb.jpg",
+          "mtime": 1792616132.220522
+        }
+      },
+      "changes": [
+        "nysdec_freshwater_wetlands.pmtiles",
+        "nysdec_freshwater_wetlands.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: nysdec_freshwater_wetlands.pmtiles, nysdec_freshwater_wetlands.thumb.jpg"
     }
   ]
 }

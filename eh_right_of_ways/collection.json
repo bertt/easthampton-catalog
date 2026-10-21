@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/70",
       "type": "text/html",
       "title": "Source ArcGIS layer: EH Right of Ways"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eh_right_of_ways.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "eh_right_of_ways"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 1,
@@ -116,8 +125,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 336,
-      "file:checksum": "12204de135b2f01d59ae05ccde63f477ee2acad0054d9c103433bc5989194c53a85e"
+      "file:size": 493,
+      "file:checksum": "1220e74663cea4530a4ae4fe822f53853fdd5a517d80bae304b4f973b58a818ef30a"
+    },
+    "eh_right_of_ways-tiles": {
+      "href": "./eh_right_of_ways.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "eh_right_of_ways (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 400378,
+      "file:checksum": "1220c1cf9e425f13fcafd3d9fbd73537c3e22976504dd5a7a4c588b761528eb62315"
+    },
+    "thumbnail": {
+      "href": "./eh_right_of_ways.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EH Right of Ways thumbnail",
+      "file:size": 75493,
+      "file:checksum": "12202f058d74ff8a31464e4c9d7676fe822565d146867e250fe893b023a4e9955b35"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "school_properties.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:03.258474Z",
+      "breaking": false,
+      "assets": {
+        "school_properties.parquet": {
+          "sha256": "bea6ad4a9f6b9e3ecff58d0678a05b04c13238d2f405011d897d1dc6766b237e",
+          "size_bytes": 11504,
+          "href": "school_properties/school_properties.parquet",
+          "source_mtime": 1792615019.3507679,
+          "mtime": 1792615019.3507679,
+          "feature_count": 21,
+          "schema_fingerprint": "ef66f5a76467a03f"
+        },
+        "school_properties.pmtiles": {
+          "sha256": "57fb7f776d3c72daa69938d62bde021caa872fc853a326901cac524d18facf4c",
+          "size_bytes": 12341,
+          "href": "school_properties/school_properties.pmtiles",
+          "mtime": 1792616043.2193842
+        },
+        "school_properties.thumb.jpg": {
+          "sha256": "e4b4e324c2920602179526e45457ae14a4de1bf1d10b44eb2e63a7d97b582171",
+          "size_bytes": 2391,
+          "href": "school_properties/school_properties.thumb.jpg",
+          "mtime": 1792616043.2553847
+        }
+      },
+      "changes": [
+        "school_properties.pmtiles",
+        "school_properties.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: school_properties.pmtiles, school_properties.thumb.jpg"
     }
   ]
 }

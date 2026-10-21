@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "building_footprints",
   "stac_version": "1.1.0",
-  "description": "Mirror of the \"Building Footprints\" layer (layer 46) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 40,404 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. The publisher describes it as: \"The Building Outline Creation products provide a two dimensional digital representation of the shape of a structure. Using Pictometry imagery, a polygon shape corresponding to the visible edges of a structure\u2019s roof is created for each qualifying structure.The collection of polygon shapes are georeferenced and delivered in geodatabase and shapefile format. The initial published data is accurate as to the fly of April 2018. Footprints are continually updated by the Town of East Hampton from that point forward, so as to reflect the most recent changes.When visible, the following types of structures measuring at least 150sq.feet (14sq.meters) and at least five pixels wide (based on 12\u201d(30cm) or better GSD imagery) are included:Residential, commercial and industrial buildingsAttached decks or porches that have a roof or railing or that are visibly raisedIsolated garages, mobile homes, shedsGreenhousesGrain silos and oil storage tanksBuildings under construction that at least have wallsTrailer boxes with windows or doors (construction field offices)Other features with a roofThe Building Outlines produced correspond to the edges of the structure\u2019s roof.The Building Outlines are positioned on to the imagery based on the roof location unless the base of the building isclearly visible in which case the outline is shifted to align to the visible base.Specifications are based on use of 12-inch(30cm) or better GSD Pictometry-acquired imageryPositional accuracy: offset from the imagery less than or equal to five pixelsGeometric accuracy: length of untraced edges less than or equal to five pixelsError rate: ratio of positionally or geometrically inaccurate buildings and missed buildings less than or equalto 0.5%Project Period May -June 2018Number of Parcels 25,605Base Image Acquisition Apr 2018Base Imagery Source Acquired by PictometryNumber of Buildings 29,313\" See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
+  "description": "Mirror of the \"Building Footprints\" layer (layer 46) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 40,404 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. The publisher describes it as: \"The Building Outline Creation products provide a two dimensional digital representation of the shape of a structure. Using Pictometry imagery, a polygon shape corresponding to the visible edges of a structure’s roof is created for each qualifying structure.The collection of polygon shapes are georeferenced and delivered in geodatabase and shapefile format. The initial published data is accurate as to the fly of April 2018. Footprints are continually updated by the Town of East Hampton from that point forward, so as to reflect the most recent changes.When visible, the following types of structures measuring at least 150sq.feet (14sq.meters) and at least five pixels wide (based on 12”(30cm) or better GSD imagery) are included:Residential, commercial and industrial buildingsAttached decks or porches that have a roof or railing or that are visibly raisedIsolated garages, mobile homes, shedsGreenhousesGrain silos and oil storage tanksBuildings under construction that at least have wallsTrailer boxes with windows or doors (construction field offices)Other features with a roofThe Building Outlines produced correspond to the edges of the structure’s roof.The Building Outlines are positioned on to the imagery based on the roof location unless the base of the building isclearly visible in which case the outline is shifted to align to the visible base.Specifications are based on use of 12-inch(30cm) or better GSD Pictometry-acquired imageryPositional accuracy: offset from the imagery less than or equal to five pixelsGeometric accuracy: length of untraced edges less than or equal to five pixelsError rate: ratio of positionally or geometrically inaccurate buildings and missed buildings less than or equalto 0.5%Project Period May -June 2018Number of Parcels 25,605Base Image Acquisition Apr 2018Base Imagery Source Acquired by PictometryNumber of Buildings 29,313\" See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",
@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/46",
       "type": "text/html",
       "title": "Source ArcGIS layer: Building Footprints"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./building_footprints.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "building_footprints"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 40404,
@@ -126,8 +135,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 380,
-      "file:checksum": "1220183249b32f2081563e0206bf836cadcad33788d7717e78f5ce06b7a5118becf1"
+      "file:size": 501,
+      "file:checksum": "122026d6e17bdec0705f1e9838c24d0d6a6a854a8fa93a216b2d0700067adc6bc8df"
+    },
+    "building_footprints-tiles": {
+      "href": "./building_footprints.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "building_footprints (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 4711852,
+      "file:checksum": "122001e76d540ee0cf99c9ed1ee50a5bf181392590a2c9f808cf5dba319c3b6f8f7f"
+    },
+    "thumbnail": {
+      "href": "./building_footprints.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Building Footprints thumbnail",
+      "file:size": 178650,
+      "file:checksum": "12207e6a684672b14049cf43128c017cd01a7c97915bbc264b4e09984104c9fcdf37"
     }
   }
 }

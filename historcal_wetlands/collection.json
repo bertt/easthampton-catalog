@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/50",
       "type": "text/html",
       "title": "Source ArcGIS layer: Historcal Wetlands"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./historcal_wetlands.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "historcal_wetlands"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 40,
@@ -117,8 +126,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 338,
-      "file:checksum": "12209331fd9109c9e21ce7362cc53845e7867f6acb1e817b7108f74f37882ec7e33c"
+      "file:size": 499,
+      "file:checksum": "1220c03e7359a969012bddc03ea4487147f8d2c9c33e4152f6fc7f3e20f682c0ad8e"
+    },
+    "historcal_wetlands-tiles": {
+      "href": "./historcal_wetlands.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "historcal_wetlands (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 10268,
+      "file:checksum": "12202797964673a08eedb2a7e5220a21551186bcf910b351cf9bc1ebb4fefa01f5eb"
+    },
+    "thumbnail": {
+      "href": "./historcal_wetlands.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Historcal Wetlands thumbnail",
+      "file:size": 43971,
+      "file:checksum": "122024cfaa163245db90d916e16075844f90c1edadb0fa097c1a0defe1cfc7da53dd"
     }
   }
 }

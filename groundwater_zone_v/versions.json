@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "groundwater_zone_v.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:29.479680Z",
+      "breaking": false,
+      "assets": {
+        "groundwater_zone_v.parquet": {
+          "sha256": "c8995bc53065681cf21760ed2c5b4a773f8031293a644e7b58e72c17da15934e",
+          "size_bytes": 9054,
+          "href": "groundwater_zone_v/groundwater_zone_v.parquet",
+          "source_mtime": 1792614832.692966,
+          "mtime": 1792614832.692966,
+          "feature_count": 1,
+          "schema_fingerprint": "55dd82078243650e"
+        },
+        "groundwater_zone_v.pmtiles": {
+          "sha256": "47d16024475e4318785001954c53c84ecc774c00fa6df188b90a3d0f73598540",
+          "size_bytes": 3998,
+          "href": "groundwater_zone_v/groundwater_zone_v.pmtiles",
+          "mtime": 1792616069.449718
+        },
+        "groundwater_zone_v.thumb.jpg": {
+          "sha256": "527bba474052e9e828a98ffd839aae294b5344bae1bd03274d8a7bf141c6adef",
+          "size_bytes": 7963,
+          "href": "groundwater_zone_v/groundwater_zone_v.thumb.jpg",
+          "mtime": 1792616069.4757183
+        }
+      },
+      "changes": [
+        "groundwater_zone_v.pmtiles",
+        "groundwater_zone_v.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: groundwater_zone_v.pmtiles, groundwater_zone_v.thumb.jpg"
     }
   ]
 }

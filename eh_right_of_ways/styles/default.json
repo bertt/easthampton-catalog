@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "EH Right of Ways (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../eh_right_of_ways.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 14
     }
   },
   "layers": [
@@ -13,8 +16,9 @@
       "source": "data",
       "source-layer": "eh_right_of_ways",
       "paint": {
-        "fill-color": "#e1e1e1",
-        "fill-opacity": 1.0
+        "fill-color": "#2a9d8f",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#1b665c"
       }
     }
   ]

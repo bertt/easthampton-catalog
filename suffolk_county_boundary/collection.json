@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/80",
       "type": "text/html",
       "title": "Source ArcGIS layer: Suffolk County Boundary"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./suffolk_county_boundary.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "suffolk_county_boundary"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 70,
@@ -129,8 +138,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 384,
-      "file:checksum": "12201a92f54f6e5f97ab1f7131457898ddff5cc57b6f53048ded8e88147e93a27e44"
+      "file:size": 514,
+      "file:checksum": "1220ac07308fe0bd3c61a55886666bd557c2fe0604576aec695a11d936ae9cc508e5"
+    },
+    "suffolk_county_boundary-tiles": {
+      "href": "./suffolk_county_boundary.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "suffolk_county_boundary (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 121852,
+      "file:checksum": "1220934174ddbb13eb9fd8637edd19e6e82c7f7248f257d7cf10904183cdbb60b030"
+    },
+    "thumbnail": {
+      "href": "./suffolk_county_boundary.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Suffolk County Boundary thumbnail",
+      "file:size": 56410,
+      "file:checksum": "12208ed1da773b8078d0df08f39c37ba8056bd0530301a3ed3d7857f05fd60dcd5db"
     }
   }
 }

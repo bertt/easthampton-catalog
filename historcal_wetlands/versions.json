@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "historcal_wetlands.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:08.929693Z",
+      "breaking": false,
+      "assets": {
+        "historcal_wetlands.parquet": {
+          "sha256": "bc67235d2e8bf491860e685b37ee8dfc4c3d72a90cbec61728538fb99fb2e4cb",
+          "size_bytes": 13318,
+          "href": "historcal_wetlands/historcal_wetlands.parquet",
+          "source_mtime": 1792614948.3643882,
+          "mtime": 1792614948.3643882,
+          "feature_count": 40,
+          "schema_fingerprint": "482a9afaac8ef929"
+        },
+        "historcal_wetlands.pmtiles": {
+          "sha256": "2797964673a08eedb2a7e5220a21551186bcf910b351cf9bc1ebb4fefa01f5eb",
+          "size_bytes": 10268,
+          "href": "historcal_wetlands/historcal_wetlands.pmtiles",
+          "mtime": 1792616108.8812222
+        },
+        "historcal_wetlands.thumb.jpg": {
+          "sha256": "c7f4cac5741cdf4380aafe26cc5d24f586c141c4a3ddf4711ba5bcfd01e4292a",
+          "size_bytes": 1995,
+          "href": "historcal_wetlands/historcal_wetlands.thumb.jpg",
+          "mtime": 1792616108.9252229
+        }
+      },
+      "changes": [
+        "historcal_wetlands.pmtiles",
+        "historcal_wetlands.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: historcal_wetlands.pmtiles, historcal_wetlands.thumb.jpg"
     }
   ]
 }

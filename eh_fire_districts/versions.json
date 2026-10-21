@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "eh_fire_districts.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:48.160375Z",
+      "breaking": false,
+      "assets": {
+        "eh_fire_districts.parquet": {
+          "sha256": "b9191a80410d32861d2e7012d929820c3bcd43f808370f0228aa3ca2cffc006d",
+          "size_bytes": 165104,
+          "href": "eh_fire_districts/eh_fire_districts.parquet",
+          "source_mtime": 1792614824.1529458,
+          "mtime": 1792614824.1529458,
+          "feature_count": 11,
+          "schema_fingerprint": "2414eed62988ebec"
+        },
+        "eh_fire_districts.pmtiles": {
+          "sha256": "b9da30359237f8f26d6af6ff4ebc470fa63f77143659a6bfa68e030f2f09c934",
+          "size_bytes": 57463,
+          "href": "eh_fire_districts/eh_fire_districts.pmtiles",
+          "mtime": 1792616088.087956
+        },
+        "eh_fire_districts.thumb.jpg": {
+          "sha256": "d3f2e8152b153aed6e76e286a519fd3db53ef08d8250df7cd3cd6d4844cd82da",
+          "size_bytes": 9822,
+          "href": "eh_fire_districts/eh_fire_districts.thumb.jpg",
+          "mtime": 1792616088.1529567
+        }
+      },
+      "changes": [
+        "eh_fire_districts.pmtiles",
+        "eh_fire_districts.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: eh_fire_districts.pmtiles, eh_fire_districts.thumb.jpg"
     }
   ]
 }

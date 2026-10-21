@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "scfwh_coastal_boundary.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:53:37.129569Z",
+      "breaking": false,
+      "assets": {
+        "scfwh_coastal_boundary.parquet": {
+          "sha256": "98967761d6fecd74d563393b1046e09200e47f8b52e185c3fc98c55161d73d13",
+          "size_bytes": 19724,
+          "href": "scfwh_coastal_boundary/scfwh_coastal_boundary.parquet",
+          "source_mtime": 1792614834.8879714,
+          "mtime": 1792614834.8879714,
+          "feature_count": 3,
+          "schema_fingerprint": "6976cc43ace2ac95"
+        },
+        "scfwh_coastal_boundary.pmtiles": {
+          "sha256": "0ed389a0017437664975e363f0a9790231a2f2fa33381271eeba1d9e65efed56",
+          "size_bytes": 6720,
+          "href": "scfwh_coastal_boundary/scfwh_coastal_boundary.pmtiles",
+          "mtime": 1792616017.1000533
+        },
+        "scfwh_coastal_boundary.thumb.jpg": {
+          "sha256": "f06d77b628e4ad4920d7edcabfaea560a3ad4c59c4cb05a72dc6868093ee7cf9",
+          "size_bytes": 10983,
+          "href": "scfwh_coastal_boundary/scfwh_coastal_boundary.thumb.jpg",
+          "mtime": 1792616017.1260536
+        }
+      },
+      "changes": [
+        "scfwh_coastal_boundary.pmtiles",
+        "scfwh_coastal_boundary.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: scfwh_coastal_boundary.pmtiles, scfwh_coastal_boundary.thumb.jpg"
     }
   ]
 }

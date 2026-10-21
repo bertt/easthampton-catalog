@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/68",
       "type": "text/html",
       "title": "Source ArcGIS layer: Recreation Overlay District"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./recreation_overlay_district.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "recreation_overlay_district"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 1,
@@ -140,8 +149,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 388,
-      "file:checksum": "1220db2aa891460ace2f553a0bdbbb9399e74c80e5a0904476363a080bc09ccab821"
+      "file:size": 525,
+      "file:checksum": "12206c9228933e41de889f71246d1050a4293a770a3c1e2b074bb41ac565640c9074"
+    },
+    "recreation_overlay_district-tiles": {
+      "href": "./recreation_overlay_district.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "recreation_overlay_district (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 2379,
+      "file:checksum": "122083110fb6f97cb787a4bff22b2814064a02bf1f33cab1cc316080753850a80591"
+    },
+    "thumbnail": {
+      "href": "./recreation_overlay_district.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Recreation Overlay District thumbnail",
+      "file:size": 45068,
+      "file:checksum": "122007c95272fdf94c6d3a3bb5c62d9f9ce88a06eb93f9c4e94008aa036edb7b48b3"
     }
   }
 }

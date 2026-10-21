@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/75",
       "type": "text/html",
       "title": "Source ArcGIS layer: Recreational Open Space"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./recreational_open_space.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "recreational_open_space"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 1961,
@@ -124,8 +133,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 384,
-      "file:checksum": "12200ed1d292bea0ee5978dea2f3fb4325d431d9d34f7d4540c44a0bd62e7a63efe7"
+      "file:size": 514,
+      "file:checksum": "1220a9af979a414759fd31ce7898a8ec6720153d7cb5c465caa8d7b23d64351b4981"
+    },
+    "recreational_open_space-tiles": {
+      "href": "./recreational_open_space.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "recreational_open_space (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 552985,
+      "file:checksum": "1220bf38cce5fc0265b66c63a20641ee3a380c6a7db1b5451f07d64628b9e22b7744"
+    },
+    "thumbnail": {
+      "href": "./recreational_open_space.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Recreational Open Space thumbnail",
+      "file:size": 156907,
+      "file:checksum": "122096699f66f69f17869bca03d27a65895cb5e2105a11e820c43be180f2f326b12c"
     }
   }
 }

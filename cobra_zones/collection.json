@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/34",
       "type": "text/html",
       "title": "Source ArcGIS layer: Cobra Zones"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./cobra_zones.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "cobra_zones"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 211,
@@ -133,8 +142,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 372,
-      "file:checksum": "122093ddc4482f57f1fca0b0d8cb9d34cc85ac3351c456882fedbacc9c92d785f445"
+      "file:size": 478,
+      "file:checksum": "1220b5029f50825db64cef2adc3e18ac96db35276d7bf601c9e95cd37c2430e6097d"
+    },
+    "cobra_zones-tiles": {
+      "href": "./cobra_zones.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "cobra_zones (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 290869,
+      "file:checksum": "12203010e5d94019d4fd5b8a2b986e58021db662d01cc4cceed2645a5753fbeea772"
+    },
+    "thumbnail": {
+      "href": "./cobra_zones.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Cobra Zones thumbnail",
+      "file:size": 51888,
+      "file:checksum": "1220d9512f6f24eb1e82c55c4e5b10fcc38fa0ebea56d50158f71fd13f1a40e7b645"
     }
   }
 }

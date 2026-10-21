@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "cobra_zones.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:05.506003Z",
+      "breaking": false,
+      "assets": {
+        "cobra_zones.parquet": {
+          "sha256": "a1013103d886d0f8344a8ffbaa78c5122e6a2d42d52f33f8164d356f598b8d32",
+          "size_bytes": 790874,
+          "href": "cobra_zones/cobra_zones.parquet",
+          "source_mtime": 1792614864.6100557,
+          "mtime": 1792614864.6100557,
+          "feature_count": 211,
+          "schema_fingerprint": "d511017e90983c45"
+        },
+        "cobra_zones.pmtiles": {
+          "sha256": "3010e5d94019d4fd5b8a2b986e58021db662d01cc4cceed2645a5753fbeea772",
+          "size_bytes": 290869,
+          "href": "cobra_zones/cobra_zones.pmtiles",
+          "mtime": 1792616045.3734117
+        },
+        "cobra_zones.thumb.jpg": {
+          "sha256": "4bae1aa11959fdf5a8ba88eb18fad70035ba1b11b4179566a6e2b2631ce275c3",
+          "size_bytes": 6873,
+          "href": "cobra_zones/cobra_zones.thumb.jpg",
+          "mtime": 1792616045.482413
+        }
+      },
+      "changes": [
+        "cobra_zones.pmtiles",
+        "cobra_zones.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: cobra_zones.pmtiles, cobra_zones.thumb.jpg"
     }
   ]
 }

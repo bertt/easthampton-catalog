@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/48",
       "type": "text/html",
       "title": "Source ArcGIS layer: Wetlands In East Hampton"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./wetlands_in_east_hampton.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "wetlands_in_east_hampton"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 3041,
@@ -117,8 +126,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 385,
-      "file:checksum": "12203e9ec6ad22bf3676fd15be6d3d24d5a8e04d1c600b49866bf78ecc15174f5f81"
+      "file:size": 517,
+      "file:checksum": "12202155bae11bce9ed63222727d7124d09e2cf3ed2a242df27c8e92df2de72c9db4"
+    },
+    "wetlands_in_east_hampton-tiles": {
+      "href": "./wetlands_in_east_hampton.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "wetlands_in_east_hampton (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 328887,
+      "file:checksum": "1220bc7efc199f6e81804bc9f348eecd66e1ec1bba5eaa3499583014f871b939344c"
+    },
+    "thumbnail": {
+      "href": "./wetlands_in_east_hampton.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Wetlands In East Hampton thumbnail",
+      "file:size": 95122,
+      "file:checksum": "1220655b91501c68a16b3504cd7d451a460c37b2d17db206caa92ee149397e54929e"
     }
   }
 }

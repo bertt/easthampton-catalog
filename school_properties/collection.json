@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/72",
       "type": "text/html",
       "title": "Source ArcGIS layer: School Properties"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./school_properties.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "school_properties"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 21,
@@ -124,8 +133,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 378,
-      "file:checksum": "1220bb44582b28640a754394791c76d7f2314b31bc4e7821e0fd171baf61dc718019"
+      "file:size": 496,
+      "file:checksum": "1220c110a6407c1a017a3f11261ce6db9cbff3ae965c13f0640dc48ec04f861a288c"
+    },
+    "school_properties-tiles": {
+      "href": "./school_properties.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "school_properties (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 12341,
+      "file:checksum": "122057fb7f776d3c72daa69938d62bde021caa872fc853a326901cac524d18facf4c"
+    },
+    "thumbnail": {
+      "href": "./school_properties.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "School Properties thumbnail",
+      "file:size": 56258,
+      "file:checksum": "1220c81ac18cf1d9b9c66864b252a4af2c5295ec8c15704da368cb4217717ff37a7d"
     }
   }
 }

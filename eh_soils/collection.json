@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/31",
       "type": "text/html",
       "title": "Source ArcGIS layer: EH Soils  "
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eh_soils.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "eh_soils"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 545,
@@ -129,8 +138,28 @@
         "default"
       ],
       "title": "Categorical Style",
-      "file:size": 1091,
-      "file:checksum": "1220a224a97524589ab329bedadd169171cd6c3c5104582a9abf81974255c880a80d"
+      "file:size": 478,
+      "file:checksum": "122060695bb19d64248000c83ad010b920d0cf0a03146fafc4efbc912d8f8d7d950b"
+    },
+    "eh_soils-tiles": {
+      "href": "./eh_soils.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "eh_soils (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 273227,
+      "file:checksum": "122034541a0e495a300defc04cfbe72a906ae38c716ffca6e67ce5dfdd9e01eac21f"
+    },
+    "thumbnail": {
+      "href": "./eh_soils.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EH Soils thumbnail",
+      "file:size": 61361,
+      "file:checksum": "122014775f4efeede20968d4b702a1345564e15f25b12009612edb5d51a1a4ebf26e"
     }
   }
 }

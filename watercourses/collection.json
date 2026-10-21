@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/51",
       "type": "text/html",
       "title": "Source ArcGIS layer: Watercourses"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./watercourses.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "watercourses"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "LineString",
   "geoparquet:feature_count": 274,
@@ -116,8 +125,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 360,
-      "file:checksum": "1220512a663448e50359c6bfaa1497a3ecb4bf2ebf58852b849a37e759b4830830b0"
+      "file:size": 726,
+      "file:checksum": "12204cc12dea691257ea60dd262f7407f2a89f6da720add3e48d0e73f8675063c24e"
+    },
+    "watercourses-tiles": {
+      "href": "./watercourses.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "watercourses (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 44105,
+      "file:checksum": "1220e8fcd2b0b8a4821e6750a4b5727c4edaeaeb716dfe0d0c598fd062a73bbba5ef"
+    },
+    "thumbnail": {
+      "href": "./watercourses.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Watercourses thumbnail",
+      "file:size": 48521,
+      "file:checksum": "12209ba2f6b27b1d7e51795b17d2b6849fe4c2ab370c600f93b58fe4d21171e39bd0"
     }
   }
 }

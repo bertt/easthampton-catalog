@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "fema_firm_zones.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:30.364610Z",
+      "breaking": false,
+      "assets": {
+        "fema_firm_zones.parquet": {
+          "sha256": "284d0c246247672949125bc510270bed98dfc3a235d0368710e58af3851b5132",
+          "size_bytes": 21665944,
+          "href": "fema_firm_zones/fema_firm_zones.parquet",
+          "source_mtime": 1792614921.7092679,
+          "mtime": 1792614921.7092679,
+          "feature_count": 4796,
+          "schema_fingerprint": "9ed1e89b168716c1"
+        },
+        "fema_firm_zones.pmtiles": {
+          "sha256": "94a568ff17c58b9893300daee5368c7e3bdf1cf48c3feae3db4c29fb10f97916",
+          "size_bytes": 5475813,
+          "href": "fema_firm_zones/fema_firm_zones.pmtiles",
+          "mtime": 1792616127.8414657
+        },
+        "fema_firm_zones.thumb.jpg": {
+          "sha256": "18bc10b7e503c13223172d629aa59cee6932de8bee728745778f1ffedf8c2b6b",
+          "size_bytes": 9545,
+          "href": "fema_firm_zones/fema_firm_zones.thumb.jpg",
+          "mtime": 1792616129.8334913
+        }
+      },
+      "changes": [
+        "fema_firm_zones.pmtiles",
+        "fema_firm_zones.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: fema_firm_zones.pmtiles, fema_firm_zones.thumb.jpg"
     }
   ]
 }

@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Ecological Complexes & Boundary Line (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../ecological_complexes_boundary_line.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
     }
   },
   "layers": [
@@ -13,9 +16,26 @@
       "source": "data",
       "source-layer": "ecological_complexes_boundary_line",
       "paint": {
-        "line-color": "#b2b2b2",
-        "line-width": 2,
-        "line-opacity": 1.0
+        "line-color": "#7b5ea7",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          8,
+          1.2,
+          14,
+          3,
+          18,
+          5
+        ]
+      },
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     }
   ]

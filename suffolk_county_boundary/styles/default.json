@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Suffolk County Boundary (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../suffolk_county_boundary.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 10
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "suffolk_county_boundary",
       "paint": {
-        "fill-color": "#c5d2fc",
-        "fill-opacity": 1.0,
-        "fill-outline-color": "#6e6e6e"
+        "fill-color": "#457b9d",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#2c4f66"
       }
     }
   ]

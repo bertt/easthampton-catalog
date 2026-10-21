@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "pep_boundary.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:46.551830Z",
+      "breaking": false,
+      "assets": {
+        "pep_boundary.parquet": {
+          "sha256": "7094f23b3ca58b3a935950a70a8d994d58d331a5ab0f7dc2b57c0e85d70c89ff",
+          "size_bytes": 41143,
+          "href": "pep_boundary/pep_boundary.parquet",
+          "source_mtime": 1792614841.1059875,
+          "mtime": 1792614841.1059875,
+          "feature_count": 1,
+          "schema_fingerprint": "650684bdf72edd83"
+        },
+        "pep_boundary.pmtiles": {
+          "sha256": "7a3b97c191d15c656084c17f6c8575831722cb36198df95b62fd7ad8143d7d3b",
+          "size_bytes": 13535,
+          "href": "pep_boundary/pep_boundary.pmtiles",
+          "mtime": 1792616086.5029356
+        },
+        "pep_boundary.thumb.jpg": {
+          "sha256": "188dc731642921dbff854e746e3443810724301d34cbe0175f2814b504b562a0",
+          "size_bytes": 5065,
+          "href": "pep_boundary/pep_boundary.thumb.jpg",
+          "mtime": 1792616086.5459363
+        }
+      },
+      "changes": [
+        "pep_boundary.pmtiles",
+        "pep_boundary.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: pep_boundary.pmtiles, pep_boundary.thumb.jpg"
     }
   ]
 }

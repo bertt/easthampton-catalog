@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "SCFWH Coastal Boundary (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../scfwh_coastal_boundary.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 10
     }
   },
   "layers": [
@@ -13,9 +16,26 @@
       "source": "data",
       "source-layer": "scfwh_coastal_boundary",
       "paint": {
-        "line-color": "#0070ff",
-        "line-width": 5,
-        "line-opacity": 1.0
+        "line-color": "#e4572e",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          8,
+          1.2,
+          14,
+          3,
+          18,
+          5
+        ]
+      },
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     }
   ]

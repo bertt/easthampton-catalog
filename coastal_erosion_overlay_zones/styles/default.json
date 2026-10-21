@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "Coastal Erosion Overlay Zones (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../coastal_erosion_overlay_zones.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 16
     }
   },
   "layers": [
@@ -13,24 +16,26 @@
       "source": "data",
       "source-layer": "coastal_erosion_overlay_zones",
       "paint": {
-        "line-color": [
-          "match",
+        "line-color": "#0b6e99",
+        "line-width": [
+          "interpolate",
           [
-            "get",
-            "Zone"
+            "linear"
           ],
-          "1",
-          "#a80000",
-          "2",
-          "#ff00c5",
-          "3",
-          "#0070ff",
-          "4",
-          "#ffaa00",
-          "#cccccc"
-        ],
-        "line-width": 1,
-        "line-opacity": 1.0
+          [
+            "zoom"
+          ],
+          8,
+          1.2,
+          14,
+          3,
+          18,
+          5
+        ]
+      },
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     }
   ]

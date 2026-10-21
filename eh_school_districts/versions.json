@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "eh_school_districts.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:00.882585Z",
+      "breaking": false,
+      "assets": {
+        "eh_school_districts.parquet": {
+          "sha256": "02729ba0161ceb9591aaecb68f8cd960a6c5c970a5f7f12e7f319ffbf292b1d0",
+          "size_bytes": 152798,
+          "href": "eh_school_districts/eh_school_districts.parquet",
+          "source_mtime": 1792614825.3249483,
+          "mtime": 1792614825.3249483,
+          "feature_count": 6,
+          "schema_fingerprint": "e36d0226742a07de"
+        },
+        "eh_school_districts.pmtiles": {
+          "sha256": "c5a18635d4c062026752c1afbc5f3e6493f93879a623c8263838decfc84c59e3",
+          "size_bytes": 62298,
+          "href": "eh_school_districts/eh_school_districts.pmtiles",
+          "mtime": 1792616040.836354
+        },
+        "eh_school_districts.thumb.jpg": {
+          "sha256": "7cb21eb693bd8c39f4987cc31e6245ab78bd59d52066acf7de7e290c5ba2651c",
+          "size_bytes": 8286,
+          "href": "eh_school_districts/eh_school_districts.thumb.jpg",
+          "mtime": 1792616040.8763545
+        }
+      },
+      "changes": [
+        "eh_school_districts.pmtiles",
+        "eh_school_districts.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: eh_school_districts.pmtiles, eh_school_districts.thumb.jpg"
     }
   ]
 }

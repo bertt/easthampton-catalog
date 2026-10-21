@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/13",
       "type": "text/html",
       "title": "Source ArcGIS layer: Coastal Erosion Overlay Zones"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./coastal_erosion_overlay_zones.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "coastal_erosion_overlay_zones"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "LineString",
   "geoparquet:feature_count": 478,
@@ -126,8 +135,28 @@
         "default"
       ],
       "title": "Categorical Style",
-      "file:size": 636,
-      "file:checksum": "1220b0517c9953edf74f8e031e0223739c807fec81622b9e3d3a28c6fb1c985fa3ee"
+      "file:size": 786,
+      "file:checksum": "12203162737eba31f4229081edb9ddf47e87d6c665aba0daf1afa7e4fd41cefcad44"
+    },
+    "coastal_erosion_overlay_zones-tiles": {
+      "href": "./coastal_erosion_overlay_zones.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "coastal_erosion_overlay_zones (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 365856,
+      "file:checksum": "12208d0c7ae19cf6d8fd8fb08d73b28d403135cd4063caaba9d58318a4859160fb65"
+    },
+    "thumbnail": {
+      "href": "./coastal_erosion_overlay_zones.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Coastal Erosion Overlay Zones thumbnail",
+      "file:size": 52042,
+      "file:checksum": "12201a428d6c547718f247564b9b4b9e861c640299014f6ca899fb062d84197413e0"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "ecological_complexes_boundary_line.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:53:36.433692Z",
+      "breaking": false,
+      "assets": {
+        "ecological_complexes_boundary_line.parquet": {
+          "sha256": "62506df21163294f29507354deaabc6aa95de01f302d016bd06e0e2e022b0402",
+          "size_bytes": 8002,
+          "href": "ecological_complexes_boundary_line/ecological_complexes_boundary_line.parquet",
+          "source_mtime": 1792614833.8519688,
+          "mtime": 1792614833.8519688,
+          "feature_count": 11,
+          "schema_fingerprint": "2a31b934dfad80e0"
+        },
+        "ecological_complexes_boundary_line.pmtiles": {
+          "sha256": "a890c607903982f4bbfb6ff5c1f279c52c39c0357b0c06390d9fafa02f3fb3a7",
+          "size_bytes": 9044,
+          "href": "ecological_complexes_boundary_line/ecological_complexes_boundary_line.pmtiles",
+          "mtime": 1792616016.0690403
+        },
+        "ecological_complexes_boundary_line.thumb.jpg": {
+          "sha256": "85152bd7c9bd6e001805f950cff0fca53ac9a141d60536c3c32c6c13349378fe",
+          "size_bytes": 5598,
+          "href": "ecological_complexes_boundary_line/ecological_complexes_boundary_line.thumb.jpg",
+          "mtime": 1792616016.430045
+        }
+      },
+      "changes": [
+        "ecological_complexes_boundary_line.pmtiles",
+        "ecological_complexes_boundary_line.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: ecological_complexes_boundary_line.pmtiles, ecological_complexes_boundary_line.thumb.jpg"
     }
   ]
 }

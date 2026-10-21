@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "nys_dec_tidal_wetlands.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:53:58.375616Z",
+      "breaking": false,
+      "assets": {
+        "nys_dec_tidal_wetlands.parquet": {
+          "sha256": "6567670bb244daf30c49419b654aea90b010a2b12f99882022a7989d2441106f",
+          "size_bytes": 3266290,
+          "href": "nys_dec_tidal_wetlands/nys_dec_tidal_wetlands.parquet",
+          "source_mtime": 1792614848.1980069,
+          "mtime": 1792614848.1980069,
+          "feature_count": 466,
+          "schema_fingerprint": "7b3471fdf7f10e8c"
+        },
+        "nys_dec_tidal_wetlands.pmtiles": {
+          "sha256": "05eb6b4d4d6c1c62f5f68e82fe7ccfff9982f576b81516edd2658c60b22637fd",
+          "size_bytes": 887776,
+          "href": "nys_dec_tidal_wetlands/nys_dec_tidal_wetlands.pmtiles",
+          "mtime": 1792616037.9443173
+        },
+        "nys_dec_tidal_wetlands.thumb.jpg": {
+          "sha256": "72dd85249a0e9aa84aebb7e0fe453c6b2955071bf9aeb5c66da972e043d95572",
+          "size_bytes": 12510,
+          "href": "nys_dec_tidal_wetlands/nys_dec_tidal_wetlands.thumb.jpg",
+          "mtime": 1792616038.2813215
+        }
+      },
+      "changes": [
+        "nys_dec_tidal_wetlands.pmtiles",
+        "nys_dec_tidal_wetlands.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: nys_dec_tidal_wetlands.pmtiles, nys_dec_tidal_wetlands.thumb.jpg"
     }
   ]
 }

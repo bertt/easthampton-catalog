@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "fire_departments.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:10.690021Z",
+      "breaking": false,
+      "assets": {
+        "fire_departments.parquet": {
+          "sha256": "bd6e1af3341a9a7c91b019f3d0f10d5023a98fdb8a652a5feedeb133817425a8",
+          "size_bytes": 7768,
+          "href": "fire_departments/fire_departments.parquet",
+          "source_mtime": 1792615020.4397743,
+          "mtime": 1792615020.4397743,
+          "feature_count": 9,
+          "schema_fingerprint": "a09954b7e1a16994"
+        },
+        "fire_departments.pmtiles": {
+          "sha256": "100d90944b68c12584dd9680f6b8f2dc1c1be2726f416ee06263fc2a7044177a",
+          "size_bytes": 7703,
+          "href": "fire_departments/fire_departments.pmtiles",
+          "mtime": 1792616110.658245
+        },
+        "fire_departments.thumb.jpg": {
+          "sha256": "c383d4b32c60bdfae10db57e1c8079ebb68932b98d9536c19ecd14155f696149",
+          "size_bytes": 1797,
+          "href": "fire_departments/fire_departments.thumb.jpg",
+          "mtime": 1792616110.6872454
+        }
+      },
+      "changes": [
+        "fire_departments.pmtiles",
+        "fire_departments.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: fire_departments.pmtiles, fire_departments.thumb.jpg"
     }
   ]
 }

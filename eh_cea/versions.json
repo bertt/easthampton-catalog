@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "eh_cea.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:45.105343Z",
+      "breaking": false,
+      "assets": {
+        "eh_cea.parquet": {
+          "sha256": "48d015f61e39bf17f05f4f9fe0fb25f5ba7ec272eec3ced3d439dbe953839027",
+          "size_bytes": 120984,
+          "href": "eh_cea/eh_cea.parquet",
+          "source_mtime": 1792614838.979982,
+          "mtime": 1792614838.979982,
+          "feature_count": 8,
+          "schema_fingerprint": "99a05f3b1d5f0dda"
+        },
+        "eh_cea.pmtiles": {
+          "sha256": "97bd11ca7b02df69a71e9266964321d24e141931cfb2af097b8d18a9dd099b27",
+          "size_bytes": 56284,
+          "href": "eh_cea/eh_cea.pmtiles",
+          "mtime": 1792616085.0529172
+        },
+        "eh_cea.thumb.jpg": {
+          "sha256": "03b3a803f03b6692130747eff32e84d3839a3764b3f96c236e6ea16482fc1189",
+          "size_bytes": 9664,
+          "href": "eh_cea/eh_cea.thumb.jpg",
+          "mtime": 1792616085.0939176
+        }
+      },
+      "changes": [
+        "eh_cea.pmtiles",
+        "eh_cea.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: eh_cea.pmtiles, eh_cea.thumb.jpg"
     }
   ]
 }

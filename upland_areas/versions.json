@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "upland_areas.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:48.890909Z",
+      "breaking": false,
+      "assets": {
+        "upland_areas.parquet": {
+          "sha256": "3ea52e61fba88f8d04f2c90970ad9b1b3ed8c0096f68df0657dae97be0651a89",
+          "size_bytes": 18502,
+          "href": "upland_areas/upland_areas.parquet",
+          "source_mtime": 1792614950.5313985,
+          "mtime": 1792614950.5313985,
+          "feature_count": 58,
+          "schema_fingerprint": "e13e61004fdc7fc9"
+        },
+        "upland_areas.pmtiles": {
+          "sha256": "3591d51ec00e2d2518a00a82bddd49e600c464094967e97e7ddc1c09ac6982db",
+          "size_bytes": 9610,
+          "href": "upland_areas/upland_areas.pmtiles",
+          "mtime": 1792616088.8589659
+        },
+        "upland_areas.thumb.jpg": {
+          "sha256": "187ced96b97f132dde6b0b6a18f5bc859c776651d7ff03825aef8e5a76493fa4",
+          "size_bytes": 2132,
+          "href": "upland_areas/upland_areas.thumb.jpg",
+          "mtime": 1792616088.8879662
+        }
+      },
+      "changes": [
+        "upland_areas.pmtiles",
+        "upland_areas.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: upland_areas.pmtiles, upland_areas.thumb.jpg"
     }
   ]
 }

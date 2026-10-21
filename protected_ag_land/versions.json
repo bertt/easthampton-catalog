@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "protected_ag_land.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:53:39.249346Z",
+      "breaking": false,
+      "assets": {
+        "protected_ag_land.parquet": {
+          "sha256": "69598436de6f0870cb14173526c1d3ed49cfefb75fd453f4108ed1ffaf3b4d1b",
+          "size_bytes": 27393,
+          "href": "protected_ag_land/protected_ag_land.parquet",
+          "source_mtime": 1792615021.742782,
+          "mtime": 1792615021.742782,
+          "feature_count": 71,
+          "schema_fingerprint": "c16e425cb72d1177"
+        },
+        "protected_ag_land.pmtiles": {
+          "sha256": "1dfba4a31cfbc4f0d49b344635bd809325c8de00474cfc8729ad08eb934b9d15",
+          "size_bytes": 41215,
+          "href": "protected_ag_land/protected_ag_land.pmtiles",
+          "mtime": 1792616019.21208
+        },
+        "protected_ag_land.thumb.jpg": {
+          "sha256": "89efe89896632d9dd00de6fb04b2dd24f5c303a2d43d488ef81b0f75eee6dc5a",
+          "size_bytes": 3563,
+          "href": "protected_ag_land/protected_ag_land.thumb.jpg",
+          "mtime": 1792616019.2460804
+        }
+      },
+      "changes": [
+        "protected_ag_land.pmtiles",
+        "protected_ag_land.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: protected_ag_land.pmtiles, protected_ag_land.thumb.jpg"
     }
   ]
 }

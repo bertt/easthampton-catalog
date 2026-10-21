@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/74",
       "type": "text/html",
       "title": "Source ArcGIS layer: Protected Ag Land"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./protected_ag_land.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "protected_ag_land"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 71,
@@ -128,8 +137,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 378,
-      "file:checksum": "12201760a44e9f3994d04703852963bb451bb404be3cc0830e95366e893e6fa881cc"
+      "file:size": 496,
+      "file:checksum": "122018397cb6ee2464dec02de0f0eddac342d4b223a3d7bae5f41c68233437ca44b5"
+    },
+    "protected_ag_land-tiles": {
+      "href": "./protected_ag_land.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "protected_ag_land (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 41215,
+      "file:checksum": "12201dfba4a31cfbc4f0d49b344635bd809325c8de00474cfc8729ad08eb934b9d15"
+    },
+    "thumbnail": {
+      "href": "./protected_ag_land.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Protected Ag Land thumbnail",
+      "file:size": 57145,
+      "file:checksum": "1220d4c183b9cfa1b0541ea4e54494c06d985da2879cd837d55adcb6e2abd2542f1d"
     }
   }
 }

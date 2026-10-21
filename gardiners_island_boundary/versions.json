@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "gardiners_island_boundary.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:53:53.486090Z",
+      "breaking": false,
+      "assets": {
+        "gardiners_island_boundary.parquet": {
+          "sha256": "f7002a3a1cc3c4a036d3e209fc615463a92364ed93bde2d8b609e9816ecdebab",
+          "size_bytes": 28017,
+          "href": "gardiners_island_boundary/gardiners_island_boundary.parquet",
+          "source_mtime": 1792615026.6008112,
+          "mtime": 1792615026.6008112,
+          "feature_count": 13,
+          "schema_fingerprint": "4361b37cabfa7c23"
+        },
+        "gardiners_island_boundary.pmtiles": {
+          "sha256": "4bc65b364ec197494a81e8495fedb10fb36881b95e419de7eb7f260eec031126",
+          "size_bytes": 8128,
+          "href": "gardiners_island_boundary/gardiners_island_boundary.pmtiles",
+          "mtime": 1792616033.4572604
+        },
+        "gardiners_island_boundary.thumb.jpg": {
+          "sha256": "cdcc080c1b703d80e89a8c597421edcce9e17cd3235f628b42d53998eff8e3b6",
+          "size_bytes": 6046,
+          "href": "gardiners_island_boundary/gardiners_island_boundary.thumb.jpg",
+          "mtime": 1792616033.4832606
+        }
+      },
+      "changes": [
+        "gardiners_island_boundary.pmtiles",
+        "gardiners_island_boundary.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: gardiners_island_boundary.pmtiles, gardiners_island_boundary.thumb.jpg"
     }
   ]
 }

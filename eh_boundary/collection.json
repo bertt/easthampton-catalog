@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/79",
       "type": "text/html",
       "title": "Source ArcGIS layer: EH Boundary"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eh_boundary.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "eh_boundary"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 2,
@@ -125,8 +134,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 372,
-      "file:checksum": "1220a4d5b74ec620bbc5669d8cca201452c50318d32f3c34e820aa34998c8e1276ad"
+      "file:size": 478,
+      "file:checksum": "12204bece8565e928ba0cc5ea42293f52cd44eb279139eeda5c2eb8a337c7e3befd6"
+    },
+    "eh_boundary-tiles": {
+      "href": "./eh_boundary.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "eh_boundary (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 17858,
+      "file:checksum": "1220574b27f43bca513ad42887896fc3af957c3d00968bd5f14977071b5dbaf94bf1"
+    },
+    "thumbnail": {
+      "href": "./eh_boundary.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EH Boundary thumbnail",
+      "file:size": 31792,
+      "file:checksum": "1220933037a228770c63a9be8989f3dc802102b705a6689e73d97ea92b26a7eace36"
     }
   }
 }

@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/10",
       "type": "text/html",
       "title": "Source ArcGIS layer: EH School Districts"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eh_school_districts.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "eh_school_districts"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 6,
@@ -128,8 +137,28 @@
         "default"
       ],
       "title": "Categorical Style",
-      "file:size": 690,
-      "file:checksum": "1220e699448930ea0d6414a907fdb6549f7cda2e96f1b3a4b77bf5447f8df842804f"
+      "file:size": 511,
+      "file:checksum": "1220abd98bbac2a3cd794781264b3f331d42392a9af6df3dad1f67620ddd893c4dc5"
+    },
+    "eh_school_districts-tiles": {
+      "href": "./eh_school_districts.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "eh_school_districts (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 62298,
+      "file:checksum": "1220c5a18635d4c062026752c1afbc5f3e6493f93879a623c8263838decfc84c59e3"
+    },
+    "thumbnail": {
+      "href": "./eh_school_districts.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EH School Districts thumbnail",
+      "file:size": 36744,
+      "file:checksum": "12207b1fd0ae5034b3fb32af477fb9be46209449a5403faa57cecbe85ec6994ad11f"
     }
   }
 }

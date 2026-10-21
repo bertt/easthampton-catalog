@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "EHTaxMap (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../ehtaxmap.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 13
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "ehtaxmap",
       "paint": {
-        "fill-color": "#000000",
-        "fill-opacity": 0.0,
-        "fill-outline-color": "#0070ff"
+        "fill-color": "#c7771d",
+        "fill-opacity": 0.7,
+        "fill-outline-color": "#814d12"
       }
     }
   ]

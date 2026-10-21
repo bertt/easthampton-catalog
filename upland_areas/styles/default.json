@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Upland Areas (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../upland_areas.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 13
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "upland_areas",
       "paint": {
-        "fill-color": "#ffffff",
-        "fill-opacity": 1.0,
-        "fill-outline-color": "#6e6e6e"
+        "fill-color": "#2f8f83",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#1e5c55"
       }
     }
   ]

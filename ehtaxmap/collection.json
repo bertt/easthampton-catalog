@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/58",
       "type": "text/html",
       "title": "Source ArcGIS layer: EHTaxMap"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ehtaxmap.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "ehtaxmap"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 25481,
@@ -268,8 +277,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 369,
-      "file:checksum": "1220417b9747ece407cea861fb79c6c68eafece947caae5815df46fa6f0d05977db5"
+      "file:size": 468,
+      "file:checksum": "1220171d8136409b3faea132abcc12f1acd473e33ea95f67babb261f1337a36c64c0"
+    },
+    "ehtaxmap-tiles": {
+      "href": "./ehtaxmap.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "ehtaxmap (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 14064147,
+      "file:checksum": "12209bbbbd4d13d5663c8590378ae9956135e027fc29879cc1c80fc55ebc83755f09"
+    },
+    "thumbnail": {
+      "href": "./ehtaxmap.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EHTaxMap thumbnail",
+      "file:size": 248183,
+      "file:checksum": "1220e30cda3598c7d9e6c7825fb5379c0d5df556c13764b9141dc20f59ca83f45b69"
     }
   }
 }

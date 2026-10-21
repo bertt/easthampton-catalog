@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/35",
       "type": "text/html",
       "title": "Source ArcGIS layer: Shoreline"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./shoreline.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "shoreline"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "LineString",
   "geoparquet:feature_count": 803,
@@ -124,8 +133,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 354,
-      "file:checksum": "122061dfc896d06ed7ab031d0325f6c672b9017cbe98b28e7db68552fa20f750fbc5"
+      "file:size": 717,
+      "file:checksum": "1220e5d4303c1709f2a1736248a7d5c28307e8b8afd9952fd8a62cd739724879c6f4"
+    },
+    "shoreline-tiles": {
+      "href": "./shoreline.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "shoreline (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 5901207,
+      "file:checksum": "1220547238c3609b0e0837ccc0072284b1d60620bbdfff21d88ab7eff9253bab4a5a"
+    },
+    "thumbnail": {
+      "href": "./shoreline.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Shoreline thumbnail",
+      "file:size": 64081,
+      "file:checksum": "12208baa2e56ff970c20a287472aba0e33bb7abfd742845df659d4b46412d9962d39"
     }
   }
 }

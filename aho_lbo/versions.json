@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "aho_lbo.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:38.895639Z",
+      "breaking": false,
+      "assets": {
+        "aho_lbo.parquet": {
+          "sha256": "0c824c640658380f113ceb67d4aabfbd114b9f9128222f3c0ecd64ab6fb1df53",
+          "size_bytes": 4539225,
+          "href": "aho_lbo/aho_lbo.parquet",
+          "source_mtime": 1792615007.3916981,
+          "mtime": 1792615007.3916981,
+          "feature_count": 25481,
+          "schema_fingerprint": "919d12c058a9a7ba"
+        },
+        "aho_lbo.pmtiles": {
+          "sha256": "6de47669503395564114001a8185c84f35dab8d2d300ffcc1ff0fcb7d03a2990",
+          "size_bytes": 8747145,
+          "href": "aho_lbo/aho_lbo.pmtiles",
+          "mtime": 1792616075.8437996
+        },
+        "aho_lbo.thumb.jpg": {
+          "sha256": "6eb1288e1f14c182685712caa3fa324f6bd73f9b69f5d64f265035349b9f0e0c",
+          "size_bytes": 10289,
+          "href": "aho_lbo/aho_lbo.thumb.jpg",
+          "mtime": 1792616078.699836
+        }
+      },
+      "changes": [
+        "aho_lbo.pmtiles",
+        "aho_lbo.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: aho_lbo.pmtiles, aho_lbo.thumb.jpg"
     }
   ]
 }

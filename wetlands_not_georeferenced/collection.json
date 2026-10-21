@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/49",
       "type": "text/html",
       "title": "Source ArcGIS layer: Wetlands Not Georeferenced"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./wetlands_not_georeferenced.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "wetlands_not_georeferenced"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 741,
@@ -117,8 +126,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 346,
-      "file:checksum": "1220c190a2d44a4c11efd6d8c83d9851f0a9125b1ffb391ca3902f4a59c18f2bc913"
+      "file:size": 523,
+      "file:checksum": "1220ebb90e84c27e3875d9a7e061b4d428c60bf5db04fa05ee8473f4591eb3ff6ddf"
+    },
+    "wetlands_not_georeferenced-tiles": {
+      "href": "./wetlands_not_georeferenced.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "wetlands_not_georeferenced (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 99064,
+      "file:checksum": "12200ef1e0c42f29a0862a6a3bb729affe05d4b9746cdb3ec33ccd0ae8879db4ef1b"
+    },
+    "thumbnail": {
+      "href": "./wetlands_not_georeferenced.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Wetlands Not Georeferenced thumbnail",
+      "file:size": 53111,
+      "file:checksum": "1220452fa0b68bf5f14d2ef9162abe3c7df001dfcd9f3686d1c15767128166a2aa27"
     }
   }
 }

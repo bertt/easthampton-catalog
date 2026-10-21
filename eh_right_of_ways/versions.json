@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "eh_right_of_ways.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:27.458027Z",
+      "breaking": false,
+      "assets": {
+        "eh_right_of_ways.parquet": {
+          "sha256": "abc2f36e1b7a7244c4d68bfe7a66dbc542ba89f59b8c60bf38b9d913853a3c71",
+          "size_bytes": 1457161,
+          "href": "eh_right_of_ways/eh_right_of_ways.parquet",
+          "source_mtime": 1792615016.9157534,
+          "mtime": 1792615016.9157534,
+          "feature_count": 1,
+          "schema_fingerprint": "cea34a53e3ac42aa"
+        },
+        "eh_right_of_ways.pmtiles": {
+          "sha256": "c1cf9e425f13fcafd3d9fbd73537c3e22976504dd5a7a4c588b761528eb62315",
+          "size_bytes": 400378,
+          "href": "eh_right_of_ways/eh_right_of_ways.pmtiles",
+          "mtime": 1792616067.2376897
+        },
+        "eh_right_of_ways.thumb.jpg": {
+          "sha256": "1f2920274d6555e71ff234f930fcf889d986889b6c16ebb6962172614c20d7e2",
+          "size_bytes": 10776,
+          "href": "eh_right_of_ways/eh_right_of_ways.thumb.jpg",
+          "mtime": 1792616067.411692
+        }
+      },
+      "changes": [
+        "eh_right_of_ways.pmtiles",
+        "eh_right_of_ways.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: eh_right_of_ways.pmtiles, eh_right_of_ways.thumb.jpg"
     }
   ]
 }

@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/66",
       "type": "text/html",
       "title": "Source ArcGIS layer: AHO & LBO"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./aho_lbo.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "aho_lbo"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 25481,
@@ -148,8 +157,28 @@
         "default"
       ],
       "title": "Categorical Style",
-      "file:size": 558,
-      "file:checksum": "1220c34319d4cfebbf66d3f02d48cac6bac5fe6dcf3e95214d70082eca552d2f59b4"
+      "file:size": 476,
+      "file:checksum": "12204c38552bc9ca7e01ab6ec3d89db831689f7d5777d751263d0ff1988f64028512"
+    },
+    "aho_lbo-tiles": {
+      "href": "./aho_lbo.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "aho_lbo (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 8747145,
+      "file:checksum": "12206de47669503395564114001a8185c84f35dab8d2d300ffcc1ff0fcb7d03a2990"
+    },
+    "thumbnail": {
+      "href": "./aho_lbo.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "AHO & LBO thumbnail",
+      "file:size": 323925,
+      "file:checksum": "12209a936d7a555e7ff321b5aa5124331fe2cedf2d38145747c29257f9d35af6e0f7"
     }
   }
 }

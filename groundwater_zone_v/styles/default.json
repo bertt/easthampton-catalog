@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Groundwater Zone V (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../groundwater_zone_v.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 9
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "groundwater_zone_v",
       "paint": {
-        "fill-color": "#73ffdf",
-        "fill-opacity": 1.0,
-        "fill-outline-color": "#000000"
+        "fill-color": "#d35400",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#893600"
       }
     }
   ]

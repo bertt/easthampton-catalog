@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "EH Zoning Boundaries (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../eh_zoning_boundaries.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 13
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "eh_zoning_boundaries",
       "paint": {
-        "fill-color": "#fce8cf",
-        "fill-opacity": 0.0,
-        "fill-outline-color": "#343434"
+        "fill-color": "#2c7fb8",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#1c5277"
       }
     }
   ]

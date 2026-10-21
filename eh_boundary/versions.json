@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "eh_boundary.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:12.177153Z",
+      "breaking": false,
+      "assets": {
+        "eh_boundary.parquet": {
+          "sha256": "a97b688593fbef58c33148bb3dcad57c0701ffdf32f30c2bfa0edfcedb524c95",
+          "size_bytes": 70398,
+          "href": "eh_boundary/eh_boundary.parquet",
+          "source_mtime": 1792615027.6388173,
+          "mtime": 1792615027.6388173,
+          "feature_count": 2,
+          "schema_fingerprint": "8c79c682a5721181"
+        },
+        "eh_boundary.pmtiles": {
+          "sha256": "574b27f43bca513ad42887896fc3af957c3d00968bd5f14977071b5dbaf94bf1",
+          "size_bytes": 17858,
+          "href": "eh_boundary/eh_boundary.pmtiles",
+          "mtime": 1792616112.1452641
+        },
+        "eh_boundary.thumb.jpg": {
+          "sha256": "5e0a29b3221ddde1f5d508ec464ae9c37c142afd4950febc8f00b2a81da67f6a",
+          "size_bytes": 6061,
+          "href": "eh_boundary/eh_boundary.thumb.jpg",
+          "mtime": 1792616112.1732645
+        }
+      },
+      "changes": [
+        "eh_boundary.pmtiles",
+        "eh_boundary.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: eh_boundary.pmtiles, eh_boundary.thumb.jpg"
     }
   ]
 }

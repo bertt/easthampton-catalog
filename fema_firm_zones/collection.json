@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/36",
       "type": "text/html",
       "title": "Source ArcGIS layer: FEMA FIRM Zones"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fema_firm_zones.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "fema_firm_zones"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 4796,
@@ -136,8 +145,28 @@
         "default"
       ],
       "title": "Categorical Style",
-      "file:size": 754,
-      "file:checksum": "1220bd98ae4b0bc29aed8e39cb0627c9b842218aeddd159bf2c392652925eda747b2"
+      "file:size": 499,
+      "file:checksum": "12202c4e8ea82a6ff6d5ae4b7e7898c0d1b1d2019feacf90b7e25edab9f90d25c2f9"
+    },
+    "fema_firm_zones-tiles": {
+      "href": "./fema_firm_zones.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "fema_firm_zones (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 5475813,
+      "file:checksum": "122094a568ff17c58b9893300daee5368c7e3bdf1cf48c3feae3db4c29fb10f97916"
+    },
+    "thumbnail": {
+      "href": "./fema_firm_zones.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "FEMA FIRM Zones thumbnail",
+      "file:size": 74586,
+      "file:checksum": "1220fbe7fe56925b427bd8b0b8211874e230a078fdb43ad5b2473952087389efeb38"
     }
   }
 }

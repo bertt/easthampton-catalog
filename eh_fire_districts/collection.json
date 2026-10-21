@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/9",
       "type": "text/html",
       "title": "Source ArcGIS layer: EH Fire Districts"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eh_fire_districts.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "eh_fire_districts"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 11,
@@ -132,8 +141,28 @@
         "default"
       ],
       "title": "Categorical Style",
-      "file:size": 972,
-      "file:checksum": "1220ace8d583f6a030d2a5d5bcdd35360d11a8468e629235ba72aee78f6d17436454"
+      "file:size": 505,
+      "file:checksum": "12205f8e6f823efb21ca5e32b5d35ab1dd9b79ba29609b4dfca6230a3ec74465a594"
+    },
+    "eh_fire_districts-tiles": {
+      "href": "./eh_fire_districts.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "eh_fire_districts (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 57463,
+      "file:checksum": "1220b9da30359237f8f26d6af6ff4ebc470fa63f77143659a6bfa68e030f2f09c934"
+    },
+    "thumbnail": {
+      "href": "./eh_fire_districts.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EH Fire Districts thumbnail",
+      "file:size": 44887,
+      "file:checksum": "12202eea125c1daed310c18a84578d991bd9c6e31cf7ba05397aa9ec04a5fa62001f"
     }
   }
 }

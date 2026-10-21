@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "eh_soils.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:44.282191Z",
+      "breaking": false,
+      "assets": {
+        "eh_soils.parquet": {
+          "sha256": "8e126b9ea5bb5fdf4a4ee4572bc24587d6bf1b57da051d56d63446f4af87cd8b",
+          "size_bytes": 669615,
+          "href": "eh_soils/eh_soils.parquet",
+          "source_mtime": 1792614858.592037,
+          "mtime": 1792614858.592037,
+          "feature_count": 545,
+          "schema_fingerprint": "534d4e318ff07f68"
+        },
+        "eh_soils.pmtiles": {
+          "sha256": "34541a0e495a300defc04cfbe72a906ae38c716ffca6e67ce5dfdd9e01eac21f",
+          "size_bytes": 273227,
+          "href": "eh_soils/eh_soils.pmtiles",
+          "mtime": 1792616084.1379054
+        },
+        "eh_soils.thumb.jpg": {
+          "sha256": "8a10749543066de4d08940e22f37e995cbd50de3f3212198bd1ce5773ee01104",
+          "size_bytes": 8222,
+          "href": "eh_soils/eh_soils.thumb.jpg",
+          "mtime": 1792616084.260907
+        }
+      },
+      "changes": [
+        "eh_soils.pmtiles",
+        "eh_soils.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: eh_soils.pmtiles, eh_soils.thumb.jpg"
     }
   ]
 }

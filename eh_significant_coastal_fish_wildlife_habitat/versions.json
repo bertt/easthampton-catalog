@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "eh_significant_coastal_fish_wildlife_habitat.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:31.218838Z",
+      "breaking": false,
+      "assets": {
+        "eh_significant_coastal_fish_wildlife_habitat.parquet": {
+          "sha256": "7eba745ff1cfc89659fbaa11a7378f1b7f1a023d72777c3ec53d38bf82b0fa82",
+          "size_bytes": 149672,
+          "href": "eh_significant_coastal_fish_wildlife_habitat/eh_significant_coastal_fish_wildlife_habitat.parquet",
+          "source_mtime": 1792614836.4479754,
+          "mtime": 1792614836.4479754,
+          "feature_count": 24,
+          "schema_fingerprint": "c2ff1078e67962f4"
+        },
+        "eh_significant_coastal_fish_wildlife_habitat.pmtiles": {
+          "sha256": "317baf54205c220b484bebcdd94fd65cb886866ec338bda417c9b32e9160bcd3",
+          "size_bytes": 75822,
+          "href": "eh_significant_coastal_fish_wildlife_habitat/eh_significant_coastal_fish_wildlife_habitat.pmtiles",
+          "mtime": 1792616131.1695085
+        },
+        "eh_significant_coastal_fish_wildlife_habitat.thumb.jpg": {
+          "sha256": "3eca1bb722cf8c7a729034b27aa69e1877bbb9194557fccdac1d2c9cc9548b0d",
+          "size_bytes": 9241,
+          "href": "eh_significant_coastal_fish_wildlife_habitat/eh_significant_coastal_fish_wildlife_habitat.thumb.jpg",
+          "mtime": 1792616131.211509
+        }
+      },
+      "changes": [
+        "eh_significant_coastal_fish_wildlife_habitat.pmtiles",
+        "eh_significant_coastal_fish_wildlife_habitat.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: eh_significant_coastal_fish_wildlife_habitat.pmtiles, eh_significant_coastal_fish_wildlife_habitat.thumb.jpg"
     }
   ]
 }

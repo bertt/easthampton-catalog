@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Village Boundaries (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../village_boundaries.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "village_boundaries",
       "paint": {
-        "fill-color": "#000000",
-        "fill-opacity": 0.0,
-        "fill-outline-color": "#000000"
+        "fill-color": "#e76f51",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#964834"
       }
     }
   ]

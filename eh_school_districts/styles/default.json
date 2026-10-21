@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "EH School Districts (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../eh_school_districts.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 13
     }
   },
   "layers": [
@@ -13,25 +16,9 @@
       "source": "data",
       "source-layer": "eh_school_districts",
       "paint": {
-        "fill-color": [
-          "match",
-          [
-            "get",
-            "ID"
-          ],
-          "AMAGANSETT SD",
-          "#d3ffbe",
-          "EAST HAMPTON SD",
-          "#55ff00",
-          "MONTAUK SD",
-          "#0070ff",
-          "SPRINGS SD",
-          "#ffa77f",
-          "WAINSCOTT SD",
-          "#b32d3a",
-          "#cccccc"
-        ],
-        "fill-opacity": 1.0
+        "fill-color": "#e9c46a",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#977f44"
       }
     }
   ]

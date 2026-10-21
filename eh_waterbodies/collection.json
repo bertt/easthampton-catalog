@@ -42,13 +42,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/81",
       "type": "text/html",
       "title": "Source ArcGIS layer: EH Waterbodies"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eh_waterbodies.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "eh_waterbodies"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 195,
@@ -143,8 +152,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 375,
-      "file:checksum": "1220ee05a9d74674e22ccabd7c4ece07496f231247400da80a8a4e22eeffbb711c67"
+      "file:size": 487,
+      "file:checksum": "12207cf7c230151438c7d02082c85bdefba733bf82a1530e6d22997e6a165418e771"
+    },
+    "eh_waterbodies-tiles": {
+      "href": "./eh_waterbodies.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "eh_waterbodies (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 223521,
+      "file:checksum": "1220934e9ea97f097488fd8eabc330169114a1a16cfd7c2f3d3599a4c64ae73be4e3"
+    },
+    "thumbnail": {
+      "href": "./eh_waterbodies.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EH Waterbodies thumbnail",
+      "file:size": 40381,
+      "file:checksum": "122036d63d0de2914ca6ce7c087a51e0dd9f3332b2b13dd216b3712f797ab68ef725"
     }
   }
 }

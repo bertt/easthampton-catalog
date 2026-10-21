@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Fire Departments (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../fire_departments.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 13
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "fire_departments",
       "paint": {
-        "fill-color": "#ff5500",
-        "fill-opacity": 1.0,
-        "fill-outline-color": "#6e6e6e"
+        "fill-color": "#6d597a",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#46394f"
       }
     }
   ]

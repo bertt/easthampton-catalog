@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/30",
       "type": "text/html",
       "title": "Source ArcGIS layer: EH CEHA Line"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eh_ceha_line.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "eh_ceha_line"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "LineString",
   "geoparquet:feature_count": 61,
@@ -140,8 +149,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 357,
-      "file:checksum": "1220a6727601e42b719595b2e684a853a4d4a967349b83108a98924af2ad6cce14e9"
+      "file:size": 726,
+      "file:checksum": "1220447675c0f72e90c76cb814364e1eedbeb718668ddc3b85a2366a742ff7341acf"
+    },
+    "eh_ceha_line-tiles": {
+      "href": "./eh_ceha_line.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "eh_ceha_line (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 41133,
+      "file:checksum": "122030f901920f5ca9d35f488a9913a1e9951cdb414fb0155ead59c235babbf79f12"
+    },
+    "thumbnail": {
+      "href": "./eh_ceha_line.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EH CEHA Line thumbnail",
+      "file:size": 39441,
+      "file:checksum": "1220968e1884e4370d5630850d774aae952ec2cf538d74ad3584c80c5e59f1f3f6f9"
     }
   }
 }

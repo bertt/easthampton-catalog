@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "protected_veg_buffer_areas.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:32.913125Z",
+      "breaking": false,
+      "assets": {
+        "protected_veg_buffer_areas.parquet": {
+          "sha256": "1bcac7074402a6e97324db9b6eae2b49cd60a72f87ae17eb98bb08d89cb6fe13",
+          "size_bytes": 8210,
+          "href": "protected_veg_buffer_areas/protected_veg_buffer_areas.parquet",
+          "source_mtime": 1792614952.8154097,
+          "mtime": 1792614952.8154097,
+          "feature_count": 23,
+          "schema_fingerprint": "bd6d0800dcb1977c"
+        },
+        "protected_veg_buffer_areas.pmtiles": {
+          "sha256": "12125e569ba796c650037f6069e5acd96876a35f76c12942eadb2e7a1f5c56b1",
+          "size_bytes": 5244,
+          "href": "protected_veg_buffer_areas/protected_veg_buffer_areas.pmtiles",
+          "mtime": 1792616132.8855305
+        },
+        "protected_veg_buffer_areas.thumb.jpg": {
+          "sha256": "71919de260e9394a25281d37ceeaf66e2692464038207cf7ae573d0ca97054f2",
+          "size_bytes": 2080,
+          "href": "protected_veg_buffer_areas/protected_veg_buffer_areas.thumb.jpg",
+          "mtime": 1792616132.9105308
+        }
+      },
+      "changes": [
+        "protected_veg_buffer_areas.pmtiles",
+        "protected_veg_buffer_areas.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: protected_veg_buffer_areas.pmtiles, protected_veg_buffer_areas.thumb.jpg"
     }
   ]
 }

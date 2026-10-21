@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "village_boundaries.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:08.198638Z",
+      "breaking": false,
+      "assets": {
+        "village_boundaries.parquet": {
+          "sha256": "9e91561b273b608de2abb1695f2d7d17ae6de60d1f3492aeba42509526a430fa",
+          "size_bytes": 15481,
+          "href": "village_boundaries/village_boundaries.parquet",
+          "source_mtime": 1792614923.111274,
+          "mtime": 1792614923.111274,
+          "feature_count": 2,
+          "schema_fingerprint": "8f60a98019d06f91"
+        },
+        "village_boundaries.pmtiles": {
+          "sha256": "0b07f69ca6d104a1c28aedd5480740e6fc9cb46d5b8084166a8716f1b9ad2562",
+          "size_bytes": 7113,
+          "href": "village_boundaries/village_boundaries.pmtiles",
+          "mtime": 1792616108.1702132
+        },
+        "village_boundaries.thumb.jpg": {
+          "sha256": "506fb0aa5081831d363be9f0f6d70b430b8bc02fa536f4e9966a512eaa2d2d9a",
+          "size_bytes": 6040,
+          "href": "village_boundaries/village_boundaries.thumb.jpg",
+          "mtime": 1792616108.1962135
+        }
+      },
+      "changes": [
+        "village_boundaries.pmtiles",
+        "village_boundaries.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: village_boundaries.pmtiles, village_boundaries.thumb.jpg"
     }
   ]
 }

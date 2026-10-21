@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "national_wetland_inventory_layers_for_eh_town.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:42.259796Z",
+      "breaking": false,
+      "assets": {
+        "national_wetland_inventory_layers_for_eh_town.parquet": {
+          "sha256": "ecb54181b471c9f3d4e15a87a1f5b68d53e21332b23c7e08190d32b857a00dcd",
+          "size_bytes": 2029888,
+          "href": "national_wetland_inventory_layers_for_eh_town/national_wetland_inventory_layers_for_eh_town.parquet",
+          "source_mtime": 1792614855.3010273,
+          "mtime": 1792614855.3010273,
+          "feature_count": 2625,
+          "schema_fingerprint": "e6d4210a0d956928"
+        },
+        "national_wetland_inventory_layers_for_eh_town.pmtiles": {
+          "sha256": "5dd82d91f1df8393a1b353c38fba96028cd6ac0a7a2ae4e1f6cc7346e59f27ba",
+          "size_bytes": 1028983,
+          "href": "national_wetland_inventory_layers_for_eh_town/national_wetland_inventory_layers_for_eh_town.pmtiles",
+          "mtime": 1792616081.6438737
+        },
+        "national_wetland_inventory_layers_for_eh_town.thumb.jpg": {
+          "sha256": "6877326ae3136140e83a896bf273c5e47bcada84ad9139913969b01905ab65b1",
+          "size_bytes": 10235,
+          "href": "national_wetland_inventory_layers_for_eh_town/national_wetland_inventory_layers_for_eh_town.thumb.jpg",
+          "mtime": 1792616082.1768804
+        }
+      },
+      "changes": [
+        "national_wetland_inventory_layers_for_eh_town.pmtiles",
+        "national_wetland_inventory_layers_for_eh_town.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: national_wetland_inventory_layers_for_eh_town.pmtiles, national_wetland_inventory_layers_for_eh_town.thumb.jpg"
     }
   ]
 }

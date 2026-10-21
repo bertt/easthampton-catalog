@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "sgpa.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:45.820386Z",
+      "breaking": false,
+      "assets": {
+        "sgpa.parquet": {
+          "sha256": "90d7f74bf2b7d9df6f88b9e5975058d5960b3048acd510dce4a91c84d267d729",
+          "size_bytes": 45399,
+          "href": "sgpa/sgpa.parquet",
+          "source_mtime": 1792614831.6769633,
+          "mtime": 1792614831.6769633,
+          "feature_count": 2,
+          "schema_fingerprint": "ca435839fb710ea9"
+        },
+        "sgpa.pmtiles": {
+          "sha256": "33cb8b277001157c834fefec3a33aee7300f6012e00dccbe361be7d44f1128c6",
+          "size_bytes": 14155,
+          "href": "sgpa/sgpa.pmtiles",
+          "mtime": 1792616085.7879267
+        },
+        "sgpa.thumb.jpg": {
+          "sha256": "d85971656a7fb5d80922fc5ab3a1e95d789a47f07959ac8010d14b225ea51f45",
+          "size_bytes": 5671,
+          "href": "sgpa/sgpa.thumb.jpg",
+          "mtime": 1792616085.816927
+        }
+      },
+      "changes": [
+        "sgpa.pmtiles",
+        "sgpa.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: sgpa.pmtiles, sgpa.thumb.jpg"
     }
   ]
 }

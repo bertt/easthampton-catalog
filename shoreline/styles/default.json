@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Shoreline (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../shoreline.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 16
     }
   },
   "layers": [
@@ -13,9 +16,26 @@
       "source": "data",
       "source-layer": "shoreline",
       "paint": {
-        "line-color": "#4ce600",
-        "line-width": 1,
-        "line-opacity": 1.0
+        "line-color": "#7b5ea7",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          8,
+          1.2,
+          14,
+          3,
+          18,
+          5
+        ]
+      },
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     }
   ]

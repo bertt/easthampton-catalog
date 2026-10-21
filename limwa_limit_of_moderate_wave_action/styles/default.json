@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "LiMWA (Limit of Moderate Wave Action) (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../limwa_limit_of_moderate_wave_action.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 13
     }
   },
   "layers": [
@@ -13,9 +16,26 @@
       "source": "data",
       "source-layer": "limwa_limit_of_moderate_wave_action",
       "paint": {
-        "line-color": "#005ce6",
-        "line-width": 2,
-        "line-opacity": 1.0
+        "line-color": "#6a4c93",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          8,
+          1.2,
+          14,
+          3,
+          18,
+          5
+        ]
+      },
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     }
   ]

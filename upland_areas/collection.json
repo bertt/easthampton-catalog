@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/52",
       "type": "text/html",
       "title": "Source ArcGIS layer: Upland Areas"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./upland_areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "upland_areas"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 58,
@@ -117,8 +126,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 373,
-      "file:checksum": "1220ad80fe469c7e99405cac74e08ceafb8e4d8df73b9bb46354f74a1af08aa4c9b0"
+      "file:size": 481,
+      "file:checksum": "12209c94348bc598e82c593ad1d160cd1e0d2bd8a0d22c9b0ed6017387078c9892a9"
+    },
+    "upland_areas-tiles": {
+      "href": "./upland_areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "upland_areas (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 9610,
+      "file:checksum": "12203591d51ec00e2d2518a00a82bddd49e600c464094967e97e7ddc1c09ac6982db"
+    },
+    "thumbnail": {
+      "href": "./upland_areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Upland Areas thumbnail",
+      "file:size": 39608,
+      "file:checksum": "1220c6ccc87a7974907f41405d352451a6f9acc8face022dc081edf7a18d39bf01f4"
     }
   }
 }

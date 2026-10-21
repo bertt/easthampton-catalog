@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "wetlands_not_georeferenced.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:06.426276Z",
+      "breaking": false,
+      "assets": {
+        "wetlands_not_georeferenced.parquet": {
+          "sha256": "af736ed32bf761d6e917639a6ac475e12be3388fb8a706d991c5ceb5fca07d78",
+          "size_bytes": 181108,
+          "href": "wetlands_not_georeferenced/wetlands_not_georeferenced.parquet",
+          "source_mtime": 1792614947.1783826,
+          "mtime": 1792614947.1783826,
+          "feature_count": 741,
+          "schema_fingerprint": "e04fb2c524bb857b"
+        },
+        "wetlands_not_georeferenced.pmtiles": {
+          "sha256": "0ef1e0c42f29a0862a6a3bb729affe05d4b9746cdb3ec33ccd0ae8879db4ef1b",
+          "size_bytes": 99064,
+          "href": "wetlands_not_georeferenced/wetlands_not_georeferenced.pmtiles",
+          "mtime": 1792616106.3191893
+        },
+        "wetlands_not_georeferenced.thumb.jpg": {
+          "sha256": "745fac8527c2a89ebf508780a4446359c23c5815711bfc6bac8f3b7fbdba8513",
+          "size_bytes": 5542,
+          "href": "wetlands_not_georeferenced/wetlands_not_georeferenced.thumb.jpg",
+          "mtime": 1792616106.4161906
+        }
+      },
+      "changes": [
+        "wetlands_not_georeferenced.pmtiles",
+        "wetlands_not_georeferenced.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: wetlands_not_georeferenced.pmtiles, wetlands_not_georeferenced.thumb.jpg"
     }
   ]
 }

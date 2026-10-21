@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "EH CEHA Line (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../eh_ceha_line.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
     }
   },
   "layers": [
@@ -13,9 +16,26 @@
       "source": "data",
       "source-layer": "eh_ceha_line",
       "paint": {
-        "line-color": "#000000",
-        "line-width": 2,
-        "line-opacity": 1.0
+        "line-color": "#d1495b",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          8,
+          1.2,
+          14,
+          3,
+          18,
+          5
+        ]
+      },
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     }
   ]

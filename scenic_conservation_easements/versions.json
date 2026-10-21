@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "scenic_conservation_easements.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:07.506134Z",
+      "breaking": false,
+      "assets": {
+        "scenic_conservation_easements.parquet": {
+          "sha256": "fc39e0efaa2a7f69bc6d081ea8de5eff3e6825f9e91faa478f35e65bd8c05f63",
+          "size_bytes": 171165,
+          "href": "scenic_conservation_easements/scenic_conservation_easements.parquet",
+          "source_mtime": 1792614951.8004045,
+          "mtime": 1792614951.8004045,
+          "feature_count": 1410,
+          "schema_fingerprint": "f68f455bce783253"
+        },
+        "scenic_conservation_easements.pmtiles": {
+          "sha256": "d0181e00948dfe88a51505d20042d5a9d04efd5bd8d36dda6adeccc275b76081",
+          "size_bytes": 110210,
+          "href": "scenic_conservation_easements/scenic_conservation_easements.pmtiles",
+          "mtime": 1792616107.3352025
+        },
+        "scenic_conservation_easements.thumb.jpg": {
+          "sha256": "b8eb6e4ec9ffad29f152662dd7e984a2ba083c079b760aa903dfdde3ffea5ab5",
+          "size_bytes": 8179,
+          "href": "scenic_conservation_easements/scenic_conservation_easements.thumb.jpg",
+          "mtime": 1792616107.4952044
+        }
+      },
+      "changes": [
+        "scenic_conservation_easements.pmtiles",
+        "scenic_conservation_easements.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: scenic_conservation_easements.pmtiles, scenic_conservation_easements.thumb.jpg"
     }
   ]
 }

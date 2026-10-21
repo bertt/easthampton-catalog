@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/67",
       "type": "text/html",
       "title": "Source ArcGIS layer: Agricultural Overlay District"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./agricultural_overlay_district.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "agricultural_overlay_district"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 20,
@@ -132,8 +141,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 390,
-      "file:checksum": "1220fe1cb9d92e7905c15e895b740e702557727e1658bb535f501804b34d37c4c880"
+      "file:size": 532,
+      "file:checksum": "12208ba98be39b9487cb34ff7b41f16233df50bb8dfb332d3a53a4f2fdd4dca02928"
+    },
+    "agricultural_overlay_district-tiles": {
+      "href": "./agricultural_overlay_district.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "agricultural_overlay_district (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 23434,
+      "file:checksum": "12208ee693bb065d98ac3d1312d04cccc9c2a576cd3232fde972e47fcba06168386e"
+    },
+    "thumbnail": {
+      "href": "./agricultural_overlay_district.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Agricultural Overlay District thumbnail",
+      "file:size": 28864,
+      "file:checksum": "12207acf85a0fe0e136dcd326d9ac90704321940127d7dd27b3aa610330468fb54b8"
     }
   }
 }

@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/43",
       "type": "text/html",
       "title": "Source ArcGIS layer: Trails"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./trails.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "trails"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "LineString",
   "geoparquet:feature_count": 1108,
@@ -147,8 +156,28 @@
         "default"
       ],
       "title": "Categorical Style",
-      "file:size": 1224,
-      "file:checksum": "1220615e55e3f9d75d9f46bea14b19329d616f4a6459e803fbe544ffcdbeefca061d"
+      "file:size": 717,
+      "file:checksum": "1220897ee69e32aca0e8856df7e60730edc60b634c021b58145c717d2eee79bba117"
+    },
+    "trails-tiles": {
+      "href": "./trails.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "trails (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 1176570,
+      "file:checksum": "122019253df1f06dc3992fbdf47768a48804d031174a614c772eb2b46b3ff31d7c11"
+    },
+    "thumbnail": {
+      "href": "./trails.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Trails thumbnail",
+      "file:size": 68686,
+      "file:checksum": "1220050ac35364cfcb880e7abf592070230534b10a3933b0fba93d9153a6dd9c8877"
     }
   }
 }

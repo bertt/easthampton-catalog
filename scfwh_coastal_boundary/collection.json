@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/20",
       "type": "text/html",
       "title": "Source ArcGIS layer: SCFWH Coastal Boundary"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./scfwh_coastal_boundary.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "scfwh_coastal_boundary"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "LineString",
   "geoparquet:feature_count": 3,
@@ -116,8 +125,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 367,
-      "file:checksum": "1220ce3a15197d209217ab28c1fb1f90649b2fe0267805cbc8c5e8c08789aa2f84ee"
+      "file:size": 756,
+      "file:checksum": "1220e35e00a625b1add2b8e86055aa47fa141354a30b9663ea02563eedb5d4323831"
+    },
+    "scfwh_coastal_boundary-tiles": {
+      "href": "./scfwh_coastal_boundary.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "scfwh_coastal_boundary (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 6720,
+      "file:checksum": "12200ed389a0017437664975e363f0a9790231a2f2fa33381271eeba1d9e65efed56"
+    },
+    "thumbnail": {
+      "href": "./scfwh_coastal_boundary.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "SCFWH Coastal Boundary thumbnail",
+      "file:size": 51553,
+      "file:checksum": "1220a3b0670931e901992da49608e0693fe4644128d1df834599993f34b7f798bc80"
     }
   }
 }

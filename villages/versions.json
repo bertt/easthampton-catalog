@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "villages.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:11.399855Z",
+      "breaking": false,
+      "assets": {
+        "villages.parquet": {
+          "sha256": "db6129cfa87cbce72163ac34cdcbb1645095bde3f4abb1689eb4bc0f3aa118cf",
+          "size_bytes": 16054,
+          "href": "villages/villages.parquet",
+          "source_mtime": 1792615025.574805,
+          "mtime": 1792615025.574805,
+          "feature_count": 2,
+          "schema_fingerprint": "6cf2647394e4ee09"
+        },
+        "villages.pmtiles": {
+          "sha256": "16b41c0c28316b1f8ed0d9b2c9f3c55a904bf9b9f072eae51dc5c9baaf8bc425",
+          "size_bytes": 8941,
+          "href": "villages/villages.pmtiles",
+          "mtime": 1792616111.354254
+        },
+        "villages.thumb.jpg": {
+          "sha256": "506fb0aa5081831d363be9f0f6d70b430b8bc02fa536f4e9966a512eaa2d2d9a",
+          "size_bytes": 6040,
+          "href": "villages/villages.thumb.jpg",
+          "mtime": 1792616111.3952544
+        }
+      },
+      "changes": [
+        "villages.pmtiles",
+        "villages.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: villages.pmtiles, villages.thumb.jpg"
     }
   ]
 }

@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/11",
       "type": "text/html",
       "title": "Source ArcGIS layer: EH Historic Districts "
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eh_historic_districts.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "eh_historic_districts"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 4,
@@ -128,8 +137,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 382,
-      "file:checksum": "1220881c2a13d0dec394226f8d2798900407359d8a89f95efbd3a11c52c97ffb149b"
+      "file:size": 508,
+      "file:checksum": "1220580df3b62128d60b2f95722223e492a2d10f336799e5e4178a039af45bb8a3ae"
+    },
+    "eh_historic_districts-tiles": {
+      "href": "./eh_historic_districts.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "eh_historic_districts (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 10162,
+      "file:checksum": "122037017be55a4ba93731e96a95d4b24685db1d99c728ca5ff9eae6048005d471f5"
+    },
+    "thumbnail": {
+      "href": "./eh_historic_districts.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EH Historic Districts thumbnail",
+      "file:size": 28950,
+      "file:checksum": "1220c0aa970a189e7eab7a6db67cdbd8e61a6d6f02a95f3901cde150a944fcac45bf"
     }
   }
 }

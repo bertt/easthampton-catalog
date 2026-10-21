@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "wrod.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:28.159714Z",
+      "breaking": false,
+      "assets": {
+        "wrod.parquet": {
+          "sha256": "085f1bc85dde8387b01d9525b5fa22f1a5c5339af3dbd18b0e945b833f5760c6",
+          "size_bytes": 23984,
+          "href": "wrod/wrod.parquet",
+          "source_mtime": 1792614830.6319609,
+          "mtime": 1792614830.6319609,
+          "feature_count": 4,
+          "schema_fingerprint": "e806ff0d9b209ed5"
+        },
+        "wrod.pmtiles": {
+          "sha256": "3180e441637efd9800423b4c8e39ac3e783e9b4670004b8b93446ade4364cc59",
+          "size_bytes": 9763,
+          "href": "wrod/wrod.pmtiles",
+          "mtime": 1792616068.1317012
+        },
+        "wrod.thumb.jpg": {
+          "sha256": "30087df599ece22f1bf0ac99a781b318a2183b15ee14b364ce46c7515dcf9e9f",
+          "size_bytes": 4337,
+          "href": "wrod/wrod.thumb.jpg",
+          "mtime": 1792616068.1567016
+        }
+      },
+      "changes": [
+        "wrod.pmtiles",
+        "wrod.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: wrod.pmtiles, wrod.thumb.jpg"
     }
   ]
 }

@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/37",
       "type": "text/html",
       "title": "Source ArcGIS layer: Village Boundaries"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./village_boundaries.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "village_boundaries"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 2,
@@ -128,8 +137,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 379,
-      "file:checksum": "1220b71d9ad7b9e1795aadf0551746afe98e7ba831e3f7c9878f3ac698add8b2c0d0"
+      "file:size": 499,
+      "file:checksum": "1220ddf9e7eaa6527808a944f724adab5cfffe83528aec08aa3dc254e63bfa65617a"
+    },
+    "village_boundaries-tiles": {
+      "href": "./village_boundaries.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "village_boundaries (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 7113,
+      "file:checksum": "12200b07f69ca6d104a1c28aedd5480740e6fc9cb46d5b8084166a8716f1b9ad2562"
+    },
+    "thumbnail": {
+      "href": "./village_boundaries.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Village Boundaries thumbnail",
+      "file:size": 55109,
+      "file:checksum": "1220f7948e750ed7b05f1e0904e1f5b89771ada76ac3f8e0db22c65964101473d4fa"
     }
   }
 }

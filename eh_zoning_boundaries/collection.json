@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/82",
       "type": "text/html",
       "title": "Source ArcGIS layer: EH Zoning Boundaries"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eh_zoning_boundaries.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "eh_zoning_boundaries"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 458,
@@ -120,8 +129,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 381,
-      "file:checksum": "1220b395cf8b48b46169b9244e39f3c5c1d824261447c2f45c82f61e53841855a2cd"
+      "file:size": 505,
+      "file:checksum": "12209412d223248f8c2a88e00559c9edc685421c1f645f1fa537c451a4cd927f5ca6"
+    },
+    "eh_zoning_boundaries-tiles": {
+      "href": "./eh_zoning_boundaries.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "eh_zoning_boundaries (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 338497,
+      "file:checksum": "12205da88a68f4512ceafdbd3f110830800661d754eae0b5e49a6412fad0aa8807d4"
+    },
+    "thumbnail": {
+      "href": "./eh_zoning_boundaries.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "EH Zoning Boundaries thumbnail",
+      "file:size": 72929,
+      "file:checksum": "12202b1d6c0693b1d54c1464225a5799b3b505539b7d1ac028c5f05d458a6f163673"
     }
   }
 }

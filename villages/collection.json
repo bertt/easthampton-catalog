@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/77",
       "type": "text/html",
       "title": "Source ArcGIS layer: Villages"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./villages.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "villages"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 2,
@@ -144,8 +153,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 328,
-      "file:checksum": "1220c78a54a664088e28266f03264362f6a66b4cabba0d07cf55b297fd873d06c340"
+      "file:size": 469,
+      "file:checksum": "12208fc140cfb9bb3ac97222dc90efdf679460eead5b3dc4ef0cb1b486d44a2dec56"
+    },
+    "villages-tiles": {
+      "href": "./villages.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "villages (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 8941,
+      "file:checksum": "122016b41c0c28316b1f8ed0d9b2c9f3c55a904bf9b9f072eae51dc5c9baaf8bc425"
+    },
+    "thumbnail": {
+      "href": "./villages.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Villages thumbnail",
+      "file:size": 55225,
+      "file:checksum": "1220fe059dbc82bf15d04aa70757eade4304af7d2244b4604d5d9b02bb15c5a402b6"
     }
   }
 }

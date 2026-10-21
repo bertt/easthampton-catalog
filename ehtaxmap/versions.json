@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "ehtaxmap.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:59.935929Z",
+      "breaking": false,
+      "assets": {
+        "ehtaxmap.parquet": {
+          "sha256": "cbdeda78029dd3c5ad870a48b11d0a83ef43b6899fc7ad3599c6b700ea1e1b11",
+          "size_bytes": 4939999,
+          "href": "ehtaxmap/ehtaxmap.parquet",
+          "source_mtime": 1792614967.8924844,
+          "mtime": 1792614967.8924844,
+          "feature_count": 25481,
+          "schema_fingerprint": "d5204b1708370208"
+        },
+        "ehtaxmap.pmtiles": {
+          "sha256": "9bbbbd4d13d5663c8590378ae9956135e027fc29879cc1c80fc55ebc83755f09",
+          "size_bytes": 14064147,
+          "href": "ehtaxmap/ehtaxmap.pmtiles",
+          "mtime": 1792616096.8950686
+        },
+        "ehtaxmap.thumb.jpg": {
+          "sha256": "6eb1288e1f14c182685712caa3fa324f6bd73f9b69f5d64f265035349b9f0e0c",
+          "size_bytes": 10289,
+          "href": "ehtaxmap/ehtaxmap.thumb.jpg",
+          "mtime": 1792616099.7281048
+        }
+      },
+      "changes": [
+        "ehtaxmap.pmtiles",
+        "ehtaxmap.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: ehtaxmap.pmtiles, ehtaxmap.thumb.jpg"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "agricultural_overlay_district.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:33.618550Z",
+      "breaking": false,
+      "assets": {
+        "agricultural_overlay_district.parquet": {
+          "sha256": "ac873939a6682d1f78244fc272ab5283714a29e8b407e987eeb1478af0e2551e",
+          "size_bytes": 28177,
+          "href": "agricultural_overlay_district/agricultural_overlay_district.parquet",
+          "source_mtime": 1792615008.4557042,
+          "mtime": 1792615008.4557042,
+          "feature_count": 20,
+          "schema_fingerprint": "193043c5c454ab5b"
+        },
+        "agricultural_overlay_district.pmtiles": {
+          "sha256": "8ee693bb065d98ac3d1312d04cccc9c2a576cd3232fde972e47fcba06168386e",
+          "size_bytes": 23434,
+          "href": "agricultural_overlay_district/agricultural_overlay_district.pmtiles",
+          "mtime": 1792616133.5755394
+        },
+        "agricultural_overlay_district.thumb.jpg": {
+          "sha256": "35120540481969f6ce6fcaed82f694863b974dadeee7694048243b8ec64d9c65",
+          "size_bytes": 3425,
+          "href": "agricultural_overlay_district/agricultural_overlay_district.thumb.jpg",
+          "mtime": 1792616133.61254
+        }
+      },
+      "changes": [
+        "agricultural_overlay_district.pmtiles",
+        "agricultural_overlay_district.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: agricultural_overlay_district.pmtiles, agricultural_overlay_district.thumb.jpg"
     }
   ]
 }

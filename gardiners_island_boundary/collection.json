@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/78",
       "type": "text/html",
       "title": "Source ArcGIS layer: Gardiners Island Boundary"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./gardiners_island_boundary.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "gardiners_island_boundary"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 13,
@@ -116,8 +125,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 386,
-      "file:checksum": "1220b5bf236bec19d071a27ce8e2bb233d1f643c66d8325be83a9767f4a91d4dc345"
+      "file:size": 520,
+      "file:checksum": "1220d59a8110673bbc30d90e48cfd8130fa38aa01d7fd4ce93ea723ec19db91249c1"
+    },
+    "gardiners_island_boundary-tiles": {
+      "href": "./gardiners_island_boundary.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "gardiners_island_boundary (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 8128,
+      "file:checksum": "12204bc65b364ec197494a81e8495fedb10fb36881b95e419de7eb7f260eec031126"
+    },
+    "thumbnail": {
+      "href": "./gardiners_island_boundary.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Gardiners Island Boundary thumbnail",
+      "file:size": 25444,
+      "file:checksum": "1220233a0baca240fc2ed2c36b961a6a4e953b7bb48a7d1ce24c1fb182f8195cc80a"
     }
   }
 }

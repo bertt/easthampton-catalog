@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/19",
       "type": "text/html",
       "title": "Source ArcGIS layer: Ecological Complexes & Boundary Line"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ecological_complexes_boundary_line.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "ecological_complexes_boundary_line"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "LineString",
   "geoparquet:feature_count": 11,
@@ -120,8 +129,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 379,
-      "file:checksum": "122086e4f89e7ae43357ca773635233edf86ef3ab74257140f730d3c92f36d0ce0e1"
+      "file:size": 794,
+      "file:checksum": "1220b7205e982b9cea282b60d5871935a4b6f2d9a08b2824f8b6d64d4cd0a8e5834c"
+    },
+    "ecological_complexes_boundary_line-tiles": {
+      "href": "./ecological_complexes_boundary_line.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "ecological_complexes_boundary_line (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 9044,
+      "file:checksum": "1220a890c607903982f4bbfb6ff5c1f279c52c39c0357b0c06390d9fafa02f3fb3a7"
+    },
+    "thumbnail": {
+      "href": "./ecological_complexes_boundary_line.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Ecological Complexes & Boundary Line thumbnail",
+      "file:size": 34467,
+      "file:checksum": "1220276489beb5e5aad21717aa533f1d9ad6657e5af623d82c6f47f4c840ac4fd6f4"
     }
   }
 }

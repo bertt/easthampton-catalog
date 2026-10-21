@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "EH CEA (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../eh_cea.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
     }
   },
   "layers": [
@@ -13,25 +16,9 @@
       "source": "data",
       "source-layer": "eh_cea",
       "paint": {
-        "fill-color": [
-          "match",
-          [
-            "get",
-            "NAME"
-          ],
-          "Accabonac Harbor",
-          "#38a800",
-          "Hither Woods",
-          "#5350e6",
-          "Montauk Addition",
-          "#505d8c",
-          "SGPA",
-          "#ebf05d",
-          "Water Recharge",
-          "#854452",
-          "#cccccc"
-        ],
-        "fill-opacity": 1.0
+        "fill-color": "#17a398",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#0e6962"
       }
     }
   ]

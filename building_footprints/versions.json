@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "building_footprints.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:53:52.793586Z",
+      "breaking": false,
+      "assets": {
+        "building_footprints.parquet": {
+          "sha256": "ee2bca087fe181087b19db0d0c0d29f141c0d1e7d76d5b3b716d9786f2befa5e",
+          "size_bytes": 6510160,
+          "href": "building_footprints/building_footprints.parquet",
+          "source_mtime": 1792614943.9273672,
+          "mtime": 1792614943.9273672,
+          "feature_count": 40404,
+          "schema_fingerprint": "5a2e44b33a9414a4"
+        },
+        "building_footprints.pmtiles": {
+          "sha256": "01e76d540ee0cf99c9ed1ee50a5bf181392590a2c9f808cf5dba319c3b6f8f7f",
+          "size_bytes": 4711852,
+          "href": "building_footprints/building_footprints.pmtiles",
+          "mtime": 1792616028.046192
+        },
+        "building_footprints.thumb.jpg": {
+          "sha256": "6fe3605defdf9af40871671e101c3616568512391b2cf9ca5faf75fff585f087",
+          "size_bytes": 8524,
+          "href": "building_footprints/building_footprints.thumb.jpg",
+          "mtime": 1792616032.5172484
+        }
+      },
+      "changes": [
+        "building_footprints.pmtiles",
+        "building_footprints.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: building_footprints.pmtiles, building_footprints.thumb.jpg"
     }
   ]
 }

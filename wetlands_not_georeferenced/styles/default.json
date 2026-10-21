@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Wetlands Not Georeferenced (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../wetlands_not_georeferenced.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
     }
   },
   "layers": [
@@ -13,8 +16,9 @@
       "source": "data",
       "source-layer": "wetlands_not_georeferenced",
       "paint": {
-        "fill-color": "#888888",
-        "fill-opacity": 0.5
+        "fill-color": "#2a9d8f",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#1b665c"
       }
     }
   ]

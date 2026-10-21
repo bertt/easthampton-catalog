@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/54",
       "type": "text/html",
       "title": "Source ArcGIS layer: Scenic-Conservation Easements"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./scenic_conservation_easements.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "scenic_conservation_easements"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 1410,
@@ -116,8 +125,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 390,
-      "file:checksum": "12208ed30f219719560e40e736bf220dd05feb7b2e66907efec1c27ae3e9e3e99a31"
+      "file:size": 532,
+      "file:checksum": "12204e8495afa851822984a335249fc6caf4d113a094396b4854a230321bba759269"
+    },
+    "scenic_conservation_easements-tiles": {
+      "href": "./scenic_conservation_easements.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "scenic_conservation_easements (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 110210,
+      "file:checksum": "1220d0181e00948dfe88a51505d20042d5a9d04efd5bd8d36dda6adeccc275b76081"
+    },
+    "thumbnail": {
+      "href": "./scenic_conservation_easements.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Scenic-Conservation Easements thumbnail",
+      "file:size": 58376,
+      "file:checksum": "1220b623585a74e5e47e23ca95e96669f78bbc2bbdd64ed3f75fd73b9fbe922b7285"
     }
   }
 }

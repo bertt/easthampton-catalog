@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/71",
       "type": "text/html",
       "title": "Source ArcGIS layer: Town Facilities"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./town_facilities.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "town_facilities"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 43,
@@ -124,8 +133,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 376,
-      "file:checksum": "12208f31be7bb4c5e67de28cf8460ede6fa50ed629e8889dc7b7df03ac009575aba4"
+      "file:size": 490,
+      "file:checksum": "12203e5dab104a2134faf28264114ffe4a0637b8c48e1bb18aee8766310776504c2b"
+    },
+    "town_facilities-tiles": {
+      "href": "./town_facilities.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "town_facilities (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 15090,
+      "file:checksum": "1220ef31c103113292f43f3ab445c5e1eba049efc1898aca732a6b15051ee3b2bb51"
+    },
+    "thumbnail": {
+      "href": "./town_facilities.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Town Facilities thumbnail",
+      "file:size": 55724,
+      "file:checksum": "12204d9f27fdd860ebf29cf1eaf450abe650956062b12a47111ef187fa02c23d35b7"
     }
   }
 }

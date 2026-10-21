@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "eh_ceha_line.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:47.260222Z",
+      "breaking": false,
+      "assets": {
+        "eh_ceha_line.parquet": {
+          "sha256": "480fdef3c74a02fc869b6b62ee2c56f54e53b50d9109706cbe5dcd5f6be90a1a",
+          "size_bytes": 62876,
+          "href": "eh_ceha_line/eh_ceha_line.parquet",
+          "source_mtime": 1792614856.4330306,
+          "mtime": 1792614856.4330306,
+          "feature_count": 61,
+          "schema_fingerprint": "08e0287dee7a3e33"
+        },
+        "eh_ceha_line.pmtiles": {
+          "sha256": "30f901920f5ca9d35f488a9913a1e9951cdb414fb0155ead59c235babbf79f12",
+          "size_bytes": 41133,
+          "href": "eh_ceha_line/eh_ceha_line.pmtiles",
+          "mtime": 1792616087.2249448
+        },
+        "eh_ceha_line.thumb.jpg": {
+          "sha256": "884dc000ee3df956f34ab91b951418af0756a5b70ce4dc84a5229ea30ebdd30f",
+          "size_bytes": 7613,
+          "href": "eh_ceha_line/eh_ceha_line.thumb.jpg",
+          "mtime": 1792616087.2559454
+        }
+      },
+      "changes": [
+        "eh_ceha_line.pmtiles",
+        "eh_ceha_line.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: eh_ceha_line.pmtiles, eh_ceha_line.thumb.jpg"
     }
   ]
 }

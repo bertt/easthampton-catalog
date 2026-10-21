@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "WROD (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../wrod.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "wrod",
       "paint": {
-        "fill-color": "#0070ff",
-        "fill-opacity": 1.0,
-        "fill-outline-color": "#6e6e6e"
+        "fill-color": "#c0392b",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#7c251b"
       }
     }
   ]

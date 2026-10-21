@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "AHO & LBO (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../aho_lbo.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 13
     }
   },
   "layers": [
@@ -13,21 +16,9 @@
       "source": "data",
       "source-layer": "aho_lbo",
       "paint": {
-        "fill-color": [
-          "match",
-          [
-            "get",
-            "AHO"
-          ],
-          "1,0",
-          "#b0b0b0",
-          "0,1",
-          "#ff9470",
-          "1,1",
-          "#ff9470",
-          "#cccccc"
-        ],
-        "fill-opacity": 1.0
+        "fill-color": "#e67e22",
+        "fill-opacity": 0.7,
+        "fill-outline-color": "#955116"
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "trails.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:03.633897Z",
+      "breaking": false,
+      "assets": {
+        "trails.parquet": {
+          "sha256": "cd8dd517afb86c9db64018d13d4563d4601b1815187923faf7c43ec130ea1f3b",
+          "size_bytes": 2032862,
+          "href": "trails/trails.parquet",
+          "source_mtime": 1792614927.7752943,
+          "mtime": 1792614927.7752943,
+          "feature_count": 1108,
+          "schema_fingerprint": "d5a5f5006238b68b"
+        },
+        "trails.pmtiles": {
+          "sha256": "19253df1f06dc3992fbdf47768a48804d031174a614c772eb2b46b3ff31d7c11",
+          "size_bytes": 1176570,
+          "href": "trails/trails.pmtiles",
+          "mtime": 1792616103.4111521
+        },
+        "trails.thumb.jpg": {
+          "sha256": "155bfe549eaf2e948aab5f535402a5e547570b0ee99ca00e1360e2da70bae702",
+          "size_bytes": 8901,
+          "href": "trails/trails.thumb.jpg",
+          "mtime": 1792616103.5801542
+        }
+      },
+      "changes": [
+        "trails.pmtiles",
+        "trails.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: trails.pmtiles, trails.thumb.jpg"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "town_facilities.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:01.609968Z",
+      "breaking": false,
+      "assets": {
+        "town_facilities.parquet": {
+          "sha256": "ebfa4df60d31d33663b6fdf353478014152c2b7545ee9ecf2060380a887e0499",
+          "size_bytes": 14983,
+          "href": "town_facilities/town_facilities.parquet",
+          "source_mtime": 1792615018.0047598,
+          "mtime": 1792615018.0047598,
+          "feature_count": 43,
+          "schema_fingerprint": "a09954b7e1a16994"
+        },
+        "town_facilities.pmtiles": {
+          "sha256": "ef31c103113292f43f3ab445c5e1eba049efc1898aca732a6b15051ee3b2bb51",
+          "size_bytes": 15090,
+          "href": "town_facilities/town_facilities.pmtiles",
+          "mtime": 1792616041.5643632
+        },
+        "town_facilities.thumb.jpg": {
+          "sha256": "c63269b5c63f2486a48dfff2c4fe617b6725cd98ea07a1262904950005d04266",
+          "size_bytes": 2707,
+          "href": "town_facilities/town_facilities.thumb.jpg",
+          "mtime": 1792616041.6063638
+        }
+      },
+      "changes": [
+        "town_facilities.pmtiles",
+        "town_facilities.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: town_facilities.pmtiles, town_facilities.thumb.jpg"
     }
   ]
 }

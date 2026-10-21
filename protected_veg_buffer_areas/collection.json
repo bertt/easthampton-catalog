@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/55",
       "type": "text/html",
       "title": "Source ArcGIS layer: Protected veg-buffer areas"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./protected_veg_buffer_areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "protected_veg_buffer_areas"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 23,
@@ -116,8 +125,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 387,
-      "file:checksum": "1220c3141e0cdacc576879aaf2ddfc2913dcdb58c67709f2b2bfbb761e7eadbc836b"
+      "file:size": 523,
+      "file:checksum": "12202438d676eeefe785e81315f33f599422b382659e3cf8f876228e1cbd4bea4b4c"
+    },
+    "protected_veg_buffer_areas-tiles": {
+      "href": "./protected_veg_buffer_areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "protected_veg_buffer_areas (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 5244,
+      "file:checksum": "122012125e569ba796c650037f6069e5acd96876a35f76c12942eadb2e7a1f5c56b1"
+    },
+    "thumbnail": {
+      "href": "./protected_veg_buffer_areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Protected veg-buffer areas thumbnail",
+      "file:size": 40186,
+      "file:checksum": "12205fef83154ba2d2b8286ee32a7e25c4f202e03824adf7d9d139fbe8403e585e25"
     }
   }
 }

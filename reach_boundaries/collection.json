@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/22",
       "type": "text/html",
       "title": "Source ArcGIS layer: Reach Boundaries"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./reach_boundaries.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "reach_boundaries"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 24,
@@ -128,8 +137,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 377,
-      "file:checksum": "1220647e4667950c40a1f6afef3d4b0038b4623c68a6272899d3abc604d8717e18ca"
+      "file:size": 493,
+      "file:checksum": "12202eb1085274660c44baba5108ad5860433cb9f7c35598fbe6cfc0bfe3ce4076ef"
+    },
+    "reach_boundaries-tiles": {
+      "href": "./reach_boundaries.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "reach_boundaries (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 55081,
+      "file:checksum": "1220c2d50d7602738ac518dbcdf9fde77631f82507112e80e0bf09f76adf398cd82d"
+    },
+    "thumbnail": {
+      "href": "./reach_boundaries.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Reach Boundaries thumbnail",
+      "file:size": 50253,
+      "file:checksum": "1220bf1825f69da2ace7e7aaaa2ac478ce7475e88b891b3f5bc0ca38ae5456b11a76"
     }
   }
 }

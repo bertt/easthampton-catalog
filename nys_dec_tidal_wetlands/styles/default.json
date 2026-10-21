@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "NYS DEC Tidal Wetlands (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../nys_dec_tidal_wetlands.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 14
     }
   },
   "layers": [
@@ -13,31 +16,9 @@
       "source": "data",
       "source-layer": "nys_dec_tidal_wetlands",
       "paint": {
-        "fill-color": [
-          "match",
-          [
-            "get",
-            "TWCAT74"
-          ],
-          "AA",
-          "#70b867",
-          "DS",
-          "#6255f2",
-          "FC",
-          "#ba4555",
-          "FM",
-          "#3b668c",
-          "HM",
-          "#f0a1ea",
-          "IM",
-          "#8eedec",
-          "LZ",
-          "#ed5cf7",
-          "SM",
-          "#6d458f",
-          "#cccccc"
-        ],
-        "fill-opacity": 1.0
+        "fill-color": "#52a7a0",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#356c68"
       }
     }
   ]

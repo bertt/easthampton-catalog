@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "Trails (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../trails.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 15
     }
   },
   "layers": [
@@ -13,46 +16,26 @@
       "source": "data",
       "source-layer": "trails",
       "paint": {
-        "line-color": [
-          "match",
+        "line-color": "#588157",
+        "line-width": [
+          "interpolate",
           [
-            "get",
-            "Trail_Type"
+            "linear"
           ],
-          " ,Open",
-          "#e69800",
-          "<Null>,Open",
-          "#e69800",
-          "Hiking Trail,Open",
-          "#e69800",
-          "Hiking Trail,Other",
-          "#e69800",
-          "Hiking Trail,Trial",
-          "#e69800",
-          "Horse Trail,Open",
-          "#e69800",
-          "MV Trail,Open",
-          "#e69800",
-          "Other,Open",
-          "#e69800",
-          "Dirt Road,Open",
-          "#000000",
-          "Dirt Road,Other",
-          "#000000",
-          "Old Road,Open",
-          "#000000",
-          "Woods Dirt Road,Open",
-          "#000000",
-          "Gravel Access Road,Open",
-          "#000000",
-          "Paved Road,Open",
-          "#000000",
-          "Paved Path,Open",
-          "#000000",
-          "#cccccc"
-        ],
-        "line-width": 1,
-        "line-opacity": 1.0
+          [
+            "zoom"
+          ],
+          8,
+          1.2,
+          14,
+          3,
+          18,
+          5
+        ]
+      },
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     }
   ]

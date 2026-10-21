@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "shoreline.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:23.930736Z",
+      "breaking": false,
+      "assets": {
+        "shoreline.parquet": {
+          "sha256": "b55d3aa02fef32becd41d41cc29770e2e038c0e9c370710294716e86630943a3",
+          "size_bytes": 21257516,
+          "href": "shoreline/shoreline.parquet",
+          "source_mtime": 1792614894.9371605,
+          "mtime": 1792614894.9371605,
+          "feature_count": 803,
+          "schema_fingerprint": "699d9c52c2718427"
+        },
+        "shoreline.pmtiles": {
+          "sha256": "547238c3609b0e0837ccc0072284b1d60620bbdfff21d88ab7eff9253bab4a5a",
+          "size_bytes": 5901207,
+          "href": "shoreline/shoreline.pmtiles",
+          "mtime": 1792616061.924622
+        },
+        "shoreline.thumb.jpg": {
+          "sha256": "11c9977af986d577752521cfd455de71fb1474535ab38238534f0a8b798dae57",
+          "size_bytes": 10470,
+          "href": "shoreline/shoreline.thumb.jpg",
+          "mtime": 1792616063.3906407
+        }
+      },
+      "changes": [
+        "shoreline.pmtiles",
+        "shoreline.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: shoreline.pmtiles, shoreline.thumb.jpg"
     }
   ]
 }

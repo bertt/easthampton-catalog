@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "EH Significant Coastal Fish & Wildlife Habitat (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../eh_significant_coastal_fish_wildlife_habitat.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
     }
   },
   "layers": [
@@ -13,25 +16,9 @@
       "source": "data",
       "source-layer": "eh_significant_coastal_fish_wildlife_habitat",
       "paint": {
-        "fill-color": [
-          "match",
-          [
-            "get",
-            "LOCALLYSIG"
-          ],
-          "FRESH POND BELL ESTATE WETLAND",
-          "#df73ff",
-          "GEORGICA POND",
-          "#df73ff",
-          "MONTAUK POINT",
-          "#df73ff",
-          "THREE MILE HARBOR",
-          "#df73ff",
-          "WAINSCOTT POND",
-          "#df73ff",
-          "#cccccc"
-        ],
-        "fill-opacity": 1.0
+        "fill-color": "#3f88c5",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#285880"
       }
     }
   ]

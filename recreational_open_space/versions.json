@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "recreational_open_space.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:05.440657Z",
+      "breaking": false,
+      "assets": {
+        "recreational_open_space.parquet": {
+          "sha256": "8aed99bcef5884fb4f05840851c12eb83f6688df995ec032e693aa18fd87110c",
+          "size_bytes": 938537,
+          "href": "recreational_open_space/recreational_open_space.parquet",
+          "source_mtime": 1792615024.5497987,
+          "mtime": 1792615024.5497987,
+          "feature_count": 1961,
+          "schema_fingerprint": "7ed4f19431d4d6d1"
+        },
+        "recreational_open_space.pmtiles": {
+          "sha256": "bf38cce5fc0265b66c63a20641ee3a380c6a7db1b5451f07d64628b9e22b7744",
+          "size_bytes": 552985,
+          "href": "recreational_open_space/recreational_open_space.pmtiles",
+          "mtime": 1792616105.1641746
+        },
+        "recreational_open_space.thumb.jpg": {
+          "sha256": "3ecfad6cd5feeb8c3803948c8bdc403d64f5ad99b7118b13f4e19733585d3dc3",
+          "size_bytes": 11515,
+          "href": "recreational_open_space/recreational_open_space.thumb.jpg",
+          "mtime": 1792616105.4111776
+        }
+      },
+      "changes": [
+        "recreational_open_space.pmtiles",
+        "recreational_open_space.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: recreational_open_space.pmtiles, recreational_open_space.thumb.jpg"
     }
   ]
 }

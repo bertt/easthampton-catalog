@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Wetlands In East Hampton (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../wetlands_in_east_hampton.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 13
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "wetlands_in_east_hampton",
       "paint": {
-        "fill-color": "#6dbb43",
-        "fill-opacity": 1.0,
-        "fill-outline-color": "#000000"
+        "fill-color": "#1b7f9e",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#115266"
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "coastal_erosion_overlay_zones.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:53:38.526519Z",
+      "breaking": false,
+      "assets": {
+        "coastal_erosion_overlay_zones.parquet": {
+          "sha256": "444dbfdd7cdf3b04f545e6e7a1114cec77041cc104621e6cac710c0a6bab7c5b",
+          "size_bytes": 581647,
+          "href": "coastal_erosion_overlay_zones/coastal_erosion_overlay_zones.parquet",
+          "source_mtime": 1792614828.2609553,
+          "mtime": 1792614828.2609553,
+          "feature_count": 478,
+          "schema_fingerprint": "67180af1106e6553"
+        },
+        "coastal_erosion_overlay_zones.pmtiles": {
+          "sha256": "8d0c7ae19cf6d8fd8fb08d73b28d403135cd4063caaba9d58318a4859160fb65",
+          "size_bytes": 365856,
+          "href": "coastal_erosion_overlay_zones/coastal_erosion_overlay_zones.pmtiles",
+          "mtime": 1792616018.40707
+        },
+        "coastal_erosion_overlay_zones.thumb.jpg": {
+          "sha256": "7aa519c9cccfda532745330a954a955d8bd1f8e79806b0f935ec2d329a2aea91",
+          "size_bytes": 9346,
+          "href": "coastal_erosion_overlay_zones/coastal_erosion_overlay_zones.thumb.jpg",
+          "mtime": 1792616018.5070713
+        }
+      },
+      "changes": [
+        "coastal_erosion_overlay_zones.pmtiles",
+        "coastal_erosion_overlay_zones.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: coastal_erosion_overlay_zones.pmtiles, coastal_erosion_overlay_zones.thumb.jpg"
     }
   ]
 }

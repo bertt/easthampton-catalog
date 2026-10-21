@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "recreation_overlay_district.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:28.850273Z",
+      "breaking": false,
+      "assets": {
+        "recreation_overlay_district.parquet": {
+          "sha256": "fc4738ade148d78aa71f06f85322d3a81af1d8ba87d129ff81c45377233a5d0a",
+          "size_bytes": 5597,
+          "href": "recreation_overlay_district/recreation_overlay_district.parquet",
+          "source_mtime": 1792615009.4887102,
+          "mtime": 1792615009.4887102,
+          "feature_count": 1,
+          "schema_fingerprint": "f532436e9d527d77"
+        },
+        "recreation_overlay_district.pmtiles": {
+          "sha256": "83110fb6f97cb787a4bff22b2814064a02bf1f33cab1cc316080753850a80591",
+          "size_bytes": 2379,
+          "href": "recreation_overlay_district/recreation_overlay_district.pmtiles",
+          "mtime": 1792616068.7997098
+        },
+        "recreation_overlay_district.thumb.jpg": {
+          "sha256": "dba4d9e61e2f57bc98784c607a6ac63293fbfd41b4347842b66a6d422a62b7db",
+          "size_bytes": 7215,
+          "href": "recreation_overlay_district/recreation_overlay_district.thumb.jpg",
+          "mtime": 1792616068.8437102
+        }
+      },
+      "changes": [
+        "recreation_overlay_district.pmtiles",
+        "recreation_overlay_district.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: recreation_overlay_district.pmtiles, recreation_overlay_district.thumb.jpg"
     }
   ]
 }

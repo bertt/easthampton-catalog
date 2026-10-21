@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/24",
       "type": "text/html",
       "title": "Source ArcGIS layer: PEP CNRA Boundaries"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./pep_cnra_boundaries.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "pep_cnra_boundaries"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
   "geoparquet:feature_count": 17,
@@ -124,8 +133,28 @@
         "default"
       ],
       "title": "Categorical Style",
-      "file:size": 673,
-      "file:checksum": "1220add25612d77bcaeb46817b64697d3e655fc615100f339055d912647905042073"
+      "file:size": 510,
+      "file:checksum": "122026e1ae3bda2690a9d4d918abe8341b30aa25604f5e0292994bc3f6b0d7299697"
+    },
+    "pep_cnra_boundaries-tiles": {
+      "href": "./pep_cnra_boundaries.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "pep_cnra_boundaries (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 18991,
+      "file:checksum": "1220c2765fa1a6b2f02733e77a3b930a3ac3ce1efee078c29fbf4c50f4b489248941"
+    },
+    "thumbnail": {
+      "href": "./pep_cnra_boundaries.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "PEP CNRA Boundaries thumbnail",
+      "file:size": 50821,
+      "file:checksum": "1220caf210b8ae165c2e65c657d1d9e09bcb6b0edf5480263d524168d9e6595099d2"
     }
   }
 }

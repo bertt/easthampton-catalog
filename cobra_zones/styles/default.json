@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Cobra Zones (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../cobra_zones.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "cobra_zones",
       "paint": {
-        "fill-color": "#686868",
-        "fill-opacity": 0.0,
-        "fill-outline-color": "#000000"
+        "fill-color": "#e4572e",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#94381d"
       }
     }
   ]

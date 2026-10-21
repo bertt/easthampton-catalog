@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "EH Soils (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../eh_soils.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
     }
   },
   "layers": [
@@ -13,49 +16,9 @@
       "source": "data",
       "source-layer": "eh_soils",
       "paint": {
-        "fill-color": [
-          "match",
-          [
-            "get",
-            "MUSYM"
-          ],
-          "BgA",
-          "#ffc800",
-          "BgB",
-          "#ffc800",
-          "BhB",
-          "#ffc800",
-          "HaA",
-          "#ffc800",
-          "HaB",
-          "#ffc800",
-          "He",
-          "#ffc800",
-          "MfA",
-          "#ffc800",
-          "MfB",
-          "#ffc800",
-          "MkA",
-          "#ffc800",
-          "MkB",
-          "#ffc800",
-          "PsA",
-          "#ffc800",
-          "RdA",
-          "#ffc800",
-          "RdB",
-          "#ffc800",
-          "ScB",
-          "#ffc800",
-          "SdA",
-          "#ffc800",
-          "SdB",
-          "#ffc800",
-          "Su",
-          "#ffc800",
-          "#cccccc"
-        ],
-        "fill-opacity": 1.0
+        "fill-color": "#a0724a",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#684a30"
       }
     }
   ]

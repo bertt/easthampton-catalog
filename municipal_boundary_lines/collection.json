@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/2",
       "type": "text/html",
       "title": "Source ArcGIS layer: Municipal Boundary Lines"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./municipal_boundary_lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "municipal_boundary_lines"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "LineString",
   "geoparquet:feature_count": 3,
@@ -120,8 +129,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 369,
-      "file:checksum": "1220caac9a4df1e128a0c8f52981d04464b2d065244937f4458cabb4889636ffefaf"
+      "file:size": 761,
+      "file:checksum": "1220d72c034f3faeaa110da5126cd42b805d8e8391af5efe49268bb62d24ccb1b4e9"
+    },
+    "municipal_boundary_lines-tiles": {
+      "href": "./municipal_boundary_lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "municipal_boundary_lines (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 4337,
+      "file:checksum": "1220278ac53ea22e054bddf847e4e48191a3053e6ec861543746b2f8fbd4d0a57d13"
+    },
+    "thumbnail": {
+      "href": "./municipal_boundary_lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Municipal Boundary Lines thumbnail",
+      "file:size": 48236,
+      "file:checksum": "12206a2d2a7946656c9c5670e512d800b96a6e0cab572144efb92455225fcf015dd9"
     }
   }
 }

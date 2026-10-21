@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "EH Fire Districts (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../eh_fire_districts.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
     }
   },
   "layers": [
@@ -13,33 +16,9 @@
       "source": "data",
       "source-layer": "eh_fire_districts",
       "paint": {
-        "fill-color": [
-          "match",
-          [
-            "get",
-            "Fire_Dist_Name"
-          ],
-          "Amagansett Fire",
-          "#ffff00",
-          "Bridgehampton Fire",
-          "#ffffbe",
-          "East Hampton Road Fire Protection",
-          "#ffaa00",
-          "East Hampton Water Supply",
-          "#fa8061",
-          "Montauk Fire",
-          "#ff0000",
-          "Montauk Fire Protection",
-          "#b33238",
-          "Northwest Fire Protection",
-          "#ff5500",
-          "Promised Land Fire Protection",
-          "#e69800",
-          "Springs Fire",
-          "#c7513a",
-          "#cccccc"
-        ],
-        "fill-opacity": 1.0
+        "fill-color": "#264653",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#182d35"
       }
     }
   ]

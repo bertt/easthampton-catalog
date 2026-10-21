@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/16",
       "type": "text/html",
       "title": "Source ArcGIS layer: SGPA"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./sgpa.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "sgpa"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 2,
@@ -140,8 +149,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 365,
-      "file:checksum": "12203811314b5700bdabde3a3581d3a8bfb921f1f78781f99af14a8ddd3eef669e46"
+      "file:size": 457,
+      "file:checksum": "1220d2050da1526662a163200aa87e0eb862c80131ca2b976f4eb6e2f75b46d59a89"
+    },
+    "sgpa-tiles": {
+      "href": "./sgpa.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "sgpa (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 14155,
+      "file:checksum": "122033cb8b277001157c834fefec3a33aee7300f6012e00dccbe361be7d44f1128c6"
+    },
+    "thumbnail": {
+      "href": "./sgpa.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "SGPA thumbnail",
+      "file:size": 42890,
+      "file:checksum": "122076e5ba30a737dbe7fa2962c2dca5303ebbdf7c113d7ca1c99fbd858196391fcb"
     }
   }
 }

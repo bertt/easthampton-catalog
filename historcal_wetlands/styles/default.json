@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "Historcal Wetlands (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../historcal_wetlands.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 14
     }
   },
   "layers": [
@@ -13,8 +16,9 @@
       "source": "data",
       "source-layer": "historcal_wetlands",
       "paint": {
-        "fill-color": "#888888",
-        "fill-opacity": 0.5
+        "fill-color": "#2a9d8f",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#1b665c"
       }
     }
   ]

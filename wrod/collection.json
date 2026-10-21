@@ -36,13 +36,22 @@
       "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/15",
       "type": "text/html",
       "title": "Source ArcGIS layer: WROD"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./wrod.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "wrod"
+      ]
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
   "geoparquet:feature_count": 4,
@@ -124,8 +133,28 @@
         "default"
       ],
       "title": "Simple Style",
-      "file:size": 365,
-      "file:checksum": "1220eb7d401e62e42b2385ee3da228e6497c0eeb0bf8796482d508504a9ab6a78005"
+      "file:size": 457,
+      "file:checksum": "1220eeadbb801540be0ae4eebe84ae89a2493c6656f86386545a992fdbad572df9aa"
+    },
+    "wrod-tiles": {
+      "href": "./wrod.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "wrod (vector tiles)",
+      "roles": [
+        "visual"
+      ],
+      "file:size": 9763,
+      "file:checksum": "12203180e441637efd9800423b4c8e39ac3e783e9b4670004b8b93446ade4364cc59"
+    },
+    "thumbnail": {
+      "href": "./wrod.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "WROD thumbnail",
+      "file:size": 35023,
+      "file:checksum": "1220aeeed5c87fc01bdb8b37d16aa17673c12ee34e5c97802543db3de2005b33dd2d"
     }
   }
 }

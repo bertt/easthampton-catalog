@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "suffolk_county_boundary.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:55:09.978182Z",
+      "breaking": false,
+      "assets": {
+        "suffolk_county_boundary.parquet": {
+          "sha256": "890c6ec4700f13bc53381e8cf5ca256dde0f85443c3d673612bfaa5334774c6f",
+          "size_bytes": 478754,
+          "href": "suffolk_county_boundary/suffolk_county_boundary.parquet",
+          "source_mtime": 1792615029.876831,
+          "mtime": 1792615029.876831,
+          "feature_count": 70,
+          "schema_fingerprint": "0c99f9d9711b6da7"
+        },
+        "suffolk_county_boundary.pmtiles": {
+          "sha256": "934174ddbb13eb9fd8637edd19e6e82c7f7248f257d7cf10904183cdbb60b030",
+          "size_bytes": 121852,
+          "href": "suffolk_county_boundary/suffolk_county_boundary.pmtiles",
+          "mtime": 1792616109.8972352
+        },
+        "suffolk_county_boundary.thumb.jpg": {
+          "sha256": "bb27a0dee193f96e5968138cdbb725f1e47a1915755f93d25b73eaa17bb12a0b",
+          "size_bytes": 9313,
+          "href": "suffolk_county_boundary/suffolk_county_boundary.thumb.jpg",
+          "mtime": 1792616109.963236
+        }
+      },
+      "changes": [
+        "suffolk_county_boundary.pmtiles",
+        "suffolk_county_boundary.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: suffolk_county_boundary.pmtiles, suffolk_county_boundary.thumb.jpg"
     }
   ]
 }

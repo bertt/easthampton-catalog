@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Categorical Style",
+  "name": "FEMA FIRM Zones (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../fema_firm_zones.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 14
     }
   },
   "layers": [
@@ -13,29 +16,9 @@
       "source": "data",
       "source-layer": "fema_firm_zones",
       "paint": {
-        "fill-color": [
-          "match",
-          [
-            "get",
-            "FLD_ZONE"
-          ],
-          "0.2 PCT ANNUAL CHANCE FLOOD HAZARD",
-          "#7d9657",
-          "A",
-          "#ffffbe",
-          "AO",
-          "#ffff00",
-          "AE",
-          "#ffaa00",
-          "V",
-          "#ff5500",
-          "VE",
-          "#e60000",
-          "OPEN WATER",
-          "#5df0f0",
-          "#cccccc"
-        ],
-        "fill-opacity": 1.0
+        "fill-color": "#f49d37",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#9e6623"
       }
     }
   ]

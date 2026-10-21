@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "reach_boundaries.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:04.160037Z",
+      "breaking": false,
+      "assets": {
+        "reach_boundaries.parquet": {
+          "sha256": "d016f282d38f427223d939266c43eac8b00a3abcf1e4fe403918485b6441e872",
+          "size_bytes": 161808,
+          "href": "reach_boundaries/reach_boundaries.parquet",
+          "source_mtime": 1792614837.7679787,
+          "mtime": 1792614837.7679787,
+          "feature_count": 24,
+          "schema_fingerprint": "d664ce22585be487"
+        },
+        "reach_boundaries.pmtiles": {
+          "sha256": "c2d50d7602738ac518dbcdf9fde77631f82507112e80e0bf09f76adf398cd82d",
+          "size_bytes": 55081,
+          "href": "reach_boundaries/reach_boundaries.pmtiles",
+          "mtime": 1792616044.0883954
+        },
+        "reach_boundaries.thumb.jpg": {
+          "sha256": "9847bc55cb2e07a86ba5d4037280f437326c52e240f2d7517acfded7e3c47a0c",
+          "size_bytes": 9993,
+          "href": "reach_boundaries/reach_boundaries.thumb.jpg",
+          "mtime": 1792616044.1523962
+        }
+      },
+      "changes": [
+        "reach_boundaries.pmtiles",
+        "reach_boundaries.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: reach_boundaries.pmtiles, reach_boundaries.thumb.jpg"
     }
   ]
 }

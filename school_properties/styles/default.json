@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "School Properties (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../school_properties.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "school_properties",
       "paint": {
-        "fill-color": "#e69800",
-        "fill-opacity": 1.0,
-        "fill-outline-color": "#6e6e6e"
+        "fill-color": "#f4a261",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#9e693f"
       }
     }
   ]

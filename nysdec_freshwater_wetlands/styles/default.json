@@ -1,9 +1,12 @@
 {
   "version": 8,
-  "name": "Simple Style",
+  "name": "NYSDEC Freshwater Wetlands (single colour)",
   "sources": {
     "data": {
-      "type": "vector"
+      "type": "vector",
+      "url": "pmtiles://../nysdec_freshwater_wetlands.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
     }
   },
   "layers": [
@@ -13,9 +16,9 @@
       "source": "data",
       "source-layer": "nysdec_freshwater_wetlands",
       "paint": {
-        "fill-color": "#005ce6",
-        "fill-opacity": 1.0,
-        "fill-outline-color": "#6e6e6e"
+        "fill-color": "#5b9bd5",
+        "fill-opacity": 0.55,
+        "fill-outline-color": "#3b648a"
       }
     }
   ]

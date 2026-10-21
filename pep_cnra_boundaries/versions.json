@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -20,6 +20,39 @@
       "changes": [
         "pep_cnra_boundaries.parquet"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-21T20:54:08.002909Z",
+      "breaking": false,
+      "assets": {
+        "pep_cnra_boundaries.parquet": {
+          "sha256": "b4dc3f980ef2e953f586d4e7ab2cfdaa30e71c2f22bb93f9f218b21e76678493",
+          "size_bytes": 38425,
+          "href": "pep_cnra_boundaries/pep_cnra_boundaries.parquet",
+          "source_mtime": 1792614839.9869845,
+          "mtime": 1792614839.9869845,
+          "feature_count": 17,
+          "schema_fingerprint": "93095cb99125afc5"
+        },
+        "pep_cnra_boundaries.pmtiles": {
+          "sha256": "c2765fa1a6b2f02733e77a3b930a3ac3ce1efee078c29fbf4c50f4b489248941",
+          "size_bytes": 18991,
+          "href": "pep_cnra_boundaries/pep_cnra_boundaries.pmtiles",
+          "mtime": 1792616047.9674447
+        },
+        "pep_cnra_boundaries.thumb.jpg": {
+          "sha256": "4e2d618332fc3dee720ca718d2629741499d01b32c3ea04b1f09a005778cc369",
+          "size_bytes": 8380,
+          "href": "pep_cnra_boundaries/pep_cnra_boundaries.thumb.jpg",
+          "mtime": 1792616047.998445
+        }
+      },
+      "changes": [
+        "pep_cnra_boundaries.pmtiles",
+        "pep_cnra_boundaries.thumb.jpg"
+      ],
+      "message": "Generated PMTiles and thumbnail: pep_cnra_boundaries.pmtiles, pep_cnra_boundaries.thumb.jpg"
     }
   ]
 }
