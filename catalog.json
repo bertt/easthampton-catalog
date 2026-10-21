@@ -2,13 +2,13 @@
   "type": "Catalog",
   "id": "easthampton",
   "stac_version": "1.1.0",
-  "description": "A Portolan-managed STAC catalog",
+  "description": "Mirror of 51 feature layers (112,731 features) from the Town of East Hampton, New York's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service: boundaries, districts, zoning and overlays, wetlands, coastal and flood layers, soils, parcels, building footprints and trails. Data is kept in the source CRS (EPSG:2263). The service warns it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for how the catalog is organised and how to query it.",
   "links": [
     {
       "rel": "root",
       "href": "./catalog.json",
       "type": "application/json",
-      "title": "MapServiceForOpenGov"
+      "title": "East Hampton, NY GIS Layers (mirror)"
     },
     {
       "rel": "agents",
@@ -32,19 +32,19 @@
       "rel": "child",
       "href": "./eh_fire_districts/collection.json",
       "type": "application/json",
-      "title": "Eh Fire Districts"
+      "title": "EH Fire Districts"
     },
     {
       "rel": "child",
       "href": "./eh_school_districts/collection.json",
       "type": "application/json",
-      "title": "Eh School Districts"
+      "title": "EH School Districts"
     },
     {
       "rel": "child",
       "href": "./eh_historic_districts/collection.json",
       "type": "application/json",
-      "title": "Eh Historic Districts"
+      "title": "EH Historic Districts"
     },
     {
       "rel": "child",
@@ -56,19 +56,19 @@
       "rel": "child",
       "href": "./hpod/collection.json",
       "type": "application/json",
-      "title": "Hpod"
+      "title": "HPOD"
     },
     {
       "rel": "child",
       "href": "./wrod/collection.json",
       "type": "application/json",
-      "title": "Wrod"
+      "title": "WROD"
     },
     {
       "rel": "child",
       "href": "./sgpa/collection.json",
       "type": "application/json",
-      "title": "Sgpa"
+      "title": "SGPA"
     },
     {
       "rel": "child",
@@ -80,19 +80,19 @@
       "rel": "child",
       "href": "./ecological_complexes_boundary_line/collection.json",
       "type": "application/json",
-      "title": "Ecological Complexes Boundary Line"
+      "title": "Ecological Complexes & Boundary Line"
     },
     {
       "rel": "child",
       "href": "./scfwh_coastal_boundary/collection.json",
       "type": "application/json",
-      "title": "Scfwh Coastal Boundary"
+      "title": "SCFWH Coastal Boundary"
     },
     {
       "rel": "child",
       "href": "./eh_significant_coastal_fish_wildlife_habitat/collection.json",
       "type": "application/json",
-      "title": "Eh Significant Coastal Fish Wildlife Habitat"
+      "title": "EH Significant Coastal Fish & Wildlife Habitat"
     },
     {
       "rel": "child",
@@ -104,55 +104,55 @@
       "rel": "child",
       "href": "./eh_cea/collection.json",
       "type": "application/json",
-      "title": "Eh Cea"
+      "title": "EH CEA"
     },
     {
       "rel": "child",
       "href": "./pep_cnra_boundaries/collection.json",
       "type": "application/json",
-      "title": "Pep Cnra Boundaries"
+      "title": "PEP CNRA Boundaries"
     },
     {
       "rel": "child",
       "href": "./pep_boundary/collection.json",
       "type": "application/json",
-      "title": "Pep Boundary"
+      "title": "PEP Boundary"
     },
     {
       "rel": "child",
       "href": "./nys_dec_tidal_wetlands/collection.json",
       "type": "application/json",
-      "title": "Nys Dec Tidal Wetlands"
+      "title": "NYS DEC Tidal Wetlands"
     },
     {
       "rel": "child",
       "href": "./nysdec_freshwater_wetlands/collection.json",
       "type": "application/json",
-      "title": "Nysdec Freshwater Wetlands"
+      "title": "NYSDEC Freshwater Wetlands"
     },
     {
       "rel": "child",
       "href": "./national_wetland_inventory_layers_for_eh_town/collection.json",
       "type": "application/json",
-      "title": "National Wetland Inventory Layers For Eh Town"
+      "title": "National Wetland Inventory Layers for EH Town"
     },
     {
       "rel": "child",
       "href": "./eh_ceha_line/collection.json",
       "type": "application/json",
-      "title": "Eh Ceha Line"
+      "title": "EH CEHA Line"
     },
     {
       "rel": "child",
       "href": "./eh_soils/collection.json",
       "type": "application/json",
-      "title": "Eh Soils"
+      "title": "EH Soils"
     },
     {
       "rel": "child",
       "href": "./limwa_limit_of_moderate_wave_action/collection.json",
       "type": "application/json",
-      "title": "Limwa Limit Of Moderate Wave Action"
+      "title": "LiMWA (Limit of Moderate Wave Action)"
     },
     {
       "rel": "child",
@@ -170,7 +170,7 @@
       "rel": "child",
       "href": "./fema_firm_zones/collection.json",
       "type": "application/json",
-      "title": "Fema Firm Zones"
+      "title": "FEMA FIRM Zones"
     },
     {
       "rel": "child",
@@ -224,37 +224,37 @@
       "rel": "child",
       "href": "./scenic_conservation_easements/collection.json",
       "type": "application/json",
-      "title": "Scenic Conservation Easements"
+      "title": "Scenic-Conservation Easements"
     },
     {
       "rel": "child",
       "href": "./protected_veg_buffer_areas/collection.json",
       "type": "application/json",
-      "title": "Protected Veg Buffer Areas"
+      "title": "Protected veg-buffer areas"
     },
     {
       "rel": "child",
       "href": "./eh_waterbodies/collection.json",
       "type": "application/json",
-      "title": "Eh Waterbodies"
+      "title": "EH Waterbodies"
     },
     {
       "rel": "child",
       "href": "./ehtaxmap/collection.json",
       "type": "application/json",
-      "title": "Ehtaxmap"
+      "title": "EHTaxMap"
     },
     {
       "rel": "child",
       "href": "./eh_zoning_boundaries/collection.json",
       "type": "application/json",
-      "title": "Eh Zoning Boundaries"
+      "title": "EH Zoning Boundaries"
     },
     {
       "rel": "child",
       "href": "./aho_lbo/collection.json",
       "type": "application/json",
-      "title": "Aho Lbo"
+      "title": "AHO & LBO"
     },
     {
       "rel": "child",
@@ -272,7 +272,7 @@
       "rel": "child",
       "href": "./eh_right_of_ways/collection.json",
       "type": "application/json",
-      "title": "Eh Right Of Ways"
+      "title": "EH Right of Ways"
     },
     {
       "rel": "child",
@@ -320,7 +320,7 @@
       "rel": "child",
       "href": "./eh_boundary/collection.json",
       "type": "application/json",
-      "title": "Eh Boundary"
+      "title": "EH Boundary"
     },
     {
       "rel": "child",
@@ -329,7 +329,7 @@
       "title": "Suffolk County Boundary"
     }
   ],
-  "title": "MapServiceForOpenGov",
+  "title": "East Hampton, NY GIS Layers (mirror)",
   "stac_extensions": [
     "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
   ]

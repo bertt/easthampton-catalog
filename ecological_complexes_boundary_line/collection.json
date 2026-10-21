@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ecological_complexes_boundary_line",
   "stac_version": "1.1.0",
-  "description": "Ecological Complexes & Boundary Line",
+  "description": "Mirror of the \"Ecological Complexes & Boundary Line\" layer (layer 19, in the service's \"LWRP Significant Coastal Fish & Widlife Habitat\" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 11 line features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",

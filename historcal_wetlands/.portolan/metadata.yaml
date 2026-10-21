@@ -1,19 +1,14 @@
-# .portolan/metadata.yaml
-#
-# Auto-seeded from: arcgis_featureserver
-# Review and complete fields marked with "TODO".
-#
-# Required fields:
-#   - contact.name: Person or team responsible
-#   - contact.email: Contact email address
-#   - license: SPDX identifier (e.g., "CC-BY-4.0", "MIT", "CC0-1.0")
-#
-# See: https://portolan.dev/docs/metadata for field descriptions
-
 contact:
   name: 'TODO: Add value'
   email: 'TODO: Add value'
 source_url: https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/50
-description: This layer shows wetland boundaries that were digitized from historic
-  surveys which were georeferenced in the GIS. The layer is incomplete and draft.
-processing_notes: 'Extracted from arcgis_featureserver layer: Historcal Wetlands'
+description: 'Mirror of the "Historcal Wetlands" layer (layer 50, in the service''s "Town Wetlands" group)
+  of the Town of East Hampton''s [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+  ArcGIS service. 40 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains
+  draft data that may be incomplete. The publisher describes it as: "This layer shows wetland boundaries
+  that were digitized from historic surveys which were georeferenced in the GIS. The layer is incomplete
+  and draft." Credit given by the publisher on this layer: TOEH IT Department GIS, TOEH Planning Department,
+  Lisa D''Andrea. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.'
+processing_notes: Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 50 ([Historcal
+  Wetlands](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/50)). See
+  the root README for the full process.

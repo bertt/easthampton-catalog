@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "suffolk_county_boundary",
   "stac_version": "1.1.0",
-  "description": "Suffolk County Boundary",
+  "description": "Mirror of the \"Suffolk County Boundary\" layer (layer 80, in the service's \"EH Base Layers\" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 70 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",
@@ -55,7 +55,8 @@
     },
     {
       "name": "AREA",
-      "type": "double"
+      "type": "double",
+      "description": "Alias in the source service: \"GIS_PUBLISHED.GISMASTER.SC_Boundary_No_EH.AREA\"."
     },
     {
       "name": "LABEL",

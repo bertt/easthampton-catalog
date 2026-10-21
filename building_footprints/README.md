@@ -1,6 +1,6 @@
 # Building Footprints
 
-Building Footprints
+Mirror of the "Building Footprints" layer (layer 46) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 40,404 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. The publisher describes it as: "The Building Outline Creation products provide a two dimensional digital representation of the shape of a structure. Using Pictometry imagery, a polygon shape corresponding to the visible edges of a structure’s roof is created for each qualifying structure.The collection of polygon shapes are georeferenced and delivered in geodatabase and shapefile format. The initial published data is accurate as to the fly of April 2018. Footprints are continually updated by the Town of East Hampton from that point forward, so as to reflect the most recent changes.When visible, the following types of structures measuring at least 150sq.feet (14sq.meters) and at least five pixels wide (based on 12”(30cm) or better GSD imagery) are included:Residential, commercial and industrial buildingsAttached decks or porches that have a roof or railing or that are visibly raisedIsolated garages, mobile homes, shedsGreenhousesGrain silos and oil storage tanksBuildings under construction that at least have wallsTrailer boxes with windows or doors (construction field offices)Other features with a roofThe Building Outlines produced correspond to the edges of the structure’s roof.The Building Outlines are positioned on to the imagery based on the roof location unless the base of the building isclearly visible in which case the outline is shifted to align to the visible base.Specifications are based on use of 12-inch(30cm) or better GSD Pictometry-acquired imageryPositional accuracy: offset from the imagery less than or equal to five pixelsGeometric accuracy: length of untraced edges less than or equal to five pixelsError rate: ratio of positionally or geometrically inaccurate buildings and missed buildings less than or equalto 0.5%Project Period May -June 2018Number of Parcels 25,605Base Image Acquisition Apr 2018Base Imagery Source Acquired by PictometryNumber of Buildings 29,313" See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -17,9 +17,9 @@ Building Footprints
 
 | Column | Type | Description |
 |--------|------|-------------|
-| OBJECTID | int64 |  |
+| OBJECTID | int64 | Alias in the source service: "FID". |
 | DSBL | string |  |
-| AREA | double |  |
+| AREA | double | Alias in the source service: "GIS_PUBLISHED.GISMASTER.EH_BuildingFootprints_Edit.AREA". |
 | Shape | binary |  |
 | bbox | struct<xmin: double, ymin: double, xmax: double, ymax: double> |  |
 | geometry | binary |  |
@@ -29,6 +29,7 @@ Building Footprints
 | File | Size | Checksum |
 |------|------|----------|
 | ./building_footprints.parquet | 6.2 MB | 1220ee2bca08... |
+| ./styles/default.json | 380 B | 1220183249b3... |
 
 ## Quick Start
 
@@ -46,11 +47,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/46](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/46)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 46 ([Building Footprints](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/46)). See the root README for the full process.
 
 ## Attribution
 

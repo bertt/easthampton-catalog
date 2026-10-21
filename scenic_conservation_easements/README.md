@@ -1,6 +1,6 @@
-# Scenic Conservation Easements
+# Scenic-Conservation Easements
 
-Scenic Conservation Easements
+Mirror of the "Scenic-Conservation Easements" layer (layer 54, in the service's "Digitized Easements" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 1,410 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -27,6 +27,7 @@ Scenic Conservation Easements
 | File | Size | Checksum |
 |------|------|----------|
 | ./scenic_conservation_easements.parquet | 167.2 KB | 1220fc39e0ef... |
+| ./styles/default.json | 390 B | 12208ed30f21... |
 
 ## Quick Start
 
@@ -44,11 +45,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/54](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/54)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 54 ([Scenic-Conservation Easements](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/54)). See the root README for the full process.
 
 ## Attribution
 

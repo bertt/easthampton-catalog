@@ -1,6 +1,6 @@
-# Eh Fire Districts
+# EH Fire Districts
 
-Eh Fire Districts
+Mirror of the "EH Fire Districts" layer (layer 9) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 11 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -31,6 +31,7 @@ Eh Fire Districts
 | File | Size | Checksum |
 |------|------|----------|
 | ./eh_fire_districts.parquet | 161.2 KB | 1220b9191a80... |
+| ./styles/default.json | 972 B | 1220ace8d583... |
 
 ## Quick Start
 
@@ -48,11 +49,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/9](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/9)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 9 ([EH Fire Districts](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/9)). See the root README for the full process.
 
 ## Attribution
 

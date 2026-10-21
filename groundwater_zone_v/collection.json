@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "groundwater_zone_v",
   "stac_version": "1.1.0",
-  "description": "Groundwater Zone V",
+  "description": "Mirror of the \"Groundwater Zone V\" layer (layer 17) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 1 polygon feature, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",

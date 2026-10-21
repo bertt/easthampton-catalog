@@ -1,6 +1,6 @@
-# Ehtaxmap
+# EHTaxMap
 
-Ehtaxmap
+Mirror of the "EHTaxMap" layer (layer 58) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 25,481 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. Credit given by the publisher on this layer: Suffolk County Real Property Tax Service COPYRIGHT 2015, COUNTY OF SUFFOLK, N.Y. Real Property Taxmap parcel linework used with permission of Suffolk County Real Property Tax Service Agency (R.P.T.S.A.). See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -19,14 +19,14 @@ Ehtaxmap
 |--------|------|-------------|
 | OBJECTID | int64 |  |
 | DSBL | string |  |
-| P_ID | double |  |
+| P_ID | double | Alias in the source service: "P_ID Govern Match". |
 | GIS_ZIP_CODE | string |  |
 | SCTM | string |  |
 | CLASS | string |  |
 | Acres | double |  |
 | Area_Sq_Ft | double |  |
 | BTCAMP | double |  |
-| Zoning | string |  |
+| Zoning | string | Alias in the source service: "ZONING". |
 | School_District | double |  |
 | Fire_District | double |  |
 | Adjacent_Public_Water | double |  |
@@ -34,11 +34,11 @@ Ehtaxmap
 | Limited_Business_Overlay | double |  |
 | Agricultural_District | double |  |
 | Water_Recharge | double |  |
-| HPOD | double |  |
+| HPOD | double | Alias in the source service: "Harbor Protection Overlay District". |
 | Recreation_Overlay_District | double |  |
 | Coastal_Zone | string |  |
 | H2OZoneV | double |  |
-| SGPA | double |  |
+| SGPA | double | Alias in the source service: "Special Groundwater Protection Area". |
 | Pine_Barren_Region | double |  |
 | LWRP_EH_Coastal_Boundary | double |  |
 | Land_Acquisition | string |  |
@@ -64,6 +64,7 @@ Ehtaxmap
 | File | Size | Checksum |
 |------|------|----------|
 | ./ehtaxmap.parquet | 4.7 MB | 1220cbdeda78... |
+| ./styles/default.json | 369 B | 1220417b9747... |
 
 ## Quick Start
 
@@ -81,11 +82,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/58](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/58)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 58 ([EHTaxMap](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/58)). See the root README for the full process.
 
 ## Attribution
 

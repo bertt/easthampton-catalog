@@ -1,6 +1,6 @@
 # Wetlands In East Hampton
 
-Wetlands In East Hampton
+Mirror of the "Wetlands In East Hampton" layer (layer 48, in the service's "Town Wetlands" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 3,041 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. The publisher describes it as: "This layer shows wetland boundaries that have been flagged and surveyed in theTown of East Hampton. The wetland boundaries were digitized from surveys which were georeferenced in the GIS. The flagged wetlands were verified by the Planning department when they were shown on the original surveys.The majority of historic surveys have been georeferenced and the subsequent wetland boundaries have been digitized and added to the layer. The data is continually updated as new surveys are submitted to the Town. The layer is limited to the records the Town Planning department has. There may be wetlands that are not mapped on this layer as the Town does not have survey records for them." Credit given by the publisher on this layer: TOEH IT Department GIS, TOEH Planning Department, Lisa D'Andrea. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -17,7 +17,7 @@ Wetlands In East Hampton
 
 | Column | Type | Description |
 |--------|------|-------------|
-| OBJECTID | int64 |  |
+| OBJECTID | int64 | Alias in the source service: "FID". |
 | Shape | binary |  |
 | bbox | struct<xmin: double, ymin: double, xmax: double, ymax: double> |  |
 | geometry | binary |  |
@@ -27,6 +27,7 @@ Wetlands In East Hampton
 | File | Size | Checksum |
 |------|------|----------|
 | ./wetlands_in_east_hampton.parquet | 595.7 KB | 1220c2c69647... |
+| ./styles/default.json | 385 B | 12203e9ec6ad... |
 
 ## Quick Start
 
@@ -44,11 +45,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/48](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/48)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 48 ([Wetlands In East Hampton](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/48)). See the root README for the full process.
 
 ## Attribution
 

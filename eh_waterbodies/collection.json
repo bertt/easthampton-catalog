@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "eh_waterbodies",
   "stac_version": "1.1.0",
-  "description": "EH Waterbodies",
+  "description": "Mirror of the \"EH Waterbodies\" layer (layer 56) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 195 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",
@@ -65,7 +65,8 @@
     },
     {
       "name": "Area",
-      "type": "double"
+      "type": "double",
+      "description": "Alias in the source service: \"GIS_PUBLISHED.GISMASTER.EH_Waterbodies_Interior.Area\"."
     },
     {
       "name": "Acres",

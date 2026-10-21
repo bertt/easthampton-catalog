@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "trails",
   "stac_version": "1.1.0",
-  "description": "This Feature Class contains all the Trails for the Town of East Hampton. The Data was collected, compiled and edited beginning in 2012 and continues to be constantly updated and revised at published date (Spring 2015).This data is constantly being updated and revised as trails are maintianed, routes are changed old trail may be closed and new may be opened. This data is thus considered DRAFT and constantly evolving. It is, as far as we can tell, current at its published date but discrepancies may occur moving forward as routes may be altered etc..., prior to it being recorded and reflected in the data. We make every effort to edit and keep this data updated as changes occur.",
+  "description": "Mirror of the \"Trails\" layer (layer 43) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 1,108 line features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. The publisher describes it as: \"This Feature Class contains all the Trails for the Town of East Hampton. The Data was collected, compiled and edited beginning in 2012 and continues to be constantly updated and revised at published date (Spring 2015).This data is constantly being updated and revised as trails are maintianed, routes are changed old trail may be closed and new may be opened. This data is thus considered DRAFT and constantly evolving. It is, as far as we can tell, current at its published date but discrepancies may occur moving forward as routes may be altered etc..., prior to it being recorded and reflected in the data. We make every effort to edit and keep this data updated as changes occur.\" Credit given by the publisher on this layer: Bob Masin, Andy Gaites, Andy Drake. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",
@@ -59,7 +59,8 @@
     },
     {
       "name": "Trail_Loca",
-      "type": "string"
+      "type": "string",
+      "description": "Alias in the source service: \"Trail_Location\"."
     },
     {
       "name": "Trail_Type",
@@ -67,11 +68,13 @@
     },
     {
       "name": "Trail_Blaz",
-      "type": "string"
+      "type": "string",
+      "description": "Alias in the source service: \"Trail_Blaze\"."
     },
     {
       "name": "Trail_Stat",
-      "type": "string"
+      "type": "string",
+      "description": "Alias in the source service: \"Trail_Status\"."
     },
     {
       "name": "Miles",

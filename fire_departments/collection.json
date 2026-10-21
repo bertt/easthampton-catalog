@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "fire_departments",
   "stac_version": "1.1.0",
-  "description": "Fire Departments",
+  "description": "Mirror of the \"Fire Departments\" layer (layer 73, in the service's \"EH Base Layers\" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 9 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",

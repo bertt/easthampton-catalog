@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "cobra_zones",
   "stac_version": "1.1.0",
-  "description": "Cobra Zones",
+  "description": "Mirror of the \"Cobra Zones\" layer (layer 34, in the service's \"FEMA DFIRM Published 9-25-09\" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 211 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",
@@ -51,7 +51,8 @@
   "table:columns": [
     {
       "name": "OBJECTID",
-      "type": "int64"
+      "type": "int64",
+      "description": "Alias in the source service: \"FID\"."
     },
     {
       "name": "Shape",

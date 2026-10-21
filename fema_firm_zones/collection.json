@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "fema_firm_zones",
   "stac_version": "1.1.0",
-  "description": "FEMA FIRM Zones",
+  "description": "Mirror of the \"FEMA FIRM Zones\" layer (layer 36, in the service's \"FEMA DFIRM Published 9-25-09\" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 4,796 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",

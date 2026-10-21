@@ -1,18 +1,11 @@
-# .portolan/metadata.yaml
-#
-# Auto-seeded from: arcgis_featureserver
-# Review and complete fields marked with "TODO".
-#
-# Required fields:
-#   - contact.name: Person or team responsible
-#   - contact.email: Contact email address
-#   - license: SPDX identifier (e.g., "CC-BY-4.0", "MIT", "CC0-1.0")
-#
-# See: https://portolan.dev/docs/metadata for field descriptions
-
 contact:
   name: 'TODO: Add value'
   email: 'TODO: Add value'
 source_url: https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/49
-description: Wetlands Not Georeferenced
-processing_notes: 'Extracted from arcgis_featureserver layer: Wetlands Not Georeferenced'
+description: Mirror of the "Wetlands Not Georeferenced" layer (layer 49, in the service's "Town Wetlands"
+  group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+  ArcGIS service. 741 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains
+  draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
+processing_notes: Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 49 ([Wetlands
+  Not Georeferenced](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/49)).
+  See the root README for the full process.

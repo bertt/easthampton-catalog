@@ -1,6 +1,6 @@
-# Eh Zoning Boundaries
+# EH Zoning Boundaries
 
-Eh Zoning Boundaries
+Mirror of the "EH Zoning Boundaries" layer (layer 82, in the service's "EH Zoning" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 458 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. The publisher describes it as: "This data shows the Zoning regions for the Town of East Hampton NY. This is a polygon dataset. It was created by combining the parcel boundaries within a region demarcated by the zoning lines. If parcels were split by the zoning line this boundary was adjusted accordingly. This layer is updated as the zoning is updated. This is not the official zoning for the Town. This is just one piece that makes up the Towns larger comprehensive zoning. The Towns legal zoning is represented on the official published maps, as it is directed in the Town Code." Credit given by the publisher on this layer: TOEH IT Dept GIS Division, Barnaby Friedman. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -28,6 +28,7 @@ Eh Zoning Boundaries
 | File | Size | Checksum |
 |------|------|----------|
 | ./eh_zoning_boundaries.parquet | 791.1 KB | 122079691b24... |
+| ./styles/default.json | 381 B | 1220b395cf8b... |
 
 ## Quick Start
 
@@ -45,11 +46,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/82](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/82)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 82 ([EH Zoning Boundaries](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/82)). See the root README for the full process.
 
 ## Attribution
 

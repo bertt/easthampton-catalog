@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ehtaxmap",
   "stac_version": "1.1.0",
-  "description": "Ehtaxmap",
+  "description": "Mirror of the \"EHTaxMap\" layer (layer 58) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 25,481 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. Credit given by the publisher on this layer: Suffolk County Real Property Tax Service COPYRIGHT 2015, COUNTY OF SUFFOLK, N.Y. Real Property Taxmap parcel linework used with permission of Suffolk County Real Property Tax Service Agency (R.P.T.S.A.). See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.",
   "links": [
     {
       "rel": "root",
@@ -59,7 +59,8 @@
     },
     {
       "name": "P_ID",
-      "type": "double"
+      "type": "double",
+      "description": "Alias in the source service: \"P_ID Govern Match\"."
     },
     {
       "name": "GIS_ZIP_CODE",
@@ -87,7 +88,8 @@
     },
     {
       "name": "Zoning",
-      "type": "string"
+      "type": "string",
+      "description": "Alias in the source service: \"ZONING\"."
     },
     {
       "name": "School_District",
@@ -119,7 +121,8 @@
     },
     {
       "name": "HPOD",
-      "type": "double"
+      "type": "double",
+      "description": "Alias in the source service: \"Harbor Protection Overlay District\"."
     },
     {
       "name": "Recreation_Overlay_District",
@@ -135,7 +138,8 @@
     },
     {
       "name": "SGPA",
-      "type": "double"
+      "type": "double",
+      "description": "Alias in the source service: \"Special Groundwater Protection Area\"."
     },
     {
       "name": "Pine_Barren_Region",

@@ -1,19 +1,11 @@
-# .portolan/metadata.yaml
-#
-# Auto-seeded from: arcgis_featureserver
-# Review and complete fields marked with "TODO".
-#
-# Required fields:
-#   - contact.name: Person or team responsible
-#   - contact.email: Contact email address
-#   - license: SPDX identifier (e.g., "CC-BY-4.0", "MIT", "CC0-1.0")
-#
-# See: https://portolan.dev/docs/metadata for field descriptions
-
 contact:
   name: 'TODO: Add value'
   email: 'TODO: Add value'
 source_url: https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/33
-description: LiMWA (Limit of Moderate Wave Action)
-processing_notes: 'Extracted from arcgis_featureserver layer: LiMWA (Limit of Moderate
-  Wave Action)'
+description: Mirror of the "LiMWA (Limit of Moderate Wave Action)" layer (layer 33, in the service's "FEMA
+  DFIRM Published 9-25-09" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+  ArcGIS service. 1,079 line features, kept in the source CRS EPSG:2263. The service warns that it contains
+  draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
+processing_notes: Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 33 ([LiMWA
+  (Limit of Moderate Wave Action)](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/33)).
+  See the root README for the full process.

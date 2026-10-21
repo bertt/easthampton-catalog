@@ -1,6 +1,6 @@
-# Eh Boundary
+# EH Boundary
 
-Eh Boundary
+Mirror of the "EH Boundary" layer (layer 79, in the service's "EH Base Layers" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 2 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -18,7 +18,7 @@ Eh Boundary
 | Column | Type | Description |
 |--------|------|-------------|
 | OBJECTID | int64 |  |
-| Area | double |  |
+| Area | double | Alias in the source service: "GIS_PUBLISHED.GISMASTER.EH_Coastline.Area". |
 | Acres | double |  |
 | Shape | binary |  |
 | bbox | struct<xmin: double, ymin: double, xmax: double, ymax: double> |  |
@@ -29,6 +29,7 @@ Eh Boundary
 | File | Size | Checksum |
 |------|------|----------|
 | ./eh_boundary.parquet | 68.7 KB | 1220a97b6885... |
+| ./styles/default.json | 372 B | 1220a4d5b74e... |
 
 ## Quick Start
 
@@ -46,11 +47,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/79](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/79)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 79 ([EH Boundary](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/79)). See the root README for the full process.
 
 ## Attribution
 

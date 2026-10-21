@@ -1,27 +1,74 @@
-# AGENTS.md — Eh Historic Districts
+# AGENTS.md — EH Historic Districts
 
-Guidance for AI agents and LLMs working with this collection. This file supplements the README with practical, agent-oriented notes. Replace the prompts below with real content; delete anything that does not apply.
+Guidance for working with the `eh_historic_districts` collection. Catalog-wide context is in the [root AGENTS.md](../AGENTS.md).
 
 ## Overview
 
-<!-- What this collection contains and when to use it. -->
+Mirror of the "EH Historic Districts" layer (layer 11) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 4 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete.
+
+- Source layer: [EH Historic Districts](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/11) (layer id 11).
+- Rows: 4. Geometry: MultiPolygon. CRS: EPSG:2263 (NAD83 / New York Long Island, US survey feet).
+- Bounding box (EPSG:4326): -72.1600, 40.9646, -71.9008, 41.0470.
 
 ## Accessing the data
 
-<!-- Working code to load the data (e.g. DuckDB SQL, Python). -->
+Run from the catalog root. Spatial functions need `INSTALL spatial; LOAD spatial;`.
+
+```sql
+SELECT count(*) AS features FROM read_parquet('eh_historic_districts/eh_historic_districts.parquet');
+```
 
 ## Schema & field notes
 
-<!-- Field names, types, meanings, and any coded or sentinel values. -->
+Types come from the GeoParquet file. Alias and coded-value text is copied from the source layer's field metadata. Where the source gives no alias or code list, the column is listed without a meaning: the publisher has not documented it, and this catalog does not guess.
+
+| Column | Type | Meaning from the source | Nulls | Distinct |
+|---|---|---|---|---|
+| `OBJECTID` | int64 | Not documented by the publisher. | 0 | 4 |
+| `Historic_District` | string | Not documented by the publisher. | 0 | 4 |
+| `Area_Sq_Ft` | double | Not documented by the publisher. | 0 | 4 |
+| `Acres` | double | Not documented by the publisher. | 0 | 4 |
+| `SHAPE` | binary | Not documented by the publisher. | 4 | 0 |
+| `geometry` | binary (WKB) | Feature geometry. | 0 | |
+| `bbox` | struct | Per-row bounding box (xmin, ymin, xmax, ymax) in the file's CRS, for spatial filtering. | | |
+
+### Observed values of low-cardinality text columns
+
+Computed from the mirrored data, so they describe this snapshot and may differ upstream.
+
+- `Historic_District`: `Amagansett` (1), `Springs` (1), `Bluff Road` (1), `Montauk` (1)
 
 ## Data quality & usage notes
 
-<!-- Privacy suppressions, known quirks, CRS/units, and other caveats. -->
+- The source service says it is built for the Town's OpenGov application and "contains draft data that may be incomplete".
+- Coordinates are in EPSG:2263, in US survey feet. Areas and lengths computed from the geometry are in square feet and feet. Reproject to EPSG:4326 for web maps.
+- Geometry is stored as it came from the service. Nothing was cleaned or filtered.
 
 ## Example queries
 
-<!-- Practical, working analysis examples. -->
+Features per `Historic_District`:
+
+```sql
+SELECT "Historic_District", count(*) AS features
+FROM read_parquet('eh_historic_districts/eh_historic_districts.parquet')
+GROUP BY 1 ORDER BY 2 DESC;
+```
+
+Total area in acres, computed from the geometry (EPSG:2263 is in US survey feet):
+
+```sql
+SELECT round(sum(ST_Area(geometry)) / 43560, 1) AS acres
+FROM read_parquet('eh_historic_districts/eh_historic_districts.parquet');
+```
+
+Reproject to WGS84 for web maps:
+
+```sql
+SELECT ST_Transform(geometry, 'EPSG:2263', 'EPSG:4326', always_xy := true) AS geom_4326
+FROM read_parquet('eh_historic_districts/eh_historic_districts.parquet')
+LIMIT 5;
+```
 
 ## Related collections
 
-<!-- Cross-references and join keys to complementary collections. -->
+The source service defines no foreign keys between layers. See the [root AGENTS.md](../AGENTS.md) for the one join this catalog documents.

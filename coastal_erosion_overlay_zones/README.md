@@ -1,6 +1,6 @@
 # Coastal Erosion Overlay Zones
 
-Coastal Erosion Overlay Zones
+Mirror of the "Coastal Erosion Overlay Zones" layer (layer 13) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 478 line features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -18,9 +18,9 @@ Coastal Erosion Overlay Zones
 | Column | Type | Description |
 |--------|------|-------------|
 | Zone | int16 |  |
-| Object_ID | int64 |  |
+| Object_ID | int64 | Alias in the source service: ""Object ID"". |
 | Shape | binary |  |
-| ZoneSheets | string |  |
+| ZoneSheets | string | Alias in the source service: "Zone Map Sheets". |
 | bbox | struct<xmin: double, ymin: double, xmax: double, ymax: double> |  |
 | geometry | binary |  |
 
@@ -29,6 +29,7 @@ Coastal Erosion Overlay Zones
 | File | Size | Checksum |
 |------|------|----------|
 | ./coastal_erosion_overlay_zones.parquet | 568.0 KB | 1220444dbfdd... |
+| ./styles/default.json | 636 B | 1220b0517c99... |
 
 ## Quick Start
 
@@ -46,11 +47,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/13](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/13)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 13 ([Coastal Erosion Overlay Zones](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/13)). See the root README for the full process.
 
 ## Attribution
 

@@ -1,6 +1,6 @@
 # Trails
 
-Trails
+Mirror of the "Trails" layer (layer 43) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 1,108 line features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. The publisher describes it as: "This Feature Class contains all the Trails for the Town of East Hampton. The Data was collected, compiled and edited beginning in 2012 and continues to be constantly updated and revised at published date (Spring 2015).This data is constantly being updated and revised as trails are maintianed, routes are changed old trail may be closed and new may be opened. This data is thus considered DRAFT and constantly evolving. It is, as far as we can tell, current at its published date but discrepancies may occur moving forward as routes may be altered etc..., prior to it being recorded and reflected in the data. We make every effort to edit and keep this data updated as changes occur." Credit given by the publisher on this layer: Bob Masin, Andy Gaites, Andy Drake. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -19,10 +19,10 @@ Trails
 |--------|------|-------------|
 | OBJECTID | int64 |  |
 | Trail_Name | string |  |
-| Trail_Loca | string |  |
+| Trail_Loca | string | Alias in the source service: "Trail_Location". |
 | Trail_Type | string |  |
-| Trail_Blaz | string |  |
-| Trail_Stat | string |  |
+| Trail_Blaz | string | Alias in the source service: "Trail_Blaze". |
+| Trail_Stat | string | Alias in the source service: "Trail_Status". |
 | Miles | double |  |
 | Feet | double |  |
 | Shape | binary |  |
@@ -34,6 +34,7 @@ Trails
 | File | Size | Checksum |
 |------|------|----------|
 | ./trails.parquet | 1.9 MB | 1220cd8dd517... |
+| ./styles/default.json | 1.2 KB | 1220615e55e3... |
 
 ## Quick Start
 
@@ -51,11 +52,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/43](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/43)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 43 ([Trails](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/43)). See the root README for the full process.
 
 ## Attribution
 

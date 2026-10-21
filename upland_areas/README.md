@@ -1,6 +1,6 @@
 # Upland Areas
 
-Upland Areas
+Mirror of the "Upland Areas" layer (layer 52, in the service's "Town Wetlands" group) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 58 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -17,7 +17,7 @@ Upland Areas
 
 | Column | Type | Description |
 |--------|------|-------------|
-| OBJECTID | int64 |  |
+| OBJECTID | int64 | Alias in the source service: "FID". |
 | Shape | binary |  |
 | bbox | struct<xmin: double, ymin: double, xmax: double, ymax: double> |  |
 | geometry | binary |  |
@@ -27,6 +27,7 @@ Upland Areas
 | File | Size | Checksum |
 |------|------|----------|
 | ./upland_areas.parquet | 18.1 KB | 12203ea52e61... |
+| ./styles/default.json | 373 B | 1220ad80fe46... |
 
 ## Quick Start
 
@@ -44,11 +45,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/52](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/52)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 52 ([Upland Areas](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/52)). See the root README for the full process.
 
 ## Attribution
 

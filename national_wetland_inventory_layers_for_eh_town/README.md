@@ -1,6 +1,6 @@
-# National Wetland Inventory Layers For Eh Town
+# National Wetland Inventory Layers for EH Town
 
-National Wetland Inventory Layers For Eh Town
+Mirror of the "National Wetland Inventory Layers for EH Town" layer (layer 29) of the Town of East Hampton's [MapServiceForOpenGov](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer) ArcGIS service. 2,625 polygon features, kept in the source CRS EPSG:2263. The service warns that it contains draft data that may be incomplete. See [AGENTS.md](AGENTS.md) for the schema, quirks and query recipes.
 
 ![East Hampton](https://img.shields.io/badge/East_Hampton-blue) ![basemap](https://img.shields.io/badge/basemap-blue) ![OpenGov](https://img.shields.io/badge/OpenGov-blue)
 
@@ -18,7 +18,7 @@ National Wetland Inventory Layers For Eh Town
 | Column | Type | Description |
 |--------|------|-------------|
 | OBJECTID | int64 |  |
-| AREA | double |  |
+| AREA | double | Alias in the source service: "GIS_PUBLISHED.GISMASTER.EH_NWI.AREA". |
 | ATTRIBUTE | string |  |
 | Acres | double |  |
 | Shape | binary |  |
@@ -30,6 +30,7 @@ National Wetland Inventory Layers For Eh Town
 | File | Size | Checksum |
 |------|------|----------|
 | ./national_wetland_inventory_layers_for_eh_town.parquet | 1.9 MB | 1220ecb54181... |
+| ./styles/default.json | 6.2 KB | 12207f8ee2ed... |
 
 ## Quick Start
 
@@ -47,11 +48,11 @@ print(gdf.head())
 
 ## Source
 
-[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer)
+[https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/29](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/29)
 
 ## Processing Notes
 
-<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a map service for the express intent of being used in the Town's Open Gov application.  It is designed specifically for that purpose and thus may not be optimal for use outside of that environment.  Additionally there is some draft data included in the service that is used by staff, but is not however otherwise published or completed.  Therefore this service contains draft data that may be incomplete.</span>
+Extracted 2026-10-21 with portolan-cli 0.8.0 from ArcGIS MapServer layer 29 ([National Wetland Inventory Layers for EH Town](https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/29)). See the root README for the full process.
 
 ## Attribution
 
