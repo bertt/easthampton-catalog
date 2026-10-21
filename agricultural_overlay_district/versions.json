@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.946010Z",
+      "breaking": false,
+      "assets": {
+        "agricultural_overlay_district.parquet": {
+          "sha256": "ac873939a6682d1f78244fc272ab5283714a29e8b407e987eeb1478af0e2551e",
+          "size_bytes": 28177,
+          "href": "agricultural_overlay_district/agricultural_overlay_district.parquet",
+          "source_mtime": 1792615008.4557042,
+          "mtime": 1792615008.4557042,
+          "feature_count": 20,
+          "schema_fingerprint": "193043c5c454ab5b"
+        }
+      },
+      "changes": [
+        "agricultural_overlay_district.parquet"
+      ]
+    }
+  ]
+}

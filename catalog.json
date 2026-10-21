@@ -1,0 +1,336 @@
+{
+  "type": "Catalog",
+  "id": "easthampton",
+  "stac_version": "1.1.0",
+  "description": "A Portolan-managed STAC catalog",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "MapServiceForOpenGov"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "child",
+      "href": "./municipal_boundary_lines/collection.json",
+      "type": "application/json",
+      "title": "Municipal Boundary Lines"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_fire_districts/collection.json",
+      "type": "application/json",
+      "title": "Eh Fire Districts"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_school_districts/collection.json",
+      "type": "application/json",
+      "title": "Eh School Districts"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_historic_districts/collection.json",
+      "type": "application/json",
+      "title": "Eh Historic Districts"
+    },
+    {
+      "rel": "child",
+      "href": "./coastal_erosion_overlay_zones/collection.json",
+      "type": "application/json",
+      "title": "Coastal Erosion Overlay Zones"
+    },
+    {
+      "rel": "child",
+      "href": "./hpod/collection.json",
+      "type": "application/json",
+      "title": "Hpod"
+    },
+    {
+      "rel": "child",
+      "href": "./wrod/collection.json",
+      "type": "application/json",
+      "title": "Wrod"
+    },
+    {
+      "rel": "child",
+      "href": "./sgpa/collection.json",
+      "type": "application/json",
+      "title": "Sgpa"
+    },
+    {
+      "rel": "child",
+      "href": "./groundwater_zone_v/collection.json",
+      "type": "application/json",
+      "title": "Groundwater Zone V"
+    },
+    {
+      "rel": "child",
+      "href": "./ecological_complexes_boundary_line/collection.json",
+      "type": "application/json",
+      "title": "Ecological Complexes Boundary Line"
+    },
+    {
+      "rel": "child",
+      "href": "./scfwh_coastal_boundary/collection.json",
+      "type": "application/json",
+      "title": "Scfwh Coastal Boundary"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_significant_coastal_fish_wildlife_habitat/collection.json",
+      "type": "application/json",
+      "title": "Eh Significant Coastal Fish Wildlife Habitat"
+    },
+    {
+      "rel": "child",
+      "href": "./reach_boundaries/collection.json",
+      "type": "application/json",
+      "title": "Reach Boundaries"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_cea/collection.json",
+      "type": "application/json",
+      "title": "Eh Cea"
+    },
+    {
+      "rel": "child",
+      "href": "./pep_cnra_boundaries/collection.json",
+      "type": "application/json",
+      "title": "Pep Cnra Boundaries"
+    },
+    {
+      "rel": "child",
+      "href": "./pep_boundary/collection.json",
+      "type": "application/json",
+      "title": "Pep Boundary"
+    },
+    {
+      "rel": "child",
+      "href": "./nys_dec_tidal_wetlands/collection.json",
+      "type": "application/json",
+      "title": "Nys Dec Tidal Wetlands"
+    },
+    {
+      "rel": "child",
+      "href": "./nysdec_freshwater_wetlands/collection.json",
+      "type": "application/json",
+      "title": "Nysdec Freshwater Wetlands"
+    },
+    {
+      "rel": "child",
+      "href": "./national_wetland_inventory_layers_for_eh_town/collection.json",
+      "type": "application/json",
+      "title": "National Wetland Inventory Layers For Eh Town"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_ceha_line/collection.json",
+      "type": "application/json",
+      "title": "Eh Ceha Line"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_soils/collection.json",
+      "type": "application/json",
+      "title": "Eh Soils"
+    },
+    {
+      "rel": "child",
+      "href": "./limwa_limit_of_moderate_wave_action/collection.json",
+      "type": "application/json",
+      "title": "Limwa Limit Of Moderate Wave Action"
+    },
+    {
+      "rel": "child",
+      "href": "./cobra_zones/collection.json",
+      "type": "application/json",
+      "title": "Cobra Zones"
+    },
+    {
+      "rel": "child",
+      "href": "./shoreline/collection.json",
+      "type": "application/json",
+      "title": "Shoreline"
+    },
+    {
+      "rel": "child",
+      "href": "./fema_firm_zones/collection.json",
+      "type": "application/json",
+      "title": "Fema Firm Zones"
+    },
+    {
+      "rel": "child",
+      "href": "./village_boundaries/collection.json",
+      "type": "application/json",
+      "title": "Village Boundaries"
+    },
+    {
+      "rel": "child",
+      "href": "./trails/collection.json",
+      "type": "application/json",
+      "title": "Trails"
+    },
+    {
+      "rel": "child",
+      "href": "./building_footprints/collection.json",
+      "type": "application/json",
+      "title": "Building Footprints"
+    },
+    {
+      "rel": "child",
+      "href": "./wetlands_in_east_hampton/collection.json",
+      "type": "application/json",
+      "title": "Wetlands In East Hampton"
+    },
+    {
+      "rel": "child",
+      "href": "./wetlands_not_georeferenced/collection.json",
+      "type": "application/json",
+      "title": "Wetlands Not Georeferenced"
+    },
+    {
+      "rel": "child",
+      "href": "./historcal_wetlands/collection.json",
+      "type": "application/json",
+      "title": "Historcal Wetlands"
+    },
+    {
+      "rel": "child",
+      "href": "./watercourses/collection.json",
+      "type": "application/json",
+      "title": "Watercourses"
+    },
+    {
+      "rel": "child",
+      "href": "./upland_areas/collection.json",
+      "type": "application/json",
+      "title": "Upland Areas"
+    },
+    {
+      "rel": "child",
+      "href": "./scenic_conservation_easements/collection.json",
+      "type": "application/json",
+      "title": "Scenic Conservation Easements"
+    },
+    {
+      "rel": "child",
+      "href": "./protected_veg_buffer_areas/collection.json",
+      "type": "application/json",
+      "title": "Protected Veg Buffer Areas"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_waterbodies/collection.json",
+      "type": "application/json",
+      "title": "Eh Waterbodies"
+    },
+    {
+      "rel": "child",
+      "href": "./ehtaxmap/collection.json",
+      "type": "application/json",
+      "title": "Ehtaxmap"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_zoning_boundaries/collection.json",
+      "type": "application/json",
+      "title": "Eh Zoning Boundaries"
+    },
+    {
+      "rel": "child",
+      "href": "./aho_lbo/collection.json",
+      "type": "application/json",
+      "title": "Aho Lbo"
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_overlay_district/collection.json",
+      "type": "application/json",
+      "title": "Agricultural Overlay District"
+    },
+    {
+      "rel": "child",
+      "href": "./recreation_overlay_district/collection.json",
+      "type": "application/json",
+      "title": "Recreation Overlay District"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_right_of_ways/collection.json",
+      "type": "application/json",
+      "title": "Eh Right Of Ways"
+    },
+    {
+      "rel": "child",
+      "href": "./town_facilities/collection.json",
+      "type": "application/json",
+      "title": "Town Facilities"
+    },
+    {
+      "rel": "child",
+      "href": "./school_properties/collection.json",
+      "type": "application/json",
+      "title": "School Properties"
+    },
+    {
+      "rel": "child",
+      "href": "./fire_departments/collection.json",
+      "type": "application/json",
+      "title": "Fire Departments"
+    },
+    {
+      "rel": "child",
+      "href": "./protected_ag_land/collection.json",
+      "type": "application/json",
+      "title": "Protected Ag Land"
+    },
+    {
+      "rel": "child",
+      "href": "./recreational_open_space/collection.json",
+      "type": "application/json",
+      "title": "Recreational Open Space"
+    },
+    {
+      "rel": "child",
+      "href": "./villages/collection.json",
+      "type": "application/json",
+      "title": "Villages"
+    },
+    {
+      "rel": "child",
+      "href": "./gardiners_island_boundary/collection.json",
+      "type": "application/json",
+      "title": "Gardiners Island Boundary"
+    },
+    {
+      "rel": "child",
+      "href": "./eh_boundary/collection.json",
+      "type": "application/json",
+      "title": "Eh Boundary"
+    },
+    {
+      "rel": "child",
+      "href": "./suffolk_county_boundary/collection.json",
+      "type": "application/json",
+      "title": "Suffolk County Boundary"
+    }
+  ],
+  "title": "MapServiceForOpenGov",
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

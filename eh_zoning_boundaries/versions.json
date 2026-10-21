@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.934822Z",
+      "breaking": false,
+      "assets": {
+        "eh_zoning_boundaries.parquet": {
+          "sha256": "79691b243a7b833f7961196d7d829ba99ac98dc307fc6140e0734f0dce6e11d0",
+          "size_bytes": 810134,
+          "href": "eh_zoning_boundaries/eh_zoning_boundaries.parquet",
+          "source_mtime": 1792614970.6584985,
+          "mtime": 1792614970.6584985,
+          "feature_count": 458,
+          "schema_fingerprint": "394e6734ae2c74bf"
+        }
+      },
+      "changes": [
+        "eh_zoning_boundaries.parquet"
+      ]
+    }
+  ]
+}

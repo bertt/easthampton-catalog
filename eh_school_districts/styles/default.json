@@ -1,0 +1,38 @@
+{
+  "version": 8,
+  "name": "Categorical Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "eh_school_districts",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "ID"
+          ],
+          "AMAGANSETT SD",
+          "#d3ffbe",
+          "EAST HAMPTON SD",
+          "#55ff00",
+          "MONTAUK SD",
+          "#0070ff",
+          "SPRINGS SD",
+          "#ffa77f",
+          "WAINSCOTT SD",
+          "#b32d3a",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

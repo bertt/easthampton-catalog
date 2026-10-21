@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.973678Z",
+      "breaking": false,
+      "assets": {
+        "fire_departments.parquet": {
+          "sha256": "bd6e1af3341a9a7c91b019f3d0f10d5023a98fdb8a652a5feedeb133817425a8",
+          "size_bytes": 7768,
+          "href": "fire_departments/fire_departments.parquet",
+          "source_mtime": 1792615020.4397743,
+          "mtime": 1792615020.4397743,
+          "feature_count": 9,
+          "schema_fingerprint": "a09954b7e1a16994"
+        }
+      },
+      "changes": [
+        "fire_departments.parquet"
+      ]
+    }
+  ]
+}

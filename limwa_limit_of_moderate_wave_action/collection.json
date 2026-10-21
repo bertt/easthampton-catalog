@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "id": "limwa_limit_of_moderate_wave_action",
+  "stac_version": "1.1.0",
+  "description": "LiMWA (Limit of Moderate Wave Action)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/33",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: LiMWA (Limit of Moderate Wave Action)"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "LineString",
+  "geoparquet:feature_count": 1079,
+  "table:row_count": 1079,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "LIMWA_ID",
+      "type": "string"
+    },
+    {
+      "name": "SOURCE_CIT",
+      "type": "string"
+    },
+    {
+      "name": "Shape_Length",
+      "type": "double"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "LiMWA (Limit of Moderate Wave Action)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -73.49544940985385,
+          40.610781370385894,
+          -71.8623757419538,
+          41.160480541349685
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "limwa_limit_of_moderate_wave_action": {
+      "href": "./limwa_limit_of_moderate_wave_action.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 1741469,
+      "file:checksum": "12202da1cfb52d44cbf42419735067646dfe62fee661887186d88bdf58ab4efed883",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Simple Style",
+      "file:size": 380,
+      "file:checksum": "12200a332f335589a54f39b85c03aa01ba635e9357c4a1f0a8d17a8f126b34a4ee7b"
+    }
+  }
+}

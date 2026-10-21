@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.901253Z",
+      "breaking": false,
+      "assets": {
+        "watercourses.parquet": {
+          "sha256": "13b612f3310cc476773c77fe47b15059edb2722b8197e0ac5ef786ba5cd7c501",
+          "size_bytes": 66069,
+          "href": "watercourses/watercourses.parquet",
+          "source_mtime": 1792614949.4413934,
+          "mtime": 1792614949.4413934,
+          "feature_count": 274,
+          "schema_fingerprint": "7abe315869e2fd9e"
+        }
+      },
+      "changes": [
+        "watercourses.parquet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "type": "Collection",
+  "id": "eh_significant_coastal_fish_wildlife_habitat",
+  "stac_version": "1.1.0",
+  "description": "EH Significant Coastal Fish & Wildlife Habitat",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/21",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: EH Significant Coastal Fish & Wildlife Habitat"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "MultiPolygon",
+  "geoparquet:feature_count": 24,
+  "table:row_count": 24,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "NAME",
+      "type": "string"
+    },
+    {
+      "name": "TXT",
+      "type": "string"
+    },
+    {
+      "name": "SCFWH",
+      "type": "string"
+    },
+    {
+      "name": "LOCALLYSIG",
+      "type": "string"
+    },
+    {
+      "name": "Area_Sq_Ft",
+      "type": "double"
+    },
+    {
+      "name": "Acres",
+      "type": "double"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "EH Significant Coastal Fish & Wildlife Habitat",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.31317309642742,
+          40.9265962316746,
+          -71.78914067673409,
+          41.13455805708495
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "eh_significant_coastal_fish_wildlife_habitat": {
+      "href": "./eh_significant_coastal_fish_wildlife_habitat.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 149672,
+      "file:checksum": "12207eba745ff1cfc89659fbaa11a7378f1b7f1a023d72777c3ec53d38bf82b0fa82",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Categorical Style",
+      "file:size": 750,
+      "file:checksum": "122059569c313553ac2ce26dcb133a78e118dc4e6ca92000c6ce0b099e7bd8e5a536"
+    }
+  }
+}

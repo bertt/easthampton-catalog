@@ -1,0 +1,18 @@
+# .portolan/metadata.yaml
+#
+# Auto-seeded from: arcgis_featureserver
+# Review and complete fields marked with "TODO".
+#
+# Required fields:
+#   - contact.name: Person or team responsible
+#   - contact.email: Contact email address
+#   - license: SPDX identifier (e.g., "CC-BY-4.0", "MIT", "CC0-1.0")
+#
+# See: https://portolan.dev/docs/metadata for field descriptions
+
+contact:
+  name: 'TODO: Add value'
+  email: 'TODO: Add value'
+source_url: https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/74
+description: Protected Ag Land
+processing_notes: 'Extracted from arcgis_featureserver layer: Protected Ag Land'

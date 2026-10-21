@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_id": "easthampton",
+  "created": "2026-10-21T20:37:10.238069+00:00",
+  "collections": {
+    "municipal_boundary_lines": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.738615+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 6666
+    },
+    "eh_fire_districts": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.743733+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 165104
+    },
+    "eh_school_districts": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.748917+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 152798
+    },
+    "eh_historic_districts": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.753918+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 12889
+    },
+    "coastal_erosion_overlay_zones": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.758915+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 581647
+    },
+    "hpod": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.764065+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 176996
+    },
+    "wrod": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.769047+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 23984
+    },
+    "sgpa": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.774206+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 45399
+    },
+    "groundwater_zone_v": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.779266+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 9054
+    },
+    "ecological_complexes_boundary_line": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.784224+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 8002
+    },
+    "scfwh_coastal_boundary": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.789233+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 19724
+    },
+    "eh_significant_coastal_fish_wildlife_habitat": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.794758+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 149672
+    },
+    "reach_boundaries": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.799880+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 161808
+    },
+    "eh_cea": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.805074+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 120984
+    },
+    "pep_cnra_boundaries": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.810394+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 38425
+    },
+    "pep_boundary": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.815601+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 41143
+    },
+    "nys_dec_tidal_wetlands": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.820880+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 3266290
+    },
+    "nysdec_freshwater_wetlands": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.826321+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 243183
+    },
+    "national_wetland_inventory_layers_for_eh_town": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.831650+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 2029888
+    },
+    "eh_ceha_line": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.836962+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 62876
+    },
+    "eh_soils": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.842319+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 669615
+    },
+    "limwa_limit_of_moderate_wave_action": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.847633+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 1741469
+    },
+    "cobra_zones": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.853127+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 790874
+    },
+    "shoreline": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.858599+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 21257516
+    },
+    "fema_firm_zones": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.863941+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 21665944
+    },
+    "village_boundaries": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.869252+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 15481
+    },
+    "trails": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.874834+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 2032862
+    },
+    "building_footprints": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.880222+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 6510160
+    },
+    "wetlands_in_east_hampton": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.885462+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 610025
+    },
+    "wetlands_not_georeferenced": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.890894+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 181108
+    },
+    "historcal_wetlands": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.896219+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 13318
+    },
+    "watercourses": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.901557+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 66069
+    },
+    "upland_areas": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.906960+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 18502
+    },
+    "scenic_conservation_easements": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.912327+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 171165
+    },
+    "protected_veg_buffer_areas": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.917683+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 8210
+    },
+    "eh_waterbodies": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.923331+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 615378
+    },
+    "ehtaxmap": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.929646+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 4939999
+    },
+    "eh_zoning_boundaries": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.935119+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 810134
+    },
+    "aho_lbo": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.940826+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 4539225
+    },
+    "agricultural_overlay_district": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.946318+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 28177
+    },
+    "recreation_overlay_district": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.951879+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 5597
+    },
+    "eh_right_of_ways": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.957459+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 1457161
+    },
+    "town_facilities": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.962898+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 14983
+    },
+    "school_properties": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.968392+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 11504
+    },
+    "fire_departments": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.973990+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 7768
+    },
+    "protected_ag_land": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.979526+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 27393
+    },
+    "recreational_open_space": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.985000+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 938537
+    },
+    "villages": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.991179+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 16054
+    },
+    "gardiners_island_boundary": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:13.996917+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 28017
+    },
+    "eh_boundary": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:14.002486+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 70398
+    },
+    "suffolk_county_boundary": {
+      "current_version": "1.0.0",
+      "updated": "2026-10-21T20:37:14.008238+00:00",
+      "asset_count": 1,
+      "total_size_bytes": 478754
+    }
+  },
+  "updated": "2026-10-21T20:37:14.008238+00:00"
+}

@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "id": "national_wetland_inventory_layers_for_eh_town",
+  "stac_version": "1.1.0",
+  "description": "National Wetland Inventory Layers for EH Town",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/29",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: National Wetland Inventory Layers for EH Town"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "Polygon",
+  "geoparquet:feature_count": 2625,
+  "table:row_count": 2625,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "AREA",
+      "type": "double"
+    },
+    {
+      "name": "ATTRIBUTE",
+      "type": "string"
+    },
+    {
+      "name": "Acres",
+      "type": "double"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "National Wetland Inventory Layers for EH Town",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.37453022745757,
+          40.875100122133425,
+          -71.74950403753343,
+          41.12511430292322
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "national_wetland_inventory_layers_for_eh_town": {
+      "href": "./national_wetland_inventory_layers_for_eh_town.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 2029888,
+      "file:checksum": "1220ecb54181b471c9f3d4e15a87a1f5b68d53e21332b23c7e08190d32b857a00dcd",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Categorical Style",
+      "file:size": 6391,
+      "file:checksum": "12207f8ee2ed918f64cc2cf6a58d387754db305c085aefab2735b11fb8f5f02657da"
+    }
+  }
+}

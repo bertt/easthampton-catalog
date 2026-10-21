@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.979202Z",
+      "breaking": false,
+      "assets": {
+        "protected_ag_land.parquet": {
+          "sha256": "69598436de6f0870cb14173526c1d3ed49cfefb75fd453f4108ed1ffaf3b4d1b",
+          "size_bytes": 27393,
+          "href": "protected_ag_land/protected_ag_land.parquet",
+          "source_mtime": 1792615021.742782,
+          "mtime": 1792615021.742782,
+          "feature_count": 71,
+          "schema_fingerprint": "c16e425cb72d1177"
+        }
+      },
+      "changes": [
+        "protected_ag_land.parquet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.923025Z",
+      "breaking": false,
+      "assets": {
+        "eh_waterbodies.parquet": {
+          "sha256": "e2dd406822d455fabe76953f5b6f2f903d56c86a341a91fffc04c2cf2d2705a1",
+          "size_bytes": 615378,
+          "href": "eh_waterbodies/eh_waterbodies.parquet",
+          "source_mtime": 1792615011.6077225,
+          "mtime": 1792615011.6077225,
+          "feature_count": 195,
+          "schema_fingerprint": "8de602dc399596b5"
+        }
+      },
+      "changes": [
+        "eh_waterbodies.parquet"
+      ]
+    }
+  ]
+}

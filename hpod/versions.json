@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.763796Z",
+      "breaking": false,
+      "assets": {
+        "hpod.parquet": {
+          "sha256": "c2ed8fd94ae864398187cd90f591f3e783a5aab228f8897ffadd95596d9e51a3",
+          "size_bytes": 176996,
+          "href": "hpod/hpod.parquet",
+          "source_mtime": 1792614829.6359584,
+          "mtime": 1792614829.6359584,
+          "feature_count": 26,
+          "schema_fingerprint": "a0a5b24eceeeb84b"
+        }
+      },
+      "changes": [
+        "hpod.parquet"
+      ]
+    }
+  ]
+}

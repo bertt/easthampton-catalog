@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.815304Z",
+      "breaking": false,
+      "assets": {
+        "pep_boundary.parquet": {
+          "sha256": "7094f23b3ca58b3a935950a70a8d994d58d331a5ab0f7dc2b57c0e85d70c89ff",
+          "size_bytes": 41143,
+          "href": "pep_boundary/pep_boundary.parquet",
+          "source_mtime": 1792614841.1059875,
+          "mtime": 1792614841.1059875,
+          "feature_count": 1,
+          "schema_fingerprint": "650684bdf72edd83"
+        }
+      },
+      "changes": [
+        "pep_boundary.parquet"
+      ]
+    }
+  ]
+}

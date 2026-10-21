@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.951566Z",
+      "breaking": false,
+      "assets": {
+        "recreation_overlay_district.parquet": {
+          "sha256": "fc4738ade148d78aa71f06f85322d3a81af1d8ba87d129ff81c45377233a5d0a",
+          "size_bytes": 5597,
+          "href": "recreation_overlay_district/recreation_overlay_district.parquet",
+          "source_mtime": 1792615009.4887102,
+          "mtime": 1792615009.4887102,
+          "feature_count": 1,
+          "schema_fingerprint": "f532436e9d527d77"
+        }
+      },
+      "changes": [
+        "recreation_overlay_district.parquet"
+      ]
+    }
+  ]
+}

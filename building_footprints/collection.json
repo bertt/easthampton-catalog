@@ -1,0 +1,131 @@
+{
+  "type": "Collection",
+  "id": "building_footprints",
+  "stac_version": "1.1.0",
+  "description": "The Building Outline Creation products provide a two dimensional digital representation of the shape of a structure. Using Pictometry imagery, a polygon shape corresponding to the visible edges of a structure’s roof is created for each qualifying structure.The collection of polygon shapes are georeferenced and delivered in geodatabase and shapefile format. The initial published data is accurate as to the fly of April 2018. Footprints are continually updated by the Town of East Hampton from that point forward, so as to reflect the most recent changes.When visible, the following types of structures measuring at least 150sq.feet (14sq.meters) and at least five pixels wide (based on 12”(30cm) or better GSD imagery) are included:Residential, commercial and industrial buildingsAttached decks or porches that have a roof or railing or that are visibly raisedIsolated garages, mobile homes, shedsGreenhousesGrain silos and oil storage tanksBuildings under construction that at least have wallsTrailer boxes with windows or doors (construction field offices)Other features with a roofThe Building Outlines produced correspond to the edges of the structure’s roof.The Building Outlines are positioned on to the imagery based on the roof location unless the base of the building isclearly visible in which case the outline is shifted to align to the visible base.Specifications are based on use of 12-inch(30cm) or better GSD Pictometry-acquired imageryPositional accuracy: offset from the imagery less than or equal to five pixelsGeometric accuracy: length of untraced edges less than or equal to five pixelsError rate: ratio of positionally or geometrically inaccurate buildings and missed buildings less than or equalto 0.5%Project Period May -June 2018Number of Parcels 25,605Base Image Acquisition Apr 2018Base Imagery Source Acquired by PictometryNumber of Buildings 29,313",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/46",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: Building Footprints"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "MultiPolygon",
+  "geoparquet:feature_count": 40404,
+  "table:row_count": 40404,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "DSBL",
+      "type": "string"
+    },
+    {
+      "name": "AREA",
+      "type": "double"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "Building Footprints",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.29566944014522,
+          40.92526430601426,
+          -71.85671434418686,
+          41.10021159742666
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "building_footprints": {
+      "href": "./building_footprints.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 6510160,
+      "file:checksum": "1220ee2bca087fe181087b19db0d0c0d29f141c0d1e7d76d5b3b716d9786f2befa5e",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Simple Style",
+      "file:size": 380,
+      "file:checksum": "1220183249b32f2081563e0206bf836cadcad33788d7717e78f5ce06b7a5118becf1"
+    }
+  }
+}

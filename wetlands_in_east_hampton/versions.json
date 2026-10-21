@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.885160Z",
+      "breaking": false,
+      "assets": {
+        "wetlands_in_east_hampton.parquet": {
+          "sha256": "c2c696479fa4a5b55832824f6a18a5acb6e2cba67b42e391131b2abfcbcb6552",
+          "size_bytes": 610025,
+          "href": "wetlands_in_east_hampton/wetlands_in_east_hampton.parquet",
+          "source_mtime": 1792614945.8893766,
+          "mtime": 1792614945.8893766,
+          "feature_count": 3041,
+          "schema_fingerprint": "e13e61004fdc7fc9"
+        }
+      },
+      "changes": [
+        "wetlands_in_east_hampton.parquet"
+      ]
+    }
+  ]
+}

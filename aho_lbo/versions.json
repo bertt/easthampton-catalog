@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.940518Z",
+      "breaking": false,
+      "assets": {
+        "aho_lbo.parquet": {
+          "sha256": "0c824c640658380f113ceb67d4aabfbd114b9f9128222f3c0ecd64ab6fb1df53",
+          "size_bytes": 4539225,
+          "href": "aho_lbo/aho_lbo.parquet",
+          "source_mtime": 1792615007.3916981,
+          "mtime": 1792615007.3916981,
+          "feature_count": 25481,
+          "schema_fingerprint": "919d12c058a9a7ba"
+        }
+      },
+      "changes": [
+        "aho_lbo.parquet"
+      ]
+    }
+  ]
+}

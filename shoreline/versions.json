@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.858295Z",
+      "breaking": false,
+      "assets": {
+        "shoreline.parquet": {
+          "sha256": "b55d3aa02fef32becd41d41cc29770e2e038c0e9c370710294716e86630943a3",
+          "size_bytes": 21257516,
+          "href": "shoreline/shoreline.parquet",
+          "source_mtime": 1792614894.9371605,
+          "mtime": 1792614894.9371605,
+          "feature_count": 803,
+          "schema_fingerprint": "699d9c52c2718427"
+        }
+      },
+      "changes": [
+        "shoreline.parquet"
+      ]
+    }
+  ]
+}

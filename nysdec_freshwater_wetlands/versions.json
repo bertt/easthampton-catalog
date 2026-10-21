@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.826026Z",
+      "breaking": false,
+      "assets": {
+        "nysdec_freshwater_wetlands.parquet": {
+          "sha256": "71b0f0803d28c5c4febf8a211d130574df4fcdac801b1ed39cf73de396026f8a",
+          "size_bytes": 243183,
+          "href": "nysdec_freshwater_wetlands/nysdec_freshwater_wetlands.parquet",
+          "source_mtime": 1792614849.613011,
+          "mtime": 1792614849.613011,
+          "feature_count": 592,
+          "schema_fingerprint": "2a063a1a90c6dec7"
+        }
+      },
+      "changes": [
+        "nysdec_freshwater_wetlands.parquet"
+      ]
+    }
+  ]
+}

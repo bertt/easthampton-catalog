@@ -1,0 +1,5 @@
+# Data lives in Azure blob storage, not in git
+*.parquet
+*.pmtiles
+*.tif
+*.lock

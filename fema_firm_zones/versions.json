@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.863650Z",
+      "breaking": false,
+      "assets": {
+        "fema_firm_zones.parquet": {
+          "sha256": "284d0c246247672949125bc510270bed98dfc3a235d0368710e58af3851b5132",
+          "size_bytes": 21665944,
+          "href": "fema_firm_zones/fema_firm_zones.parquet",
+          "source_mtime": 1792614921.7092679,
+          "mtime": 1792614921.7092679,
+          "feature_count": 4796,
+          "schema_fingerprint": "9ed1e89b168716c1"
+        }
+      },
+      "changes": [
+        "fema_firm_zones.parquet"
+      ]
+    }
+  ]
+}

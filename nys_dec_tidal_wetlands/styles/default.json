@@ -1,0 +1,44 @@
+{
+  "version": 8,
+  "name": "Categorical Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "nys_dec_tidal_wetlands",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "TWCAT74"
+          ],
+          "AA",
+          "#70b867",
+          "DS",
+          "#6255f2",
+          "FC",
+          "#ba4555",
+          "FM",
+          "#3b668c",
+          "HM",
+          "#f0a1ea",
+          "IM",
+          "#8eedec",
+          "LZ",
+          "#ed5cf7",
+          "SM",
+          "#6d458f",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

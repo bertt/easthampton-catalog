@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.895917Z",
+      "breaking": false,
+      "assets": {
+        "historcal_wetlands.parquet": {
+          "sha256": "bc67235d2e8bf491860e685b37ee8dfc4c3d72a90cbec61728538fb99fb2e4cb",
+          "size_bytes": 13318,
+          "href": "historcal_wetlands/historcal_wetlands.parquet",
+          "source_mtime": 1792614948.3643882,
+          "mtime": 1792614948.3643882,
+          "feature_count": 40,
+          "schema_fingerprint": "482a9afaac8ef929"
+        }
+      },
+      "changes": [
+        "historcal_wetlands.parquet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "Categorical Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "pep_cnra_boundaries",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "SITENAME"
+          ],
+          "Gardiners Island",
+          "#4d3fa6",
+          "Montauk",
+          "#58e058",
+          "Northwest Harbor",
+          "#e38459",
+          "Threemile Harbor/Accobonak Harbor",
+          "#87d9ed",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

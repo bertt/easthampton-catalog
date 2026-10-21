@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.804793Z",
+      "breaking": false,
+      "assets": {
+        "eh_cea.parquet": {
+          "sha256": "48d015f61e39bf17f05f4f9fe0fb25f5ba7ec272eec3ced3d439dbe953839027",
+          "size_bytes": 120984,
+          "href": "eh_cea/eh_cea.parquet",
+          "source_mtime": 1792614838.979982,
+          "mtime": 1792614838.979982,
+          "feature_count": 8,
+          "schema_fingerprint": "99a05f3b1d5f0dda"
+        }
+      },
+      "changes": [
+        "eh_cea.parquet"
+      ]
+    }
+  ]
+}

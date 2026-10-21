@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:14.007915Z",
+      "breaking": false,
+      "assets": {
+        "suffolk_county_boundary.parquet": {
+          "sha256": "890c6ec4700f13bc53381e8cf5ca256dde0f85443c3d673612bfaa5334774c6f",
+          "size_bytes": 478754,
+          "href": "suffolk_county_boundary/suffolk_county_boundary.parquet",
+          "source_mtime": 1792615029.876831,
+          "mtime": 1792615029.876831,
+          "feature_count": 70,
+          "schema_fingerprint": "0c99f9d9711b6da7"
+        }
+      },
+      "changes": [
+        "suffolk_county_boundary.parquet"
+      ]
+    }
+  ]
+}

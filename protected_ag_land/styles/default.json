@@ -1,0 +1,22 @@
+{
+  "version": 8,
+  "name": "Simple Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "layer-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "protected_ag_land",
+      "paint": {
+        "fill-color": "#ffff00",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#cccccc"
+      }
+    }
+  ]
+}

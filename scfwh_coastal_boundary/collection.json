@@ -1,0 +1,123 @@
+{
+  "type": "Collection",
+  "id": "scfwh_coastal_boundary",
+  "stac_version": "1.1.0",
+  "description": "SCFWH Coastal Boundary",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/20",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: SCFWH Coastal Boundary"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "LineString",
+  "geoparquet:feature_count": 3,
+  "table:row_count": 3,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "SCFWH Coastal Boundary",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.2724419517871,
+          40.923891775057186,
+          -72.10252801074537,
+          41.049747962119554
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "scfwh_coastal_boundary": {
+      "href": "./scfwh_coastal_boundary.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 19724,
+      "file:checksum": "122098967761d6fecd74d563393b1046e09200e47f8b52e185c3fc98c55161d73d13",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Simple Style",
+      "file:size": 367,
+      "file:checksum": "1220ce3a15197d209217ab28c1fb1f90649b2fe0267805cbc8c5e8c08789aa2f84ee"
+    }
+  }
+}

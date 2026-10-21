@@ -1,0 +1,25 @@
+# .portolan/metadata.yaml
+#
+# Auto-seeded from: arcgis_featureserver
+# Review and complete fields marked with "TODO".
+#
+# Required fields:
+#   - contact.name: Person or team responsible
+#   - contact.email: Contact email address
+#   - license: SPDX identifier (e.g., "CC-BY-4.0", "MIT", "CC0-1.0")
+#
+# See: https://portolan.dev/docs/metadata for field descriptions
+
+contact:
+  name: 'TODO: Add value'
+  email: 'TODO: Add value'
+source_url: https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/82
+description: <DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This data shows the
+  Zoning regions for the Town of East Hampton NY. This is a polygon dataset. It was
+  created by combining the parcel boundaries within a region demarcated by the zoning
+  lines. If parcels were split by the zoning line this boundary was adjusted accordingly.
+  This layer is updated as the zoning is updated. This is not the official zoning
+  for the Town. This is just one piece that makes up the Towns larger comprehensive
+  zoning. The Towns legal zoning is represented on the official published maps, as
+  it is directed in the Town Code.</SPAN></P></DIV></DIV></DIV>
+processing_notes: 'Extracted from arcgis_featureserver layer: EH Zoning Boundaries'

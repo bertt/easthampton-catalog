@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.758646Z",
+      "breaking": false,
+      "assets": {
+        "coastal_erosion_overlay_zones.parquet": {
+          "sha256": "444dbfdd7cdf3b04f545e6e7a1114cec77041cc104621e6cac710c0a6bab7c5b",
+          "size_bytes": 581647,
+          "href": "coastal_erosion_overlay_zones/coastal_erosion_overlay_zones.parquet",
+          "source_mtime": 1792614828.2609553,
+          "mtime": 1792614828.2609553,
+          "feature_count": 478,
+          "schema_fingerprint": "67180af1106e6553"
+        }
+      },
+      "changes": [
+        "coastal_erosion_overlay_zones.parquet"
+      ]
+    }
+  ]
+}

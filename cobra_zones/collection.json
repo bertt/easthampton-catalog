@@ -1,0 +1,139 @@
+{
+  "type": "Collection",
+  "id": "cobra_zones",
+  "stac_version": "1.1.0",
+  "description": "Cobra Zones",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/34",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: Cobra Zones"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "MultiPolygon",
+  "geoparquet:feature_count": 211,
+  "table:row_count": 211,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "Unit",
+      "type": "string"
+    },
+    {
+      "name": "CBRS_Type",
+      "type": "string"
+    },
+    {
+      "name": "FI_Date",
+      "type": "timestamp[ms]"
+    },
+    {
+      "name": "SU_Date",
+      "type": "timestamp[ms]"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "Cobra Zones",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -73.73577782299492,
+          40.566822148444054,
+          -71.85031309409868,
+          41.27256061020462
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "cobra_zones": {
+      "href": "./cobra_zones.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 790874,
+      "file:checksum": "1220a1013103d886d0f8344a8ffbaa78c5122e6a2d42d52f33f8164d356f598b8d32",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Simple Style",
+      "file:size": 372,
+      "file:checksum": "122093ddc4482f57f1fca0b0d8cb9d34cc85ac3351c456882fedbacc9c92d785f445"
+    }
+  }
+}

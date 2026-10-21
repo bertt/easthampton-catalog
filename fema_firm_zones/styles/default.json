@@ -1,0 +1,42 @@
+{
+  "version": 8,
+  "name": "Categorical Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "fema_firm_zones",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "FLD_ZONE"
+          ],
+          "0.2 PCT ANNUAL CHANCE FLOOD HAZARD",
+          "#7d9657",
+          "A",
+          "#ffffbe",
+          "AO",
+          "#ffff00",
+          "AE",
+          "#ffaa00",
+          "V",
+          "#ff5500",
+          "VE",
+          "#e60000",
+          "OPEN WATER",
+          "#5df0f0",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

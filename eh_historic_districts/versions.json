@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.753654Z",
+      "breaking": false,
+      "assets": {
+        "eh_historic_districts.parquet": {
+          "sha256": "a3379d0e9ac9104401e65d06e97b1031c7b9119c6d9dbdeceec7af651a020983",
+          "size_bytes": 12889,
+          "href": "eh_historic_districts/eh_historic_districts.parquet",
+          "source_mtime": 1792614826.2999506,
+          "mtime": 1792614826.2999506,
+          "feature_count": 4,
+          "schema_fingerprint": "68d0ef8f27c313de"
+        }
+      },
+      "changes": [
+        "eh_historic_districts.parquet"
+      ]
+    }
+  ]
+}

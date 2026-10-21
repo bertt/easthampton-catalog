@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.738312Z",
+      "breaking": false,
+      "assets": {
+        "municipal_boundary_lines.parquet": {
+          "sha256": "33b5bd4837341c81256879ef8f2d2e9ca94caa1ba123645379a31da74d9d47d4",
+          "size_bytes": 6666,
+          "href": "municipal_boundary_lines/municipal_boundary_lines.parquet",
+          "source_mtime": 1792614822.6919425,
+          "mtime": 1792614822.6919425,
+          "feature_count": 3,
+          "schema_fingerprint": "52c3ac6d513461fc"
+        }
+      },
+      "changes": [
+        "municipal_boundary_lines.parquet"
+      ]
+    }
+  ]
+}

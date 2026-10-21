@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.968070Z",
+      "breaking": false,
+      "assets": {
+        "school_properties.parquet": {
+          "sha256": "bea6ad4a9f6b9e3ecff58d0678a05b04c13238d2f405011d897d1dc6766b237e",
+          "size_bytes": 11504,
+          "href": "school_properties/school_properties.parquet",
+          "source_mtime": 1792615019.3507679,
+          "mtime": 1792615019.3507679,
+          "feature_count": 21,
+          "schema_fingerprint": "ef66f5a76467a03f"
+        }
+      },
+      "changes": [
+        "school_properties.parquet"
+      ]
+    }
+  ]
+}

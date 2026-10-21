@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.831351Z",
+      "breaking": false,
+      "assets": {
+        "national_wetland_inventory_layers_for_eh_town.parquet": {
+          "sha256": "ecb54181b471c9f3d4e15a87a1f5b68d53e21332b23c7e08190d32b857a00dcd",
+          "size_bytes": 2029888,
+          "href": "national_wetland_inventory_layers_for_eh_town/national_wetland_inventory_layers_for_eh_town.parquet",
+          "source_mtime": 1792614855.3010273,
+          "mtime": 1792614855.3010273,
+          "feature_count": 2625,
+          "schema_fingerprint": "e6d4210a0d956928"
+        }
+      },
+      "changes": [
+        "national_wetland_inventory_layers_for_eh_town.parquet"
+      ]
+    }
+  ]
+}

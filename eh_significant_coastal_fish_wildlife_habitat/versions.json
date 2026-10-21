@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.794475Z",
+      "breaking": false,
+      "assets": {
+        "eh_significant_coastal_fish_wildlife_habitat.parquet": {
+          "sha256": "7eba745ff1cfc89659fbaa11a7378f1b7f1a023d72777c3ec53d38bf82b0fa82",
+          "size_bytes": 149672,
+          "href": "eh_significant_coastal_fish_wildlife_habitat/eh_significant_coastal_fish_wildlife_habitat.parquet",
+          "source_mtime": 1792614836.4479754,
+          "mtime": 1792614836.4479754,
+          "feature_count": 24,
+          "schema_fingerprint": "c2ff1078e67962f4"
+        }
+      },
+      "changes": [
+        "eh_significant_coastal_fish_wildlife_habitat.parquet"
+      ]
+    }
+  ]
+}

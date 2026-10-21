@@ -1,0 +1,21 @@
+{
+  "version": 8,
+  "name": "Simple Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "layer-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "historcal_wetlands",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.799609Z",
+      "breaking": false,
+      "assets": {
+        "reach_boundaries.parquet": {
+          "sha256": "d016f282d38f427223d939266c43eac8b00a3abcf1e4fe403918485b6441e872",
+          "size_bytes": 161808,
+          "href": "reach_boundaries/reach_boundaries.parquet",
+          "source_mtime": 1792614837.7679787,
+          "mtime": 1792614837.7679787,
+          "feature_count": 24,
+          "schema_fingerprint": "d664ce22585be487"
+        }
+      },
+      "changes": [
+        "reach_boundaries.parquet"
+      ]
+    }
+  ]
+}

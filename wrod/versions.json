@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.768780Z",
+      "breaking": false,
+      "assets": {
+        "wrod.parquet": {
+          "sha256": "085f1bc85dde8387b01d9525b5fa22f1a5c5339af3dbd18b0e945b833f5760c6",
+          "size_bytes": 23984,
+          "href": "wrod/wrod.parquet",
+          "source_mtime": 1792614830.6319609,
+          "mtime": 1792614830.6319609,
+          "feature_count": 4,
+          "schema_fingerprint": "e806ff0d9b209ed5"
+        }
+      },
+      "changes": [
+        "wrod.parquet"
+      ]
+    }
+  ]
+}

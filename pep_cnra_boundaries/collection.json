@@ -1,0 +1,131 @@
+{
+  "type": "Collection",
+  "id": "pep_cnra_boundaries",
+  "stac_version": "1.1.0",
+  "description": "PEP CNRA Boundaries",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/24",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: PEP CNRA Boundaries"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "MultiPolygon",
+  "geoparquet:feature_count": 17,
+  "table:row_count": 17,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "SITENAME",
+      "type": "string"
+    },
+    {
+      "name": "LABEL",
+      "type": "string"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "PEP CNRA Boundaries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.88572343270343,
+          40.85605224062725,
+          -71.8257616186631,
+          41.20762327153205
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "pep_cnra_boundaries": {
+      "href": "./pep_cnra_boundaries.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 38425,
+      "file:checksum": "1220b4dc3f980ef2e953f586d4e7ab2cfdaa30e71c2f22bb93f9f218b21e76678493",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Categorical Style",
+      "file:size": 673,
+      "file:checksum": "1220add25612d77bcaeb46817b64697d3e655fc615100f339055d912647905042073"
+    }
+  }
+}

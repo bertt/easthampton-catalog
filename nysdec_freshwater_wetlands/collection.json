@@ -1,0 +1,139 @@
+{
+  "type": "Collection",
+  "id": "nysdec_freshwater_wetlands",
+  "stac_version": "1.1.0",
+  "description": "NYSDEC Freshwater Wetlands",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/28",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: NYSDEC Freshwater Wetlands"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "Polygon",
+  "geoparquet:feature_count": 592,
+  "table:row_count": 592,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "WETID",
+      "type": "string"
+    },
+    {
+      "name": "AREA",
+      "type": "double"
+    },
+    {
+      "name": "Acres",
+      "type": "double"
+    },
+    {
+      "name": "CLASS",
+      "type": "string"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "NYSDEC Freshwater Wetlands",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.27770546245603,
+          40.926196621578576,
+          -71.85662737100807,
+          41.10961151737951
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "nysdec_freshwater_wetlands": {
+      "href": "./nysdec_freshwater_wetlands.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 243183,
+      "file:checksum": "122071b0f0803d28c5c4febf8a211d130574df4fcdac801b1ed39cf73de396026f8a",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Simple Style",
+      "file:size": 387,
+      "file:checksum": "1220500d071f6279e26577c1247506e6db11f3391037efbbd9451be4977bed970d70"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+# .portolan/metadata.yaml
+#
+# Auto-seeded from: arcgis_featureserver
+# Review and complete fields marked with "TODO".
+#
+# Required fields:
+#   - contact.name: Person or team responsible
+#   - contact.email: Contact email address
+#   - license: SPDX identifier (e.g., "CC-BY-4.0", "MIT", "CC0-1.0")
+#
+# See: https://portolan.dev/docs/metadata for field descriptions
+
+contact:
+  name: 'TODO: Add value'
+  email: 'TODO: Add value'
+source_url: https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/43
+description: This Feature Class contains all the Trails for the Town of East Hampton.
+  The Data was collected, compiled and edited beginning in 2012 and continues to be
+  constantly updated and revised at published date (Spring 2015).This data is constantly
+  being updated and revised as trails are maintianed, routes are changed old trail
+  may be closed and new may be opened. This data is thus considered DRAFT and constantly
+  evolving. It is, as far as we can tell, current at its published date but discrepancies
+  may occur moving forward as routes may be altered etc..., prior to it being recorded
+  and reflected in the data. We make every effort to edit and keep this data updated
+  as changes occur.
+processing_notes: 'Extracted from arcgis_featureserver layer: Trails'

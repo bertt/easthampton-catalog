@@ -1,0 +1,22 @@
+{
+  "version": 8,
+  "name": "Simple Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "layer-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "recreational_open_space",
+      "paint": {
+        "fill-color": "#008000",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#9c9c9c"
+      }
+    }
+  ]
+}

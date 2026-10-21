@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.984691Z",
+      "breaking": false,
+      "assets": {
+        "recreational_open_space.parquet": {
+          "sha256": "8aed99bcef5884fb4f05840851c12eb83f6688df995ec032e693aa18fd87110c",
+          "size_bytes": 938537,
+          "href": "recreational_open_space/recreational_open_space.parquet",
+          "source_mtime": 1792615024.5497987,
+          "mtime": 1792615024.5497987,
+          "feature_count": 1961,
+          "schema_fingerprint": "7ed4f19431d4d6d1"
+        }
+      },
+      "changes": [
+        "recreational_open_space.parquet"
+      ]
+    }
+  ]
+}

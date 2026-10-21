@@ -1,0 +1,38 @@
+{
+  "version": 8,
+  "name": "Categorical Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "eh_cea",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "NAME"
+          ],
+          "Accabonac Harbor",
+          "#38a800",
+          "Hither Woods",
+          "#5350e6",
+          "Montauk Addition",
+          "#505d8c",
+          "SGPA",
+          "#ebf05d",
+          "Water Recharge",
+          "#854452",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

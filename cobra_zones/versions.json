@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.852832Z",
+      "breaking": false,
+      "assets": {
+        "cobra_zones.parquet": {
+          "sha256": "a1013103d886d0f8344a8ffbaa78c5122e6a2d42d52f33f8164d356f598b8d32",
+          "size_bytes": 790874,
+          "href": "cobra_zones/cobra_zones.parquet",
+          "source_mtime": 1792614864.6100557,
+          "mtime": 1792614864.6100557,
+          "feature_count": 211,
+          "schema_fingerprint": "d511017e90983c45"
+        }
+      },
+      "changes": [
+        "cobra_zones.parquet"
+      ]
+    }
+  ]
+}

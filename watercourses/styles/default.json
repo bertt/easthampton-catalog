@@ -1,0 +1,22 @@
+{
+  "version": 8,
+  "name": "Simple Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "layer-0",
+      "type": "line",
+      "source": "data",
+      "source-layer": "watercourses",
+      "paint": {
+        "line-color": "#004da8",
+        "line-width": 1.25,
+        "line-opacity": 1.0
+      }
+    }
+  ]
+}

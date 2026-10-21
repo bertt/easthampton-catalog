@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.912029Z",
+      "breaking": false,
+      "assets": {
+        "scenic_conservation_easements.parquet": {
+          "sha256": "fc39e0efaa2a7f69bc6d081ea8de5eff3e6825f9e91faa478f35e65bd8c05f63",
+          "size_bytes": 171165,
+          "href": "scenic_conservation_easements/scenic_conservation_easements.parquet",
+          "source_mtime": 1792614951.8004045,
+          "mtime": 1792614951.8004045,
+          "feature_count": 1410,
+          "schema_fingerprint": "f68f455bce783253"
+        }
+      },
+      "changes": [
+        "scenic_conservation_easements.parquet"
+      ]
+    }
+  ]
+}

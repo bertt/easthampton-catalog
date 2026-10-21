@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.842030Z",
+      "breaking": false,
+      "assets": {
+        "eh_soils.parquet": {
+          "sha256": "8e126b9ea5bb5fdf4a4ee4572bc24587d6bf1b57da051d56d63446f4af87cd8b",
+          "size_bytes": 669615,
+          "href": "eh_soils/eh_soils.parquet",
+          "source_mtime": 1792614858.592037,
+          "mtime": 1792614858.592037,
+          "feature_count": 545,
+          "schema_fingerprint": "534d4e318ff07f68"
+        }
+      },
+      "changes": [
+        "eh_soils.parquet"
+      ]
+    }
+  ]
+}

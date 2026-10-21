@@ -1,0 +1,151 @@
+{
+  "type": "Collection",
+  "id": "trails",
+  "stac_version": "1.1.0",
+  "description": "This Feature Class contains all the Trails for the Town of East Hampton. The Data was collected, compiled and edited beginning in 2012 and continues to be constantly updated and revised at published date (Spring 2015).This data is constantly being updated and revised as trails are maintianed, routes are changed old trail may be closed and new may be opened. This data is thus considered DRAFT and constantly evolving. It is, as far as we can tell, current at its published date but discrepancies may occur moving forward as routes may be altered etc..., prior to it being recorded and reflected in the data. We make every effort to edit and keep this data updated as changes occur.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/43",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: Trails"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "LineString",
+  "geoparquet:feature_count": 1108,
+  "table:row_count": 1108,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Trail_Name",
+      "type": "string"
+    },
+    {
+      "name": "Trail_Loca",
+      "type": "string"
+    },
+    {
+      "name": "Trail_Type",
+      "type": "string"
+    },
+    {
+      "name": "Trail_Blaz",
+      "type": "string"
+    },
+    {
+      "name": "Trail_Stat",
+      "type": "string"
+    },
+    {
+      "name": "Miles",
+      "type": "double"
+    },
+    {
+      "name": "Feet",
+      "type": "double"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "Trails",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.28508046945872,
+          40.95122036032102,
+          -71.856304647794,
+          41.08223451591792
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "trails": {
+      "href": "./trails.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 2032862,
+      "file:checksum": "1220cd8dd517afb86c9db64018d13d4563d4601b1815187923faf7c43ec130ea1f3b",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Categorical Style",
+      "file:size": 1224,
+      "file:checksum": "1220615e55e3f9d75d9f46bea14b19329d616f4a6459e803fbe544ffcdbeefca061d"
+    }
+  }
+}

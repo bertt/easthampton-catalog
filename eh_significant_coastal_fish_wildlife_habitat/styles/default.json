@@ -1,0 +1,38 @@
+{
+  "version": 8,
+  "name": "Categorical Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "eh_significant_coastal_fish_wildlife_habitat",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "LOCALLYSIG"
+          ],
+          "FRESH POND BELL ESTATE WETLAND",
+          "#df73ff",
+          "GEORGICA POND",
+          "#df73ff",
+          "MONTAUK POINT",
+          "#df73ff",
+          "THREE MILE HARBOR",
+          "#df73ff",
+          "WAINSCOTT POND",
+          "#df73ff",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": 8,
+  "name": "Simple Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "layer-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "nysdec_freshwater_wetlands",
+      "paint": {
+        "fill-color": "#005ce6",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#6e6e6e"
+      }
+    }
+  ]
+}

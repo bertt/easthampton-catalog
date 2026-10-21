@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.748656Z",
+      "breaking": false,
+      "assets": {
+        "eh_school_districts.parquet": {
+          "sha256": "02729ba0161ceb9591aaecb68f8cd960a6c5c970a5f7f12e7f319ffbf292b1d0",
+          "size_bytes": 152798,
+          "href": "eh_school_districts/eh_school_districts.parquet",
+          "source_mtime": 1792614825.3249483,
+          "mtime": 1792614825.3249483,
+          "feature_count": 6,
+          "schema_fingerprint": "e36d0226742a07de"
+        }
+      },
+      "changes": [
+        "eh_school_districts.parquet"
+      ]
+    }
+  ]
+}

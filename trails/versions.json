@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.874536Z",
+      "breaking": false,
+      "assets": {
+        "trails.parquet": {
+          "sha256": "cd8dd517afb86c9db64018d13d4563d4601b1815187923faf7c43ec130ea1f3b",
+          "size_bytes": 2032862,
+          "href": "trails/trails.parquet",
+          "source_mtime": 1792614927.7752943,
+          "mtime": 1792614927.7752943,
+          "feature_count": 1108,
+          "schema_fingerprint": "d5a5f5006238b68b"
+        }
+      },
+      "changes": [
+        "trails.parquet"
+      ]
+    }
+  ]
+}

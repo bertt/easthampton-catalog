@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.879925Z",
+      "breaking": false,
+      "assets": {
+        "building_footprints.parquet": {
+          "sha256": "ee2bca087fe181087b19db0d0c0d29f141c0d1e7d76d5b3b716d9786f2befa5e",
+          "size_bytes": 6510160,
+          "href": "building_footprints/building_footprints.parquet",
+          "source_mtime": 1792614943.9273672,
+          "mtime": 1792614943.9273672,
+          "feature_count": 40404,
+          "schema_fingerprint": "5a2e44b33a9414a4"
+        }
+      },
+      "changes": [
+        "building_footprints.parquet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.990840Z",
+      "breaking": false,
+      "assets": {
+        "villages.parquet": {
+          "sha256": "db6129cfa87cbce72163ac34cdcbb1645095bde3f4abb1689eb4bc0f3aa118cf",
+          "size_bytes": 16054,
+          "href": "villages/villages.parquet",
+          "source_mtime": 1792615025.574805,
+          "mtime": 1792615025.574805,
+          "feature_count": 2,
+          "schema_fingerprint": "6cf2647394e4ee09"
+        }
+      },
+      "changes": [
+        "villages.parquet"
+      ]
+    }
+  ]
+}

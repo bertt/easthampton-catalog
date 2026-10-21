@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.906659Z",
+      "breaking": false,
+      "assets": {
+        "upland_areas.parquet": {
+          "sha256": "3ea52e61fba88f8d04f2c90970ad9b1b3ed8c0096f68df0657dae97be0651a89",
+          "size_bytes": 18502,
+          "href": "upland_areas/upland_areas.parquet",
+          "source_mtime": 1792614950.5313985,
+          "mtime": 1792614950.5313985,
+          "feature_count": 58,
+          "schema_fingerprint": "e13e61004fdc7fc9"
+        }
+      },
+      "changes": [
+        "upland_areas.parquet"
+      ]
+    }
+  ]
+}

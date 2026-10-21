@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.917372Z",
+      "breaking": false,
+      "assets": {
+        "protected_veg_buffer_areas.parquet": {
+          "sha256": "1bcac7074402a6e97324db9b6eae2b49cd60a72f87ae17eb98bb08d89cb6fe13",
+          "size_bytes": 8210,
+          "href": "protected_veg_buffer_areas/protected_veg_buffer_areas.parquet",
+          "source_mtime": 1792614952.8154097,
+          "mtime": 1792614952.8154097,
+          "feature_count": 23,
+          "schema_fingerprint": "bd6d0800dcb1977c"
+        }
+      },
+      "changes": [
+        "protected_veg_buffer_areas.parquet"
+      ]
+    }
+  ]
+}

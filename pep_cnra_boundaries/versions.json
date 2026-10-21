@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.810105Z",
+      "breaking": false,
+      "assets": {
+        "pep_cnra_boundaries.parquet": {
+          "sha256": "b4dc3f980ef2e953f586d4e7ab2cfdaa30e71c2f22bb93f9f218b21e76678493",
+          "size_bytes": 38425,
+          "href": "pep_cnra_boundaries/pep_cnra_boundaries.parquet",
+          "source_mtime": 1792614839.9869845,
+          "mtime": 1792614839.9869845,
+          "feature_count": 17,
+          "schema_fingerprint": "93095cb99125afc5"
+        }
+      },
+      "changes": [
+        "pep_cnra_boundaries.parquet"
+      ]
+    }
+  ]
+}

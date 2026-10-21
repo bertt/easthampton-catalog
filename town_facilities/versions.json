@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.962598Z",
+      "breaking": false,
+      "assets": {
+        "town_facilities.parquet": {
+          "sha256": "ebfa4df60d31d33663b6fdf353478014152c2b7545ee9ecf2060380a887e0499",
+          "size_bytes": 14983,
+          "href": "town_facilities/town_facilities.parquet",
+          "source_mtime": 1792615018.0047598,
+          "mtime": 1792615018.0047598,
+          "feature_count": 43,
+          "schema_fingerprint": "a09954b7e1a16994"
+        }
+      },
+      "changes": [
+        "town_facilities.parquet"
+      ]
+    }
+  ]
+}

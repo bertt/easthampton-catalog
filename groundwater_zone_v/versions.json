@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.779001Z",
+      "breaking": false,
+      "assets": {
+        "groundwater_zone_v.parquet": {
+          "sha256": "c8995bc53065681cf21760ed2c5b4a773f8031293a644e7b58e72c17da15934e",
+          "size_bytes": 9054,
+          "href": "groundwater_zone_v/groundwater_zone_v.parquet",
+          "source_mtime": 1792614832.692966,
+          "mtime": 1792614832.692966,
+          "feature_count": 1,
+          "schema_fingerprint": "55dd82078243650e"
+        }
+      },
+      "changes": [
+        "groundwater_zone_v.parquet"
+      ]
+    }
+  ]
+}

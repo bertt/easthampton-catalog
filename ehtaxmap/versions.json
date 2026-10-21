@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.929317Z",
+      "breaking": false,
+      "assets": {
+        "ehtaxmap.parquet": {
+          "sha256": "cbdeda78029dd3c5ad870a48b11d0a83ef43b6899fc7ad3599c6b700ea1e1b11",
+          "size_bytes": 4939999,
+          "href": "ehtaxmap/ehtaxmap.parquet",
+          "source_mtime": 1792614967.8924844,
+          "mtime": 1792614967.8924844,
+          "feature_count": 25481,
+          "schema_fingerprint": "d5204b1708370208"
+        }
+      },
+      "changes": [
+        "ehtaxmap.parquet"
+      ]
+    }
+  ]
+}

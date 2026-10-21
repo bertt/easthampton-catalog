@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.783953Z",
+      "breaking": false,
+      "assets": {
+        "ecological_complexes_boundary_line.parquet": {
+          "sha256": "62506df21163294f29507354deaabc6aa95de01f302d016bd06e0e2e022b0402",
+          "size_bytes": 8002,
+          "href": "ecological_complexes_boundary_line/ecological_complexes_boundary_line.parquet",
+          "source_mtime": 1792614833.8519688,
+          "mtime": 1792614833.8519688,
+          "feature_count": 11,
+          "schema_fingerprint": "2a31b934dfad80e0"
+        }
+      },
+      "changes": [
+        "ecological_complexes_boundary_line.parquet"
+      ]
+    }
+  ]
+}

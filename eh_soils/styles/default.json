@@ -1,0 +1,62 @@
+{
+  "version": 8,
+  "name": "Categorical Style",
+  "sources": {
+    "data": {
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "eh_soils",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "MUSYM"
+          ],
+          "BgA",
+          "#ffc800",
+          "BgB",
+          "#ffc800",
+          "BhB",
+          "#ffc800",
+          "HaA",
+          "#ffc800",
+          "HaB",
+          "#ffc800",
+          "He",
+          "#ffc800",
+          "MfA",
+          "#ffc800",
+          "MfB",
+          "#ffc800",
+          "MkA",
+          "#ffc800",
+          "MkB",
+          "#ffc800",
+          "PsA",
+          "#ffc800",
+          "RdA",
+          "#ffc800",
+          "RdB",
+          "#ffc800",
+          "ScB",
+          "#ffc800",
+          "SdA",
+          "#ffc800",
+          "SdB",
+          "#ffc800",
+          "Su",
+          "#ffc800",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

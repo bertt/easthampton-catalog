@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.788970Z",
+      "breaking": false,
+      "assets": {
+        "scfwh_coastal_boundary.parquet": {
+          "sha256": "98967761d6fecd74d563393b1046e09200e47f8b52e185c3fc98c55161d73d13",
+          "size_bytes": 19724,
+          "href": "scfwh_coastal_boundary/scfwh_coastal_boundary.parquet",
+          "source_mtime": 1792614834.8879714,
+          "mtime": 1792614834.8879714,
+          "feature_count": 3,
+          "schema_fingerprint": "6976cc43ace2ac95"
+        }
+      },
+      "changes": [
+        "scfwh_coastal_boundary.parquet"
+      ]
+    }
+  ]
+}

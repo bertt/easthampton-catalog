@@ -1,0 +1,25 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-21T20:37:13.957144Z",
+      "breaking": false,
+      "assets": {
+        "eh_right_of_ways.parquet": {
+          "sha256": "abc2f36e1b7a7244c4d68bfe7a66dbc542ba89f59b8c60bf38b9d913853a3c71",
+          "size_bytes": 1457161,
+          "href": "eh_right_of_ways/eh_right_of_ways.parquet",
+          "source_mtime": 1792615016.9157534,
+          "mtime": 1792615016.9157534,
+          "feature_count": 1,
+          "schema_fingerprint": "cea34a53e3ac42aa"
+        }
+      },
+      "changes": [
+        "eh_right_of_ways.parquet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "type": "Collection",
+  "id": "eh_zoning_boundaries",
+  "stac_version": "1.1.0",
+  "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>This data shows the Zoning regions for the Town of East Hampton NY. This is a polygon dataset. It was created by combining the parcel boundaries within a region demarcated by the zoning lines. If parcels were split by the zoning line this boundary was adjusted accordingly. This layer is updated as the zoning is updated. This is not the official zoning for the Town. This is just one piece that makes up the Towns larger comprehensive zoning. The Towns legal zoning is represented on the official published maps, as it is directed in the Town Code.</SPAN></P></DIV></DIV></DIV>",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/82",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: EH Zoning Boundaries"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "MultiPolygon",
+  "geoparquet:feature_count": 458,
+  "table:row_count": 458,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Zoning",
+      "type": "string"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "EH Zoning Boundaries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.28516501631462,
+          40.92377652983305,
+          -71.85611857821041,
+          41.124776123352916
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "eh_zoning_boundaries": {
+      "href": "./eh_zoning_boundaries.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 810134,
+      "file:checksum": "122079691b243a7b833f7961196d7d829ba99ac98dc307fc6140e0734f0dce6e11d0",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Simple Style",
+      "file:size": 381,
+      "file:checksum": "1220b395cf8b48b46169b9244e39f3c5c1d824261447c2f45c82f61e53841855a2cd"
+    }
+  }
+}

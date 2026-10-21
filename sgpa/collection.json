@@ -1,0 +1,147 @@
+{
+  "type": "Collection",
+  "id": "sgpa",
+  "stac_version": "1.1.0",
+  "description": "Sgpa",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer",
+      "title": "License"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/MapServiceForOpenGov/MapServer/16",
+      "type": "text/html",
+      "title": "Source ArcGIS layer: SGPA"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "geoparquet:geometry_type": "Polygon",
+  "geoparquet:feature_count": 2,
+  "table:row_count": 2,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Shape",
+      "type": "binary"
+    },
+    {
+      "name": "LOCATION",
+      "type": "string"
+    },
+    {
+      "name": "NAME",
+      "type": "string"
+    },
+    {
+      "name": "AGENCY",
+      "type": "string"
+    },
+    {
+      "name": "DATE_",
+      "type": "string"
+    },
+    {
+      "name": "REGION",
+      "type": "string"
+    },
+    {
+      "name": "REASON",
+      "type": "string"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    }
+  ],
+  "title": "SGPA",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.40483519988771,
+          40.89757613057382,
+          -71.9721953626348,
+          41.0487408975672
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "TODO: Add value",
+      "roles": [
+        "host"
+      ],
+      "email": "TODO: Add value"
+    }
+  ],
+  "assets": {
+    "sgpa": {
+      "href": "./sgpa.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 45399,
+      "file:checksum": "122090d7f74bf2b7d9df6f88b9e5975058d5960b3048acd510dce4a91c84d267d729",
+      "proj:code": "EPSG:2263",
+      "roles": [
+        "data"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Simple Style",
+      "file:size": 365,
+      "file:checksum": "12203811314b5700bdabde3a3581d3a8bfb921f1f78781f99af14a8ddd3eef669e46"
+    }
+  }
+}
